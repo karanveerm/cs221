@@ -1,0 +1,30 @@
+[... cut from the original ...]
+../ResultsTest/IVC_p3/res_formulaire057-equation055.inkml :	64.00 	84.21 	87.50 	 0.00 	
+../ResultsTest/IVC_p3/res_formulaire057-equation068.inkml :	71.43 	75.00 	100.00 	 0.00 	
+../ResultsTest/IVC_p3/res_formulaire058-equation001.inkml :	100.00 	100.00 	100.00 	100.00 	
+../ResultsTest/IVC_p3/res_formulaire058-equation011.inkml :	81.82 	100.00 	84.21 	 0.00 	
+../ResultsTest/IVC_p3/res_formulaire058-equation026.inkml :	50.00 	66.67 	100.00 	 0.00 	
+../ResultsTest/IVC_p3/res_formulaire058-equation027.inkml :	 0.00 	 0.00 	 0.00 	 0.00 	
+../ResultsTest/IVC_p3/res_formulaire058-equation028.inkml :	80.00 	60.00 	100.00 	 0.00 	
+../ResultsTest/IVC_p3/res_formulaire058-equation051.inkml :	100.00 	100.00 	100.00 	100.00 	
+../ResultsTest/IVC_p3/res_formulaire058-equation053.inkml :	83.33 	100.00 	75.00 	 0.00 	
+../ResultsTest/IVC_p3/res_formulaire058-equation061.inkml :	84.38 	91.67 	100.00 	 0.00 	
+../ResultsTest/IVC_p3/res_formulaire058-equation069.inkml :	66.67 	50.00 	100.00 	 0.00 	
+../ResultsTest/IVC_p3/res_formulaire058-equation071.inkml :	75.00 	100.00 	66.67 	 0.00 	
+6979 correct labels on 8832 strokes : 79.02 %
+5602 correct segmentations on 6381 symbols: 87.79 %
+5123 correct reco on 5602 right seg symbols: 91.45 %
+125 exact matchs on 486 ground-truths: 25.72 %
+   176 exact match on 486 ground-truths if 1 label/tag error are allowed : 36.21
+   191 exact match on 486 ground-truths if 2 label/tag error are allowed : 39.30
+   195 exact match on 486 ground-truths if 3 label/tag error are allowed : 40.12
+   196 exact match on 486 ground-truths if 4 label/tag error are allowed : 40.33
+   197 exact match on 486 ground-truths if 6 label/tag error are allowed : 40.53
+   133 exact match on 486 ground-truths if errors of type errOnBothLabSR are allowed : 27.37
+   180 exact match on 486 ground-truths if errors of type errOnlyOnLab are allowed : 37.04
+   134 exact match on 486 ground-truths if errors of type errOnlyOnSR are allowed : 27.57
+   414 exact match on 486 ground-truths if errors of type structure are allowed : 85.19
+
+
+Confusion Matrix at Stroke level : 
+[... continues with confusion matrix for symbols, sptatial relation and Histograms of recognized expressions ...]
