@@ -1,0 +1,107 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_KME2_w9_e39</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mo xml:id="97">\sin</mo>
+        <mrow>
+          <mi xml:id="79">x</mi>
+          <mrow>
+            <mo xml:id="7">-</mo>
+            <mrow>
+              <mn xml:id="9">5</mn>
+              <mrow>
+                <mn xml:id="10">1</mn>
+                <mrow>
+                  <msub>
+                    <mi xml:id="13">n</mi>
+                    <mi xml:id="15">y</mi>
+                  </msub>
+                  <mrow>
+                    <mo xml:id="16">-</mo>
+                    <mrow>
+                      <msup>
+                        <mn xml:id="18">5</mn>
+                        <mo xml:id="21">.</mo>
+                      </msup>
+                      <mrow>
+                        <mo xml:id="20">(</mo>
+                        <mi xml:id="22">n</mi>
+                      </mrow>
+                    </mrow>
+                  </mrow>
+                </mrow>
+              </mrow>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="25">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="26">
+      <annotation type="truth">\sin</annotation>
+      <annotationXML href="97" />
+      <traceView traceDataRef="0" />
+      <traceView traceDataRef="1" />
+    </traceGroup>
+    <traceGroup xml:id="27">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="7" />
+      <traceView traceDataRef="6" />
+    </traceGroup>
+    <traceGroup xml:id="28">
+      <annotation type="truth">x</annotation>
+      <annotationXML href="79" />
+      <traceView traceDataRef="4" />
+      <traceView traceDataRef="5" />
+    </traceGroup>
+    <traceGroup xml:id="29">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="16" />
+      <traceView traceDataRef="13" />
+    </traceGroup>
+    <traceGroup xml:id="30">
+      <annotation type="truth">5</annotation>
+      <annotationXML href="9" />
+      <traceView traceDataRef="7" />
+    </traceGroup>
+    <traceGroup xml:id="31">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="10" />
+      <traceView traceDataRef="8" />
+    </traceGroup>
+    <traceGroup xml:id="32">
+      <annotation type="truth">n</annotation>
+      <annotationXML href="13" />
+      <traceView traceDataRef="10" />
+    </traceGroup>
+    <traceGroup xml:id="33">
+      <annotation type="truth">y</annotation>
+      <annotationXML href="15" />
+      <traceView traceDataRef="11" />
+      <traceView traceDataRef="12" />
+    </traceGroup>
+    <traceGroup xml:id="34">
+      <annotation type="truth">(</annotation>
+      <annotationXML href="20" />
+      <traceView traceDataRef="15" />
+    </traceGroup>
+    <traceGroup xml:id="35">
+      <annotation type="truth">5</annotation>
+      <annotationXML href="18" />
+      <traceView traceDataRef="14" />
+    </traceGroup>
+    <traceGroup xml:id="36">
+      <annotation type="truth">.</annotation>
+      <annotationXML href="21" />
+      <traceView traceDataRef="16" />
+    </traceGroup>
+    <traceGroup xml:id="37">
+      <annotation type="truth">n</annotation>
+      <annotationXML href="22" />
+      <traceView traceDataRef="17" />
+    </traceGroup>
+  </traceGroup>
+</ink>

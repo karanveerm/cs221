@@ -1,0 +1,77 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F041_E071</annotation>
+<annotation type="truth">\theta=\frac{\pi}{2}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="\theta_1">\theta</mo>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mfrac xml:id="_1">
+					<mo xml:id="\pi_1">\pi</mo>
+					<mn xml:id="2_1">2</mn>
+				</mfrac>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1462.41 2367.19, 1459.49 2369.53, 1455.97 2377.14, 1453.63 2388.84, 1453.05 2401.72, 1455.39 2410.5, 1458.89 2417.51, 1463.57 2418.69, 1471.19 2415.18, 1482.9 2402.3, 1493.43 2389.42, 1500.44 2377.72, 1505.12 2366.01, 1507.47 2354.9, 1505.71 2347.29, 1503.96 2345.54, 1498.69 2344.37, 1492.84 2347.29, 1484.07 2351.97, 1475.29 2357.25, 1468.85 2366.61, 1464.17 2376.56, 1461.24 2382.99, 1458.31 2387.09, 1457.14 2390.02, 1457.73 2391.19, 1460.07 2391.77, 1461.82 2390.6, 1468.26 2387.67, 1482.9 2380.66, 1490.5 2380.06, 1498.11 2380.06, 1503.37 2378.89, 1503.37 2378.31, 1502.79 2378.89, 1502.21 2378.31, 1502.21 2377.72, 1501.62 2377.14, 1501.03 2377.14, 1501.03 2375.97
+</trace>
+<trace id="1">
+1659.62 2377.14, 1661.97 2375.38, 1665.48 2374.79, 1675.43 2372.46, 1685.37 2368.94, 1691.22 2368.94, 1693.57 2368.94, 1693.57 2371.29
+</trace>
+<trace id="2">
+1653.19 2394.1, 1653.77 2395.28, 1656.7 2397.62, 1666.06 2398.2, 1680.69 2393.52, 1699.42 2385.92
+</trace>
+<trace id="3">
+1854.49 2314.52, 1852.74 2312.77, 1853.33 2313.35, 1853.33 2318.03, 1853.33 2323.3, 1850.4 2333.84, 1847.46 2343.2, 1846.88 2349.63, 1846.88 2349.05, 1849.23 2345.54
+</trace>
+<trace id="4">
+1878.49 2306.92, 1879.07 2308.08, 1880.24 2310.43, 1883.17 2315.11, 1884.92 2319.8, 1886.1 2323.3, 1886.1 2329.74, 1881.42 2335.01
+</trace>
+<trace id="5">
+1807.68 2322.71, 1810.01 2322.13, 1814.69 2321.55, 1827.57 2320.38, 1849.23 2317.45, 1876.74 2310.43, 1905.99 2308.08, 1926.47 2306.92, 1941.1 2304.57, 1944.03 2305.75, 1946.38 2306.33, 1945.78 2306.92, 1945.19 2306.92, 1943.44 2306.92, 1934.66 2307.5
+</trace>
+<trace id="6">
+1794.8 2385.34, 1803.58 2385.34, 1819.97 2381.24, 1845.71 2378.31, 1870.87 2373.04, 1894.28 2370.11, 1908.33 2367.19, 1911.84 2368.36, 1910.67 2369.53
+</trace>
+<trace id="7">
+1832.84 2429.22, 1824.65 2434.49, 1822.89 2436.24, 1823.47 2430.39, 1826.99 2422.79, 1831.09 2416.34, 1838.1 2413.43, 1840.45 2414.01, 1842.78 2418.11, 1842.78 2425.12, 1839.87 2434.49, 1835.77 2442.68, 1832.84 2449.11, 1832.84 2451.46, 1836.35 2454.96, 1842.2 2457.31, 1859.76 2460.83
+</trace>
+<traceGroup xml:id="8">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="\theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="\pi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,38 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_IVC_depart_F055_E058</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mfrac xml:id="14">
+          <msqrt xml:id="10">
+            <mn xml:id="1">3</mn>
+          </msqrt>
+          <mn xml:id="4">2</mn>
+        </mfrac>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="4">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="5">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="3" />
+      <traceView traceDataRef="2" />
+    </traceGroup>
+    <traceGroup xml:id="6">
+      <annotation type="truth">\sqrt</annotation>
+      <annotationXML href="0" />
+      <traceView traceDataRef="0" />
+    </traceGroup>
+    <traceGroup xml:id="7">
+      <annotation type="truth">3</annotation>
+      <annotationXML href="1" />
+      <traceView traceDataRef="1" />
+    </traceGroup>
+    <traceGroup xml:id="8">
+      <annotation type="truth">2</annotation>
+      <annotationXML href="4" />
+      <traceView traceDataRef="3" />
+    </traceGroup>
+  </traceGroup>
+</ink>

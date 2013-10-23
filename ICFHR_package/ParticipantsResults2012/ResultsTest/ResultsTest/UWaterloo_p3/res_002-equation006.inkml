@@ -1,0 +1,54 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2012_IVC_CROHME_F02_E006</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><msub><mi xml:id="t_11000000000">t</mi><mn xml:id="2_00100000000">2</mn></msub><mrow><mo xml:id="\gt_00010000000">\gt</mo><mrow><msub><mi xml:id="t_00001100000">t</mi><mn xml:id="2_00000010000">2</mn></msub><mrow><mo xml:id="\gt_00000001000">\gt</mo><msub><mi xml:id="t_00000000110">t</mi><mn xml:id="0_00000000001">0</mn></msub></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg11000000000">
+<annotation type="truth">t</annotation>
+<traceView traceDataRef="0"/>
+<traceView traceDataRef="1"/>
+<annotationXML href="t_11000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00100000000">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="2"/>
+<annotationXML href="2_00100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00010000000">
+<annotation type="truth">\gt</annotation>
+<traceView traceDataRef="3"/>
+<annotationXML href="\gt_00010000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00001100000">
+<annotation type="truth">t</annotation>
+<traceView traceDataRef="4"/>
+<traceView traceDataRef="5"/>
+<annotationXML href="t_00001100000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000010000">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="6"/>
+<annotationXML href="2_00000010000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000001000">
+<annotation type="truth">\gt</annotation>
+<traceView traceDataRef="7"/>
+<annotationXML href="\gt_00000001000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000110">
+<annotation type="truth">t</annotation>
+<traceView traceDataRef="8"/>
+<traceView traceDataRef="9"/>
+<annotationXML href="t_00000000110"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000001">
+<annotation type="truth">0</annotation>
+<traceView traceDataRef="10"/>
+<annotationXML href="0_00000000001"/>
+</traceGroup>
+</traceGroup>
+</ink>

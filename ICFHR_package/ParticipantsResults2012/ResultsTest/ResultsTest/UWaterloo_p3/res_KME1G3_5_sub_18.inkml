@@ -1,0 +1,90 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_KME1_w5_e18</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><munder><mi xml:id="\lim_11110000000000000000000">\lim</mi><mrow><mi xml:id="t_00001100000000000000000">t</mi><mrow><mi xml:id="\rightarrow_00000011000000000000000">\rightarrow</mi><mo xml:id="\infty_00000000100000000000000">\infty</mo></mrow></mrow></munder><mrow><mo xml:id="(_00000000010000000000000">(</mo><mrow><mn xml:id="1_00000000001000000000000">1</mn><mrow><mo xml:id="+_00000000000110000000000">+</mo><mrow><mfrac><mn xml:id="1_00000000000000001000000">1</mn><mi xml:id="t_00000000000001100000000">t</mi></mfrac><mrow><msup><mo xml:id=")_00000000000000000100000">)</mo><mi xml:id="t_00000000000000000011000">t</mi></msup><mrow><mo xml:id="=_00000000000000000000110">=</mo><mi xml:id="e_00000000000000000000001">e</mi></mrow></mrow></mrow></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg11110000000000000000000">
+<annotation type="truth">\lim</annotation>
+<traceView traceDataRef="0"/>
+<traceView traceDataRef="1"/>
+<traceView traceDataRef="2"/>
+<traceView traceDataRef="3"/>
+<annotationXML href="\lim_11110000000000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00001100000000000000000">
+<annotation type="truth">t</annotation>
+<traceView traceDataRef="4"/>
+<traceView traceDataRef="5"/>
+<annotationXML href="t_00001100000000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000011000000000000000">
+<annotation type="truth">\rightarrow</annotation>
+<traceView traceDataRef="6"/>
+<traceView traceDataRef="7"/>
+<annotationXML href="\rightarrow_00000011000000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000100000000000000">
+<annotation type="truth">\infty</annotation>
+<traceView traceDataRef="8"/>
+<annotationXML href="\infty_00000000100000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000010000000000000">
+<annotation type="truth">(</annotation>
+<traceView traceDataRef="9"/>
+<annotationXML href="(_00000000010000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000001000000000000">
+<annotation type="truth">1</annotation>
+<traceView traceDataRef="10"/>
+<annotationXML href="1_00000000001000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000000110000000000">
+<annotation type="truth">+</annotation>
+<traceView traceDataRef="11"/>
+<traceView traceDataRef="12"/>
+<annotationXML href="+_00000000000110000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000000000001000000">
+<annotation type="truth">1</annotation>
+<traceView traceDataRef="16"/>
+<annotationXML href="1_00000000000000001000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000000000010000000">
+<annotation type="truth">-</annotation>
+<traceView traceDataRef="15"/>
+<annotationXML href="-_00000000000000010000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000000001100000000">
+<annotation type="truth">t</annotation>
+<traceView traceDataRef="13"/>
+<traceView traceDataRef="14"/>
+<annotationXML href="t_00000000000001100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000000000000100000">
+<annotation type="truth">)</annotation>
+<traceView traceDataRef="17"/>
+<annotationXML href=")_00000000000000000100000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000000000000011000">
+<annotation type="truth">t</annotation>
+<traceView traceDataRef="18"/>
+<traceView traceDataRef="19"/>
+<annotationXML href="t_00000000000000000011000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000000000000000110">
+<annotation type="truth">=</annotation>
+<traceView traceDataRef="20"/>
+<traceView traceDataRef="21"/>
+<annotationXML href="=_00000000000000000000110"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000000000000000001">
+<annotation type="truth">e</annotation>
+<traceView traceDataRef="22"/>
+<annotationXML href="e_00000000000000000000001"/>
+</traceGroup>
+</traceGroup>
+</ink>

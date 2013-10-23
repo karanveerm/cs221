@@ -1,0 +1,32 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F056_E043</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mn xml:id="1_10000">1</mn><mrow><mn xml:id="3_01000">3</mn><mrow><mo xml:id="\leq_00101">\leq</mo><mi xml:id="c_00010">c</mi></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg10000">
+<annotation type="truth">1</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="1_10000"/>
+</traceGroup>
+<traceGroup xml:id="seg01000">
+<annotation type="truth">3</annotation>
+<traceView traceDataRef="1"/>
+<annotationXML href="3_01000"/>
+</traceGroup>
+<traceGroup xml:id="seg00101">
+<annotation type="truth">\leq</annotation>
+<traceView traceDataRef="2"/>
+<traceView traceDataRef="4"/>
+<annotationXML href="\leq_00101"/>
+</traceGroup>
+<traceGroup xml:id="seg00010">
+<annotation type="truth">c</annotation>
+<traceView traceDataRef="3"/>
+<annotationXML href="c_00010"/>
+</traceGroup>
+</traceGroup>
+</ink>

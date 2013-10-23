@@ -1,0 +1,50 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F054_E056</annotation>
+<annotation type="truth">d=c</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="d_1">d</mi>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mi xml:id="c_1">c</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1569.96 2410.23, 1569.37 2407.27, 1567.59 2404.89, 1564.62 2403.11, 1561.66 2402.52, 1553.34 2403.11, 1544.43 2406.68, 1537.3 2411.43, 1531.96 2419.14, 1526.03 2426.86, 1523.66 2435.77, 1521.87 2441.11, 1523.66 2445.27, 1527.8 2448.23, 1531.96 2448.23, 1537.3 2447.05, 1545.62 2443.48, 1553.34 2436.96, 1563.44 2429.84, 1568.78 2418.55, 1571.75 2403.7, 1574.71 2387.08, 1579.46 2372.83, 1580.05 2362.73, 1580.05 2360.36, 1579.46 2360.95, 1579.46 2363.33, 1579.46 2367.48, 1577.69 2375.79, 1574.12 2388.86, 1572.34 2406.09, 1571.75 2419.14, 1570.55 2429.23, 1569.96 2436.36, 1569.96 2439.93, 1570.55 2441.71, 1572.34 2442.89
+</trace>
+<trace id="1">
+1651.92 2438.14, 1648.35 2437.55, 1649.53 2437.55, 1653.69 2439.34, 1659.63 2439.93, 1667.35 2438.73, 1676.26 2436.96, 1685.17 2435.77, 1691.1 2433.39, 1695.26 2431.61
+</trace>
+<trace id="2">
+1657.85 2422.11, 1657.85 2420.34, 1657.85 2418.55, 1662.01 2417.95, 1667.94 2417.36, 1676.26 2416.18, 1682.79 2414.39, 1692.88 2414.39, 1704.76 2413.2
+</trace>
+<trace id="3">
+1793.82 2412.02, 1794.42 2409.64, 1796.79 2408.45, 1798.57 2406.09, 1800.95 2404.3, 1801.54 2400.73, 1801.54 2398.36, 1798.57 2396.59, 1792.63 2396.59, 1786.11 2397.77, 1777.2 2401.34, 1770.67 2406.68, 1765.32 2414.98, 1761.17 2426.86, 1759.38 2434.59, 1761.17 2439.34, 1767.7 2444.68, 1776.01 2447.05, 1789.07 2447.64, 1805.11 2444.68, 1819.95 2440.52
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">d</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="d_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

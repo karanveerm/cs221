@@ -1,0 +1,64 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_KME1_w0_e28</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mrow>
+          <mo xml:id="28">(</mo>
+          <mrow>
+            <mrow>
+              <mfrac xml:id="90">
+                <mi xml:id="30">n</mi>
+                <mn xml:id="33">2</mn>
+              </mfrac>
+            </mrow>
+            <mo xml:id="34">)</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mo xml:id="84">=</mo>
+          <mi xml:id="38">x</mi>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="30">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="31">
+      <annotation type="truth">=</annotation>
+      <annotationXML href="84" />
+      <traceView traceDataRef="28" />
+      <traceView traceDataRef="27" />
+    </traceGroup>
+    <traceGroup xml:id="32">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="32" />
+      <traceView traceDataRef="24" />
+    </traceGroup>
+    <traceGroup xml:id="33">
+      <annotation type="truth">n</annotation>
+      <annotationXML href="30" />
+      <traceView traceDataRef="23" />
+    </traceGroup>
+    <traceGroup xml:id="34">
+      <annotation type="truth">2</annotation>
+      <annotationXML href="33" />
+      <traceView traceDataRef="25" />
+    </traceGroup>
+    <traceGroup xml:id="35">
+      <annotation type="truth">(</annotation>
+      <annotationXML href="28" />
+      <traceView traceDataRef="21" />
+    </traceGroup>
+    <traceGroup xml:id="36">
+      <annotation type="truth">)</annotation>
+      <annotationXML href="34" />
+      <traceView traceDataRef="26" />
+    </traceGroup>
+    <traceGroup xml:id="37">
+      <annotation type="truth">x</annotation>
+      <annotationXML href="38" />
+      <traceView traceDataRef="29" />
+    </traceGroup>
+  </traceGroup>
+</ink>

@@ -1,0 +1,21 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F055_E022</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<msqrt xml:id="sqrt_3">
+<mi xml:id="n_4">n</mi>
+</msqrt>
+</math>
+</annotationXML>
+<traceGroup xml:id="2">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="3">
+  <annotation type="truth">\sqrt</annotation>
+  <traceView traceDataRef="0"/>
+  <annotationXML href="\sqrt_3"/></traceGroup>
+<traceGroup xml:id="4">
+  <annotation type="truth">n</annotation>
+  <traceView traceDataRef="1"/>
+  <annotationXML href="n_4"/></traceGroup>
+</traceGroup>
+</ink>

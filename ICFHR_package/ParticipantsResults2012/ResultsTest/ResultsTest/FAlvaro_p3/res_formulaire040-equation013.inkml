@@ -1,0 +1,73 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F040_E013</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<mrow>
+<mi xml:id="n_14">n</mi>
+<mrow>
+<mi xml:id="=_15">=</mi>
+<mrow>
+<munderover>
+<mi xml:id="\sum_17">\sum</mi>
+<mrow>
+<mi xml:id="i_18">i</mi>
+<mrow>
+<mi xml:id="=_19">=</mi>
+<mi xml:id="1_20">1</mi>
+</mrow>
+</mrow>
+<mi xml:id="\alpha_16">\alpha</mi>
+</munderover>
+<mrow>
+<mi xml:id="n_21">n</mi>
+<mi xml:id="i_22">i</mi>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="13">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="14">
+  <annotation type="truth">n</annotation>
+  <traceView traceDataRef="0"/>
+  <annotationXML href="n_14"/></traceGroup>
+<traceGroup xml:id="15">
+  <annotation type="truth">=</annotation>
+  <traceView traceDataRef="1"/>
+  <traceView traceDataRef="2"/>
+  <annotationXML href="=_15"/></traceGroup>
+<traceGroup xml:id="16">
+  <annotation type="truth">\alpha</annotation>
+  <traceView traceDataRef="12"/>
+  <annotationXML href="\alpha_16"/></traceGroup>
+<traceGroup xml:id="17">
+  <annotation type="truth">\sum</annotation>
+  <traceView traceDataRef="3"/>
+  <annotationXML href="\sum_17"/></traceGroup>
+<traceGroup xml:id="18">
+  <annotation type="truth">i</annotation>
+  <traceView traceDataRef="4"/>
+  <traceView traceDataRef="5"/>
+  <annotationXML href="i_18"/></traceGroup>
+<traceGroup xml:id="19">
+  <annotation type="truth">=</annotation>
+  <traceView traceDataRef="6"/>
+  <traceView traceDataRef="7"/>
+  <annotationXML href="=_19"/></traceGroup>
+<traceGroup xml:id="20">
+  <annotation type="truth">1</annotation>
+  <traceView traceDataRef="8"/>
+  <annotationXML href="1_20"/></traceGroup>
+<traceGroup xml:id="21">
+  <annotation type="truth">n</annotation>
+  <traceView traceDataRef="9"/>
+  <annotationXML href="n_21"/></traceGroup>
+<traceGroup xml:id="22">
+  <annotation type="truth">i</annotation>
+  <traceView traceDataRef="10"/>
+  <traceView traceDataRef="11"/>
+  <annotationXML href="i_22"/></traceGroup>
+</traceGroup>
+</ink>

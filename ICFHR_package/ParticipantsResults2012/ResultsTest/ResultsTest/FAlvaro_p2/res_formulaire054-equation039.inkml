@@ -1,0 +1,184 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F054_E039</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<mrow>
+<mfrac xml:id="-_36">
+<mi xml:id="a_37">a</mi>
+<mi xml:id="b_39">b</mi>
+</mfrac>
+<mrow>
+<mi xml:id="=_40">=</mi>
+<mrow>
+<mfrac xml:id="-_41">
+<mrow>
+<msup>
+<mi xml:id="2_42">2</mi>
+<mi xml:id="n_43">n</mi>
+</msup>
+<mrow>
+<mi xml:id="\sin_44">\sin</mi>
+<mi xml:id="a_45">a</mi>
+</mrow>
+</mrow>
+<mrow>
+<msup>
+<mi xml:id="2_47">2</mi>
+<mi xml:id="n_48">n</mi>
+</msup>
+<mrow>
+<mi xml:id="\sin_49">\sin</mi>
+<mi xml:id="b_50">b</mi>
+</mrow>
+</mrow>
+</mfrac>
+<mrow>
+<mi xml:id="=_51">=</mi>
+<mfrac xml:id="-_52">
+<mrow>
+<mi xml:id="2_53">2</mi>
+<mrow>
+<mi xml:id="n_54">n</mi>
+<mrow>
+<msup>
+<mi xml:id="5_55">5</mi>
+<mi xml:id="k_56">k</mi>
+</msup>
+<mi xml:id="a_57">a</mi>
+</mrow>
+</mrow>
+</mrow>
+<mrow>
+<mi xml:id="1_59">1</mi>
+<msup>
+<mi xml:id="0_60">0</mi>
+<mrow>
+<mi xml:id="n_61">n</mi>
+<mrow>
+<mi xml:id="+_62">+</mi>
+<mi xml:id="k_63">k</mi>
+</mrow>
+</mrow>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="35">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="36">
+  <annotation type="truth">a</annotation>
+  <traceView traceDataRef="0"/>
+  <annotationXML href="a_36"/></traceGroup>
+<traceGroup xml:id="37">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="1"/>
+  <annotationXML href="-_37"/></traceGroup>
+<traceGroup xml:id="38">
+  <annotation type="truth">b</annotation>
+  <traceView traceDataRef="2"/>
+  <annotationXML href="b_38"/></traceGroup>
+<traceGroup xml:id="39">
+  <annotation type="truth">=</annotation>
+  <traceView traceDataRef="3"/>
+  <traceView traceDataRef="4"/>
+  <annotationXML href="=_39"/></traceGroup>
+<traceGroup xml:id="40">
+  <annotation type="truth">2</annotation>
+  <traceView traceDataRef="5"/>
+  <annotationXML href="2_40"/></traceGroup>
+<traceGroup xml:id="41">
+  <annotation type="truth">n</annotation>
+  <traceView traceDataRef="6"/>
+  <annotationXML href="n_41"/></traceGroup>
+<traceGroup xml:id="42">
+  <annotation type="truth">\sin</annotation>
+  <traceView traceDataRef="7"/>
+  <traceView traceDataRef="8"/>
+  <traceView traceDataRef="9"/>
+  <traceView traceDataRef="10"/>
+  <annotationXML href="\sin_42"/></traceGroup>
+<traceGroup xml:id="43">
+  <annotation type="truth">a</annotation>
+  <traceView traceDataRef="11"/>
+  <annotationXML href="a_43"/></traceGroup>
+<traceGroup xml:id="44">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="12"/>
+  <annotationXML href="-_44"/></traceGroup>
+<traceGroup xml:id="45">
+  <annotation type="truth">2</annotation>
+  <traceView traceDataRef="13"/>
+  <annotationXML href="2_45"/></traceGroup>
+<traceGroup xml:id="46">
+  <annotation type="truth">n</annotation>
+  <traceView traceDataRef="14"/>
+  <annotationXML href="n_46"/></traceGroup>
+<traceGroup xml:id="47">
+  <annotation type="truth">\sin</annotation>
+  <traceView traceDataRef="15"/>
+  <traceView traceDataRef="16"/>
+  <traceView traceDataRef="17"/>
+  <annotationXML href="\sin_47"/></traceGroup>
+<traceGroup xml:id="48">
+  <annotation type="truth">b</annotation>
+  <traceView traceDataRef="18"/>
+  <annotationXML href="b_48"/></traceGroup>
+<traceGroup xml:id="49">
+  <annotation type="truth">=</annotation>
+  <traceView traceDataRef="19"/>
+  <traceView traceDataRef="20"/>
+  <annotationXML href="=_49"/></traceGroup>
+<traceGroup xml:id="50">
+  <annotation type="truth">2</annotation>
+  <traceView traceDataRef="21"/>
+  <annotationXML href="2_50"/></traceGroup>
+<traceGroup xml:id="51">
+  <annotation type="truth">n</annotation>
+  <traceView traceDataRef="22"/>
+  <annotationXML href="n_51"/></traceGroup>
+<traceGroup xml:id="52">
+  <annotation type="truth">5</annotation>
+  <traceView traceDataRef="23"/>
+  <annotationXML href="5_52"/></traceGroup>
+<traceGroup xml:id="53">
+  <annotation type="truth">k</annotation>
+  <traceView traceDataRef="24"/>
+  <traceView traceDataRef="25"/>
+  <annotationXML href="k_53"/></traceGroup>
+<traceGroup xml:id="54">
+  <annotation type="truth">a</annotation>
+  <traceView traceDataRef="26"/>
+  <annotationXML href="a_54"/></traceGroup>
+<traceGroup xml:id="55">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="27"/>
+  <annotationXML href="-_55"/></traceGroup>
+<traceGroup xml:id="56">
+  <annotation type="truth">1</annotation>
+  <traceView traceDataRef="28"/>
+  <annotationXML href="1_56"/></traceGroup>
+<traceGroup xml:id="57">
+  <annotation type="truth">0</annotation>
+  <traceView traceDataRef="29"/>
+  <annotationXML href="0_57"/></traceGroup>
+<traceGroup xml:id="58">
+  <annotation type="truth">n</annotation>
+  <traceView traceDataRef="30"/>
+  <annotationXML href="n_58"/></traceGroup>
+<traceGroup xml:id="59">
+  <annotation type="truth">+</annotation>
+  <traceView traceDataRef="31"/>
+  <traceView traceDataRef="32"/>
+  <annotationXML href="+_59"/></traceGroup>
+<traceGroup xml:id="60">
+  <annotation type="truth">k</annotation>
+  <traceView traceDataRef="33"/>
+  <traceView traceDataRef="34"/>
+  <annotationXML href="k_60"/></traceGroup>
+</traceGroup>
+</ink>

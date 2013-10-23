@@ -1,0 +1,123 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_KME2_w9_e42</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<mrow>
+<msqrt xml:id="sqrt_26">
+<mi xml:id="2_27">2</mi>
+</msqrt>
+<mrow>
+<mi xml:id="\leq_28">\leq</mi>
+<mrow>
+<mfrac xml:id="-_29">
+<mi xml:id="4_30">4</mi>
+<msqrt xml:id="sqrt_32">
+<mi xml:id="2_33">2</mi>
+</msqrt>
+</mfrac>
+<mrow>
+<mi xml:id="-_34">-</mi>
+<mrow>
+<mi xml:id="1_35">1</mi>
+<mrow>
+<mi xml:id="n_36">n</mi>
+<mrow>
+<mi xml:id="x_37">x</mi>
+<mrow>
+<mi xml:id="4_38">4</mi>
+<mrow>
+<mi xml:id="\pm_39">\pm</mi>
+<mrow>
+<mi xml:id="\cos_40">\cos</mi>
+<mrow>
+<mi xml:id="x_41">x</mi>
+<mi xml:id="3_42">3</mi>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="25">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="26">
+  <annotation type="truth">\sqrt</annotation>
+  <traceView traceDataRef="0"/>
+  <annotationXML href="\sqrt_26"/></traceGroup>
+<traceGroup xml:id="27">
+  <annotation type="truth">2</annotation>
+  <traceView traceDataRef="1"/>
+  <annotationXML href="2_27"/></traceGroup>
+<traceGroup xml:id="28">
+  <annotation type="truth">\leq</annotation>
+  <traceView traceDataRef="2"/>
+  <annotationXML href="\leq_28"/></traceGroup>
+<traceGroup xml:id="29">
+  <annotation type="truth">4</annotation>
+  <traceView traceDataRef="6"/>
+  <traceView traceDataRef="7"/>
+  <annotationXML href="4_29"/></traceGroup>
+<traceGroup xml:id="30">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="5"/>
+  <annotationXML href="-_30"/></traceGroup>
+<traceGroup xml:id="31">
+  <annotation type="truth">\sqrt</annotation>
+  <traceView traceDataRef="3"/>
+  <annotationXML href="\sqrt_31"/></traceGroup>
+<traceGroup xml:id="32">
+  <annotation type="truth">2</annotation>
+  <traceView traceDataRef="4"/>
+  <annotationXML href="2_32"/></traceGroup>
+<traceGroup xml:id="33">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="9"/>
+  <annotationXML href="-_33"/></traceGroup>
+<traceGroup xml:id="34">
+  <annotation type="truth">1</annotation>
+  <traceView traceDataRef="8"/>
+  <annotationXML href="1_34"/></traceGroup>
+<traceGroup xml:id="35">
+  <annotation type="truth">n</annotation>
+  <traceView traceDataRef="10"/>
+  <annotationXML href="n_35"/></traceGroup>
+<traceGroup xml:id="36">
+  <annotation type="truth">x</annotation>
+  <traceView traceDataRef="11"/>
+  <traceView traceDataRef="12"/>
+  <annotationXML href="x_36"/></traceGroup>
+<traceGroup xml:id="37">
+  <annotation type="truth">4</annotation>
+  <traceView traceDataRef="13"/>
+  <traceView traceDataRef="14"/>
+  <annotationXML href="4_37"/></traceGroup>
+<traceGroup xml:id="38">
+  <annotation type="truth">\pm</annotation>
+  <traceView traceDataRef="16"/>
+  <traceView traceDataRef="17"/>
+  <traceView traceDataRef="18"/>
+  <annotationXML href="\pm_38"/></traceGroup>
+<traceGroup xml:id="39">
+  <annotation type="truth">\cos</annotation>
+  <traceView traceDataRef="19"/>
+  <traceView traceDataRef="20"/>
+  <traceView traceDataRef="21"/>
+  <annotationXML href="\cos_39"/></traceGroup>
+<traceGroup xml:id="40">
+  <annotation type="truth">x</annotation>
+  <traceView traceDataRef="22"/>
+  <traceView traceDataRef="23"/>
+  <annotationXML href="x_40"/></traceGroup>
+<traceGroup xml:id="41">
+  <annotation type="truth">3</annotation>
+  <traceView traceDataRef="24"/>
+  <annotationXML href="3_41"/></traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,66 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F057_E045</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mn xml:id="1_100000000000000">1</mn><mrow><mn xml:id="5_011000000000000">5</mn><mrow><mn xml:id="7_000110000000000">7</mn><mrow><mo xml:id="+_000001100000000">+</mo><mrow><mn xml:id="7_000000011000000">7</mn><mrow><mn xml:id="1_000000000100000">1</mn><mrow><mo xml:id="\geq_000000000011000">\geq</mo><mrow><mn xml:id="2_000000000000100">2</mn><mrow><mn xml:id="2_000000000000010">2</mn><mn xml:id="8_000000000000001">8</mn></mrow></mrow></mrow></mrow></mrow></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg100000000000000">
+<annotation type="truth">1</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="1_100000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg011000000000000">
+<annotation type="truth">5</annotation>
+<traceView traceDataRef="1"/>
+<traceView traceDataRef="2"/>
+<annotationXML href="5_011000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000110000000000">
+<annotation type="truth">7</annotation>
+<traceView traceDataRef="3"/>
+<traceView traceDataRef="4"/>
+<annotationXML href="7_000110000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000001100000000">
+<annotation type="truth">+</annotation>
+<traceView traceDataRef="5"/>
+<traceView traceDataRef="6"/>
+<annotationXML href="+_000001100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000011000000">
+<annotation type="truth">7</annotation>
+<traceView traceDataRef="7"/>
+<traceView traceDataRef="8"/>
+<annotationXML href="7_000000011000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000100000">
+<annotation type="truth">1</annotation>
+<traceView traceDataRef="9"/>
+<annotationXML href="1_000000000100000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000011000">
+<annotation type="truth">\geq</annotation>
+<traceView traceDataRef="10"/>
+<traceView traceDataRef="11"/>
+<annotationXML href="\geq_000000000011000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000000100">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="12"/>
+<annotationXML href="2_000000000000100"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000000010">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="13"/>
+<annotationXML href="2_000000000000010"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000000001">
+<annotation type="truth">8</annotation>
+<traceView traceDataRef="14"/>
+<annotationXML href="8_000000000000001"/>
+</traceGroup>
+</traceGroup>
+</ink>

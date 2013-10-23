@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F050_E041</annotation>
+<annotation type="truth">y^{z}-x</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="y_1">y</mi>
+				<mi xml:id="z_1">z</mi>
+			</msup>
+			<mrow>
+				<mo xml:id="-_1">-</mo>
+				<mi xml:id="x_1">x</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1744.7 2683.26, 1742.04 2680.59, 1741.37 2679.93, 1740.71 2681.26, 1740.02 2685.27, 1739.36 2693.28, 1738.03 2703.97, 1737.36 2713.99, 1738.69 2718.66, 1741.37 2721.33, 1746.05 2720, 1754.06 2715.32, 1763.41 2706.65, 1771.42 2697.96, 1776.1 2692.61, 1778.11 2690.61, 1778.11 2691.95, 1776.76 2695.96, 1774.1 2705.3, 1770.09 2720.66, 1764.74 2738.71, 1758.07 2752.72, 1750.71 2762.08, 1744.7 2765.43, 1736.69 2762.75, 1728 2754.74, 1719.33 2744.05, 1714.65 2736.03, 1713.99 2731.35
+</trace>
+<trace id="1">
+1820.18 2659.88, 1817.51 2656.54, 1818.18 2654.54, 1819.51 2653.21, 1824.19 2652.53, 1829.53 2653.87, 1835.54 2655.87, 1839.56 2659.22, 1840.89 2663.21, 1840.89 2666.56, 1838.89 2669.91, 1834.88 2673.9, 1829.53 2677.25, 1824.86 2679.93, 1823.52 2681.92, 1823.52 2684.59, 1824.86 2688.6, 1826.87 2693.28, 1828.2 2697.29, 1827.54 2700.62, 1824.19 2701.3, 1818.18 2700.62, 1810.84 2697.96, 1802.15 2697.29
+</trace>
+<trace id="2">
+1914.37 2706.65, 1929.73 2699.29, 1944.43 2701.3, 1949.11 2704.63
+</trace>
+<trace id="3">
+1923.72 2724.01, 1921.71 2723.34, 1922.39 2723.34, 1925.05 2723.34, 1929.07 2724.67, 1937.07 2724.67, 1947.09 2724.67, 1953.1 2724.01, 1956.45 2722.68, 1955.78 2723.34
+</trace>
+<trace id="4">
+2046.63 2699.95, 2047.29 2697.96, 2047.96 2697.29, 2048.62 2697.96, 2050.64 2700.62, 2054.63 2705.3, 2057.31 2713.32, 2057.98 2722.68, 2056.65 2730.02, 2055.98 2734.7, 2055.98 2735.36, 2056.65 2735.36, 2058.65 2734.03, 2063.32 2730.68, 2072.01 2724.67, 2080.02 2717.33, 2088.71 2709.31, 2093.39 2704.63, 2096.05 2699.95, 2096.05 2699.29, 2095.39 2699.29, 2094.72 2701.3, 2092.71 2703.97, 2091.37 2709.31, 2089.38 2718.66, 2090.71 2729.35, 2096.72 2739.37, 2107.41 2745.38, 2123.44 2744.72, 2146.14 2735.36
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="z_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

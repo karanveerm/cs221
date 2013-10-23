@@ -1,0 +1,42 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2012_IVC_CROHME_F02_E010</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mi xml:id="10">n</mi>
+        <mrow>
+          <mo xml:id="11">-</mo>
+          <mrow>
+            <mo xml:id="14">-</mo>
+            <mi xml:id="16">a</mi>
+          </mrow>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="18">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="19">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="11" />
+      <traceView traceDataRef="7" />
+    </traceGroup>
+    <traceGroup xml:id="20">
+      <annotation type="truth">n</annotation>
+      <annotationXML href="10" />
+      <traceView traceDataRef="5" />
+      <traceView traceDataRef="6" />
+    </traceGroup>
+    <traceGroup xml:id="21">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="14" />
+      <traceView traceDataRef="8" />
+      <traceView traceDataRef="9" />
+    </traceGroup>
+    <traceGroup xml:id="22">
+      <annotation type="truth">a</annotation>
+      <annotationXML href="16" />
+      <traceView traceDataRef="10" />
+    </traceGroup>
+  </traceGroup>
+</ink>

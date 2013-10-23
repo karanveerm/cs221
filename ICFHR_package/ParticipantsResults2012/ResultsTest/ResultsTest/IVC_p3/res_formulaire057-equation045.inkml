@@ -1,0 +1,143 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F057_E045</annotation>
+<annotation type="truth">1{5}{7}+A{2}\geq2{2}{8}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="1_1">1</mn>
+			<mrow>
+				<mn xml:id="5_1">5</mn>
+				<mrow>
+					<mn xml:id="7_1">7</mn>
+					<mrow>
+						<mo xml:id="+_1">+</mo>
+						<mrow>
+							<mi xml:id="A_1">A</mi>
+							<mrow>
+								<mn xml:id="2_1">2</mn>
+								<mrow>
+									<mo xml:id="\geq_1">\geq</mo>
+									<mrow>
+										<mn xml:id="2_2">2</mn>
+										<mrow>
+											<mn xml:id="2_3">2</mn>
+											<mn xml:id="8_1">8</mn>
+										</mrow>
+									</mrow>
+								</mrow>
+							</mrow>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1331.68 1902, 1328.96 1905.39, 1330.32 1909.48, 1332.36 1910.84, 1336.45 1909.48, 1342.57 1904.71, 1346.66 1895.86, 1356.86 1884.3, 1364.35 1875.46, 1367.75 1872.73, 1368.43 1875.46, 1370.47 1882.94, 1368.43 1896.56, 1360.94 1915.6, 1359.58 1933.97, 1358.9 1946.91, 1357.54 1954.39, 1356.86 1957.12, 1358.9 1958.47, 1358.9 1959.15, 1362.99 1957.8, 1371.15 1951.67
+</trace>
+<trace id="1">
+1403.81 1893.15, 1401.09 1893.83, 1403.13 1897.24, 1409.26 1902.68, 1416.06 1912.89, 1422.87 1926.49, 1428.99 1938.73, 1426.27 1948.94, 1421.51 1955.07, 1414.7 1959.83, 1406.54 1959.15, 1400.41 1955.07, 1395.65 1943.5
+</trace>
+<trace id="2">
+1420.83 1899.95, 1421.51 1899.95, 1420.83 1901.31, 1423.55 1902, 1431.03 1902.68, 1442.6 1899.27, 1454.85 1892.47
+</trace>
+<trace id="3">
+1486.83 1922.4, 1482.07 1916.28, 1482.07 1908.8, 1487.51 1896.56, 1497.72 1885.67, 1507.25 1880.9, 1516.77 1883.62, 1520.86 1891.11, 1522.22 1904.04, 1522.22 1920.37, 1520.17 1932.61, 1518.13 1942.14, 1514.73 1946.91, 1512.01 1947.59
+</trace>
+<trace id="4">
+1501.8 1921.05, 1501.12 1919.69, 1501.8 1919.69, 1510.65 1918.33, 1526.3 1914.25
+</trace>
+<trace id="5">
+1648.78 1880.23, 1649.47 1877.5, 1650.83 1876.14, 1652.19 1876.14, 1651.51 1879.53, 1651.51 1887.03, 1652.19 1899.95, 1649.47 1914.25, 1647.42 1923.78, 1646.06 1933.29, 1645.38 1939.41, 1644.02 1938.06
+</trace>
+<trace id="6">
+1633.81 1914.92, 1637.9 1913.57, 1640.62 1913.57, 1648.78 1913.57, 1661.03 1913.57, 1674.64 1912.89
+</trace>
+<trace id="7">
+1751.54 1912.19, 1752.22 1911.52, 1753.58 1908.12, 1756.29 1900.63, 1761.06 1889.06, 1768.55 1876.82, 1774 1865.25, 1779.44 1859.13, 1782.15 1861.16, 1786.92 1870.02, 1788.28 1887.7, 1786.24 1904.71, 1785.56 1919.69, 1784.88 1931.26, 1785.56 1938.73, 1783.51 1942.82, 1779.44 1943.5
+</trace>
+<trace id="8">
+1776.03 1912.19, 1776.03 1911.52, 1776.71 1911.52, 1778.07 1910.84, 1784.21 1910.16, 1795.09 1906.07
+</trace>
+<trace id="9">
+1848.16 1875.46, 1851.57 1874.09, 1857.01 1875.46, 1865.17 1879.53, 1866.54 1887.03, 1863.13 1899.27, 1856.33 1912.19, 1854.28 1919.69, 1852.92 1929.22, 1858.37 1939.41, 1863.13 1944.86, 1871.31 1946.23
+</trace>
+<trace id="10">
+2021 1879.53, 2022.36 1880.9, 2024.41 1883.62, 2029.85 1887.03, 2036.65 1889.74, 2050.95 1892.47, 2065.23 1893.83, 2077.47 1898.59, 2080.2 1904.04, 2078.17 1911.52, 2069.32 1921.72, 2056.39 1931.93, 2040.06 1940.11, 2024.41 1948.26, 2011.47 1953.71, 2006.03 1955.74, 2006.03 1956.44, 2008.08 1955.74, 2010.79 1955.07, 2016.91 1951.67
+</trace>
+<trace id="11">
+2085.65 1930.58, 2078.17 1933.29, 2067.96 1942.82, 2053.66 1954.39, 2035.3 1968.68, 2024.41 1978.89, 2017.59 1981.61, 2021 1980.93
+</trace>
+<trace id="12">
+2202 1882.26, 2204.73 1880.23, 2210.86 1880.9, 2216.98 1884.97, 2219.01 1892.47, 2216.3 1902.68, 2211.53 1915.6, 2204.73 1930.58, 2193.85 1943.5, 2189.76 1950.3, 2189.76 1953.03, 2193.17 1955.07, 2202.68 1955.74, 2216.3 1948.26, 2232.63 1933.29
+</trace>
+<trace id="13">
+2253.73 1883.62, 2260.53 1881.58, 2267.33 1881.58, 2276.86 1884.97, 2280.27 1889.74, 2279.59 1899.27, 2273.45 1911.52, 2264.61 1927.17, 2253.73 1940.79, 2248.96 1948.94, 2247.61 1953.03, 2253.73 1957.12, 2264.61 1958.47, 2279.59 1952.35
+</trace>
+<trace id="14">
+2358.52 1877.5, 2361.92 1876.82, 2366.69 1876.82, 2373.49 1880.23, 2376.88 1887.03, 2379.61 1898.59, 2374.85 1912.19, 2369.4 1927.85, 2364.64 1942.14, 2361.25 1951.67, 2362.6 1955.07, 2367.37 1956.44, 2375.53 1952.35, 2383.7 1942.82, 2386.41 1932.61, 2383.02 1922.4, 2374.85 1912.89, 2362.6 1904.71, 2356.48 1899.27, 2359.19 1896.56, 2370.08 1891.11
+</trace>
+<traceGroup xml:id="15">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="16">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">5</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="5_1"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">7</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="7_1"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="20">
+		<annotation type="truth">A</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="A_1"/>
+	</traceGroup>
+	<traceGroup xml:id="21">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="22">
+		<annotation type="truth">\geq</annotation>
+		<traceView traceDataRef="10"/>
+		<traceView traceDataRef="11"/>
+		<annotationXML href="\geq_1"/>
+	</traceGroup>
+	<traceGroup xml:id="23">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="12"/>
+		<annotationXML href="2_2"/>
+	</traceGroup>
+	<traceGroup xml:id="24">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="13"/>
+		<annotationXML href="2_3"/>
+	</traceGroup>
+	<traceGroup xml:id="25">
+		<annotation type="truth">8</annotation>
+		<traceView traceDataRef="14"/>
+		<annotationXML href="8_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

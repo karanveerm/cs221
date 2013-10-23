@@ -1,0 +1,100 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F056_E034</annotation>
+<annotation type="truth">\sin{i_7{x}{1}}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="\sin_1">\sin</mo>
+			<mrow>
+				<msub>
+					<mi xml:id="i_1">i</mi>
+					<mn xml:id="7_1">7</mn>
+				</msub>
+				<mrow>
+					<mi xml:id="x_1">x</mi>
+					<mn xml:id="1_1">1</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2589.08 7719.3, 2588.04 7716.24, 2587.02 7711.12, 2583.96 7709.09, 2580.91 7709.09, 2576.81 7714.21, 2570.67 7724.42, 2565.58 7755.08, 2566.6 7792.86, 2572.73 7824.54, 2577.83 7850.08, 2586 7875.62, 2591.12 7883.79, 2592.14 7883.79, 2594.18 7878.7, 2600.31 7861.34
+</trace>
+<trace id="1">
+2676.93 7820.47, 2682.05 7815.35, 2686.13 7814.33, 2691.24 7816.37, 2697.38 7824.54, 2699.42 7836.81, 2699.42 7853.16, 2694.3 7864.39, 2687.17 7872.57, 2680.01 7872.57, 2675.91 7869.51
+</trace>
+<trace id="2">
+2737.23 7819.45, 2739.27 7817.39, 2740.29 7818.4, 2738.25 7820.47, 2732.11 7824.54, 2724.96 7831.7, 2718.82 7843.97, 2717.8 7858.25, 2720.88 7867.45, 2725.98 7872.57, 2732.11 7874.6, 2738.25 7871.55, 2745.4 7867.45, 2751.52 7863.37
+</trace>
+<trace id="3">
+2783.19 7869.51, 2787.29 7865.41, 2793.43 7865.41, 2797.5 7865.41, 2799.54 7870.53, 2802.62 7880.74, 2803.64 7894.03, 2804.66 7905.26, 2804.66 7910.38
+</trace>
+<trace id="4">
+2875.17 7887.89, 2864.93 7919.57, 2856.76 7935.92, 2849.6 7943.07
+</trace>
+<trace id="5">
+2966.1 7870.53, 2968.14 7872.57, 2971.19 7874.6, 2973.25 7876.67, 2974.27 7876.67, 2974.27 7873.58
+</trace>
+<trace id="6">
+2999.81 7869.51, 3005.95 7873.58, 3012.06 7875.62, 3015.14 7876.67, 3016.16 7874.6
+</trace>
+<trace id="7">
+3045.78 7871.55, 3056.01 7874.6, 3066.22 7877.68, 3072.36 7878.7, 3076.43 7878.7
+</trace>
+<trace id="8">
+3146.94 7872.57, 3143.86 7882.78, 3140.81 7898.11, 3135.69 7914.45, 3128.56 7929.78, 3123.44 7939.99
+</trace>
+<trace id="9">
+3231.74 7816.37, 3240.93 7821.48, 3252.19 7833.73, 3259.34 7842.93, 3259.34 7854.18, 3257.28 7865.41, 3252.19 7868.49, 3247.07 7863.37
+</trace>
+<trace id="10">
+3269.55 7818.4, 3271.59 7813.31, 3271.59 7812.29, 3270.57 7814.33, 3269.55 7820.47, 3268.53 7833.73, 3269.55 7840.89, 3271.59 7846.01, 3278.74 7851.1, 3287.94 7853.16, 3301.23 7851.1
+</trace>
+<trace id="11">
+3333.92 7863.37, 3333.92 7864.39, 3333.92 7865.41, 3332.91 7865.41, 3331.86 7867.45, 3330.84 7869.51, 3329.82 7874.6, 3328.81 7880.74, 3329.82 7887.89, 3329.82 7890.95, 3329.82 7891.97, 3330.84 7890.95, 3331.86 7884.84, 3334.94 7878.7, 3339.02 7869.51, 3343.12 7864.39, 3348.21 7865.41, 3351.29 7868.49, 3353.33 7873.58, 3355.36 7881.76, 3358.45 7888.91, 3360.48 7895.05, 3364.56 7897.09, 3368.66 7894.03, 3376.83 7888.91, 3390.12 7880.74
+</trace>
+<trace id="12">
+3379.89 7748.94, 3388.06 7767.32, 3403.39 7808.19, 3410.54 7852.14, 3412.58 7889.93, 3403.39 7925.71
+</trace>
+<traceGroup xml:id="13">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\sin_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="i_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">7</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="7_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="10"/>
+		<traceView traceDataRef="11"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="12"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

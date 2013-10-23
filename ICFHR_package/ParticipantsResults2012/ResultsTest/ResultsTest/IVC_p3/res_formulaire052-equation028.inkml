@@ -1,0 +1,50 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F052_E028</annotation>
+<annotation type="truth">\alpha+\gamma</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="\alpha_1">\alpha</mo>
+			<mrow>
+				<mo xml:id="+_1">+</mo>
+				<mo xml:id="\gamma_1">\gamma</mo>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1114.11 3232.95, 1114.11 3231.93, 1115.12 3230.92, 1114.61 3230.41, 1113.6 3232.43, 1109.04 3237, 1099.42 3252.19, 1086.24 3270.44, 1074.59 3282.09, 1067.5 3287.66, 1062.94 3290.7, 1061.42 3288.67, 1059.9 3282.09, 1060.91 3270.44, 1064.46 3257.77, 1069.52 3249.67, 1073.07 3246.12, 1075.6 3245.11, 1077.63 3246.62, 1082.19 3250.68, 1087.76 3256.24, 1093.34 3265.88, 1098.4 3273.99, 1101.44 3280.06, 1106.51 3284.62, 1113.6 3285.64
+</trace>
+<trace id="1">
+1226.08 3229.91, 1225.57 3229.4, 1225.06 3230.41, 1224.56 3234.46, 1224.56 3242.06, 1224.56 3251.69, 1224.05 3259.29, 1224.05 3267.9, 1224.05 3273.48, 1224.05 3276.01, 1223.54 3277.02
+</trace>
+<trace id="2">
+1207.33 3263.85, 1208.34 3263.85, 1210.37 3263.34, 1215.44 3262.84, 1223.04 3261.32, 1234.69 3259.79, 1249.89 3258.28
+</trace>
+<trace id="3">
+1317.78 3219.26, 1317.27 3217.75, 1317.78 3216.74, 1318.79 3216.74, 1321.83 3218.25, 1327.4 3223.82, 1332.48 3231.93, 1337.54 3244.59, 1341.09 3256.24, 1341.59 3267.39, 1340.06 3278.04, 1335.51 3285.64, 1329.43 3288.67, 1324.37 3288.67, 1319.29 3287.15, 1314.23 3282.6, 1312.21 3278.04, 1313.22 3271.95, 1317.78 3260.8, 1326.39 3248.14, 1339.56 3231.93, 1351.21 3220.79, 1360.33 3211.16, 1366.92 3204.06, 1369.96 3199.5, 1370.97 3198.49, 1370.47 3198.49, 1370.47 3199.5
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="\alpha_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\gamma</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\gamma_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

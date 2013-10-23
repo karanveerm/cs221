@@ -1,0 +1,44 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_IVC_depart_F057_E008</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <msub>
+          <mi xml:id="1">\phi</mi>
+          <mn xml:id="4">1</mn>
+        </msub>
+        <mrow>
+          <mo xml:id="22">=</mo>
+          <mi xml:id="11">\pi</mi>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="10">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="11">
+      <annotation type="truth">=</annotation>
+      <annotationXML href="22" />
+      <traceView traceDataRef="6" />
+      <traceView traceDataRef="5" />
+    </traceGroup>
+    <traceGroup xml:id="12">
+      <annotation type="truth">\phi</annotation>
+      <annotationXML href="1" />
+      <traceView traceDataRef="0" />
+      <traceView traceDataRef="1" />
+    </traceGroup>
+    <traceGroup xml:id="13">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="4" />
+      <traceView traceDataRef="4" />
+    </traceGroup>
+    <traceGroup xml:id="14">
+      <annotation type="truth">\pi</annotation>
+      <annotationXML href="11" />
+      <traceView traceDataRef="7" />
+      <traceView traceDataRef="9" />
+      <traceView traceDataRef="8" />
+    </traceGroup>
+  </traceGroup>
+</ink>

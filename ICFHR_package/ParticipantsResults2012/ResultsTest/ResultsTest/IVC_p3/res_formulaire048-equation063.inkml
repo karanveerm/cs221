@@ -1,0 +1,50 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F048_E063</annotation>
+<annotation type="truth">\alpha=2</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="\alpha_1">\alpha</mo>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mn xml:id="2_1">2</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2083.16 5159.25, 2085.59 5155.2, 2088.02 5155.2, 2089.65 5154.39, 2092.08 5156.01, 2092.89 5160.89, 2092.08 5167.38, 2086.4 5183.61, 2074.22 5203.09, 2062.85 5217.7, 2050.69 5229.07, 2044.19 5233.95, 2040.93 5226.65, 2040.13 5210.4, 2045 5198.22, 2049.86 5190.91, 2053.11 5188.49, 2057.99 5192.53, 2064.49 5203.9, 2072.6 5216.08, 2080.71 5227.45, 2090.46 5232.33
+</trace>
+<trace id="1">
+2182.2 5204.71, 2182.2 5203.9, 2183.01 5204.71, 2185.44 5206.35, 2191.93 5205.52, 2201.68 5205.52, 2217.91 5200.67, 2232.54 5199.86
+</trace>
+<trace id="2">
+2183.82 5235.57, 2183.01 5235.57, 2185.44 5234.76, 2191.93 5233.14, 2200.06 5231.5, 2213.86 5231.5, 2226.85 5230.69
+</trace>
+<trace id="3">
+2299.1 5180.37, 2300.72 5174.69, 2303.15 5171.43, 2307.21 5167.38, 2313.71 5166.55, 2321.01 5169.81, 2324.27 5177.12, 2322.63 5191.72, 2313.71 5205.52, 2300.72 5217.7, 2290.16 5229.88, 2286.11 5235.57, 2286.92 5237.19, 2290.16 5239.63, 2299.1 5239.63, 2313.71 5238, 2327.51 5238, 2338.07 5239.63
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="\alpha_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

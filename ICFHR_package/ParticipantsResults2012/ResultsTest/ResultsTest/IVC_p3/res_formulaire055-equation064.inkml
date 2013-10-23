@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F055_E064</annotation>
+<annotation type="truth">e{(t)}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="e_1">e</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="t_1">t</mi>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1606.74 4447.23, 1607.31 4446.65, 1609.64 4444.92, 1613.69 4443.17, 1621.2 4440.87, 1627.57 4435.66, 1633.92 4431.04, 1637.4 4425.82, 1639.13 4420.62, 1637.97 4415.99, 1632.77 4412.53, 1626.4 4413.11, 1618.31 4416.56, 1612.52 4426.41, 1610.79 4438.55, 1613.09 4448.38, 1620.04 4452.43, 1627.57 4454.75, 1633.35 4454.75, 1639.13 4453, 1645.48 4448.95
+</trace>
+<trace id="1">
+1670.94 4453, 1673.25 4453.58, 1676.72 4453, 1680.77 4450.12, 1684.82 4446.65, 1689.45 4442.02, 1694.65 4435.66, 1699.28 4423.51, 1701.01 4410.79, 1701.6 4400.38, 1701.01 4395.17, 1701.6 4394.02, 1701.01 4395.17, 1700.43 4399.22, 1699.28 4410.21, 1697.55 4425.24, 1696.38 4437.39, 1697.55 4442.6, 1701.01 4444.92, 1705.06 4446.65, 1708.53 4446.65
+</trace>
+<trace id="2">
+1682.5 4428.14, 1685.4 4428.14, 1689.45 4428.14, 1698.7 4427.56, 1705.64 4426.99, 1711.43 4425.24, 1715.48 4422.36
+</trace>
+<trace id="3">
+1718.36 4383.02, 1721.26 4383.6, 1725.31 4387.65, 1731.09 4396.33, 1738.02 4408.48, 1742.65 4422.94, 1743.82 4439.12, 1739.77 4454.75, 1734.57 4466.89, 1728.19 4473.83
+</trace>
+<trace id="4">
+1694.65 4376.09, 1693.5 4373.77, 1692.35 4373.77, 1689.45 4376.09, 1683.09 4383.02, 1676.14 4399.22, 1669.21 4418.31, 1668.62 4436.24, 1671.52 4450.12, 1677.87 4459.38, 1681.35 4462.84, 1684.24 4464.58
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="t_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,34 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F046_E023</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mfrac><mrow><mn xml:id="3_1000000">3</mn><mi xml:id="\pi_0111000">\pi</mi></mrow><mn xml:id="7_0000011">7</mn></mfrac>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg1000000">
+<annotation type="truth">3</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="3_1000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0111000">
+<annotation type="truth">\pi</annotation>
+<traceView traceDataRef="1"/>
+<traceView traceDataRef="2"/>
+<traceView traceDataRef="3"/>
+<annotationXML href="\pi_0111000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000100">
+<annotation type="truth">-</annotation>
+<traceView traceDataRef="4"/>
+<annotationXML href="-_0000100"/>
+</traceGroup>
+<traceGroup xml:id="seg0000011">
+<annotation type="truth">7</annotation>
+<traceView traceDataRef="5"/>
+<traceView traceDataRef="6"/>
+<annotationXML href="7_0000011"/>
+</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,202 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F057_E046</annotation>
+<annotation type="truth">y^{2}=x^{3}-1{n}{x^{2}}{t}{6}{x}{t}{c}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="y_1">y</mi>
+				<mn xml:id="2_1">2</mn>
+			</msup>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mrow>
+					<msup>
+						<mi xml:id="x_1">x</mi>
+						<mn xml:id="3_1">3</mn>
+					</msup>
+					<mrow>
+						<mo xml:id="-_1">-</mo>
+						<mrow>
+							<mn xml:id="1_1">1</mn>
+							<mrow>
+								<mi xml:id="n_1">n</mi>
+								<mrow>
+									<msup>
+										<mi xml:id="x_2">x</mi>
+										<mn xml:id="2_2">2</mn>
+									</msup>
+									<mrow>
+										<mi xml:id="t_1">t</mi>
+										<mrow>
+											<mn xml:id="6_1">6</mn>
+											<mrow>
+												<mi xml:id="x_3">x</mi>
+												<mrow>
+													<mi xml:id="t_2">t</mi>
+													<mi xml:id="c_1">c</mi>
+												</mrow>
+											</mrow>
+										</mrow>
+									</mrow>
+								</mrow>
+							</mrow>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1636.38 3627.83, 1632.83 3626.06, 1632.83 3628.71, 1635.5 3636.7, 1636.38 3650.01, 1639.05 3664.21, 1647.03 3669.54, 1654.13 3669.54, 1659.46 3662.44, 1674.54 3650.89, 1681.64 3635.81, 1689.63 3626.94, 1690.52 3627.83, 1688.74 3634.04, 1679.87 3650.89, 1665.67 3679.29, 1657.68 3709.48, 1650.58 3728.99, 1647.92 3742.3, 1645.26 3752.96, 1645.26 3759.17, 1644.37 3760.06, 1644.37 3759.17, 1646.15 3755.61, 1647.92 3746.75
+</trace>
+<trace id="1">
+1748.2 3579.9, 1753.52 3578.13, 1757.96 3579.9, 1760.62 3586.12, 1757.07 3596.78, 1751.75 3609.18, 1748.2 3622.5, 1747.31 3628.71, 1749.09 3635.81, 1752.64 3640.26, 1760.62 3642.91, 1778.37 3636.7
+</trace>
+<trace id="2">
+1954.08 3641.14, 1955.85 3639.37, 1959.4 3641.14, 1966.5 3642.03, 1977.15 3642.03, 1992.24 3637.58, 2001.11 3630.48
+</trace>
+<trace id="3">
+1955.85 3651.78, 1958.52 3650.01, 1968.28 3650.89, 1986.02 3648.24
+</trace>
+<trace id="4">
+2138.66 3611.86, 2142.21 3609.18, 2150.19 3609.18, 2159.07 3609.18, 2167.94 3611.86, 2175.04 3619.84, 2176.82 3626.94, 2171.49 3635.81, 2161.73 3645.59, 2145.76 3651.78, 2134.22 3653.57, 2126.24 3651.78, 2124.46 3649.12, 2129.79 3646.47, 2145.76 3637.58
+</trace>
+<trace id="5">
+2200.78 3606.53, 2186.58 3616.28, 2174.15 3629.6, 2167.94 3642.91, 2167.94 3650.89, 2177.7 3658.88, 2190.13 3658.88, 2209.65 3649.12
+</trace>
+<trace id="6">
+2294.84 3525.78, 2299.29 3529.32, 2307.27 3535.54, 2310.81 3544.4, 2309.92 3552.39, 2305.5 3556.83, 2298.4 3560.39, 2293.96 3559.49, 2292.19 3558.6, 2296.61 3558.6, 2301.94 3560.39, 2310.81 3566.59, 2314.37 3574.59, 2315.25 3584.35, 2310.81 3591.45, 2301.94 3598.54, 2293.07 3603.88, 2285.97 3605.64, 2281.53 3605.64, 2283.3 3604.76
+</trace>
+<trace id="7">
+2449.26 3570.15, 2451.03 3580.79, 2450.14 3599.43, 2449.26 3620.73, 2446.58 3639.37, 2442.16 3654.45, 2440.39 3664.21, 2440.39 3666.88
+</trace>
+<trace id="8">
+2425.28 3615.4, 2426.19 3615.4, 2432.38 3618.07, 2446.58 3618.96, 2466.11 3613.63
+</trace>
+<trace id="9">
+2557.51 3652.69, 2561.08 3647.36, 2564.61 3636.7, 2569.06 3620.73, 2576.16 3609.18, 2581.47 3606.53, 2589.47 3609.18, 2593.01 3617.19, 2600.11 3629.6, 2601.88 3642.91, 2597.46 3652.69, 2592.13 3656.22, 2583.26 3654.45
+</trace>
+<trace id="10">
+2669.33 3614.51, 2674.66 3618.96, 2679.09 3626.06, 2683.53 3635.81, 2685.3 3645.59, 2682.65 3655.34, 2676.43 3663.32, 2665.77 3665.98, 2657.79 3665.98, 2649.81 3664.21, 2648.92 3662.44, 2654.25 3658.88
+</trace>
+<trace id="11">
+2722.57 3618.07, 2711.93 3622.5, 2699.5 3631.39, 2693.29 3642.03, 2693.29 3651.78, 2703.95 3659.78, 2718.14 3663.32, 2735 3655.34
+</trace>
+<trace id="12">
+2825.52 3550.62, 2829.06 3554.18, 2829.06 3560.39, 2824.63 3571.92, 2815.74 3587, 2807.76 3602.08, 2804.22 3611.86, 2806.87 3615.4, 2812.2 3618.07, 2827.29 3616.28
+</trace>
+<trace id="13">
+3019.85 3595.89, 3018.08 3594.98, 3018.97 3600.31, 3020.74 3612.74, 3019.85 3630.48, 3013.64 3650.01, 3014.52 3664.21, 3015.43 3673.08, 3011.87 3674.87
+</trace>
+<trace id="14">
+2991.46 3618.96, 2994.13 3618.96, 3000.32 3626.06, 3017.2 3634.04, 3038.5 3636.7
+</trace>
+<trace id="15">
+3176.04 3579.02, 3169.82 3575.48, 3166.28 3577.25, 3163.61 3584.35, 3160.07 3603.88, 3150.32 3628.71, 3152.97 3650.01, 3155.62 3662.44, 3160.95 3666.88, 3167.17 3665.98, 3177.81 3658.88, 3182.25 3645.59, 3185.81 3634.93, 3181.37 3626.06, 3172.5 3621.61, 3163.61 3622.5, 3154.74 3630.48, 3152.09 3639.37
+</trace>
+<trace id="16">
+3259.46 3624.29, 3258.57 3620.73, 3263.91 3619.84, 3275.43 3621.61, 3283.41 3626.94, 3288.74 3634.04, 3287.86 3642.03, 3284.3 3649.12, 3278.99 3657.99, 3270.1 3664.21, 3260.34 3666.88, 3251.48 3665.98, 3245.26 3663.32, 3244.38 3659.78, 3250.59 3652.69
+</trace>
+<trace id="17">
+3321.58 3636.7, 3302.94 3648.24, 3301.17 3654.45, 3302.94 3659.78, 3310.92 3665.09, 3328.68 3664.21
+</trace>
+<trace id="18">
+3512.38 3571.03, 3505.28 3584.35, 3500.84 3602.08, 3494.62 3622.5, 3490.18 3639.37, 3495.51 3652.69, 3499.07 3657.99, 3498.18 3652.69
+</trace>
+<trace id="19">
+3486.64 3610.97, 3491.97 3612.74, 3495.51 3615.4, 3501.72 3617.19, 3521.25 3618.07, 3545.2 3616.28
+</trace>
+<trace id="20">
+3615.31 3602.08, 3607.33 3603.88, 3598.46 3610.09, 3582.47 3621.61, 3576.27 3634.93, 3575.37 3647.36, 3584.26 3655.34, 3597.57 3657.11, 3612.66 3649.12
+</trace>
+<traceGroup xml:id="21">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="22">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="23">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="24">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="25">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="26">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+	<traceGroup xml:id="27">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="28">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="29">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="30">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="10"/>
+		<traceView traceDataRef="11"/>
+		<annotationXML href="x_2"/>
+	</traceGroup>
+	<traceGroup xml:id="31">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="12"/>
+		<annotationXML href="2_2"/>
+	</traceGroup>
+	<traceGroup xml:id="32">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="13"/>
+		<traceView traceDataRef="14"/>
+		<annotationXML href="t_1"/>
+	</traceGroup>
+	<traceGroup xml:id="33">
+		<annotation type="truth">6</annotation>
+		<traceView traceDataRef="15"/>
+		<annotationXML href="6_1"/>
+	</traceGroup>
+	<traceGroup xml:id="34">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="16"/>
+		<traceView traceDataRef="17"/>
+		<annotationXML href="x_3"/>
+	</traceGroup>
+	<traceGroup xml:id="35">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="18"/>
+		<traceView traceDataRef="19"/>
+		<annotationXML href="t_2"/>
+	</traceGroup>
+	<traceGroup xml:id="36">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="20"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

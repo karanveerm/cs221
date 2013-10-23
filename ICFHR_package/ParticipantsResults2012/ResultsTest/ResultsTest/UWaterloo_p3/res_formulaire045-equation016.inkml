@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F045_E016</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mi xml:id="a_100000000">a</mi><mrow><mo xml:id="=_011000000">=</mo><mrow><mi xml:id="r_000100000">r</mi><msqrt><mn xml:id="2_000001000">2</mn><mrow><mo xml:id="-_000000100">-</mo><msqrt><mn xml:id="3_000000001">3</mn></msqrt></mrow></msqrt></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg100000000">
+<annotation type="truth">a</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="a_100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg011000000">
+<annotation type="truth">=</annotation>
+<traceView traceDataRef="1"/>
+<traceView traceDataRef="2"/>
+<annotationXML href="=_011000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000100000">
+<annotation type="truth">r</annotation>
+<traceView traceDataRef="3"/>
+<annotationXML href="r_000100000"/>
+</traceGroup>
+<traceGroup xml:id="seg000010000">
+<annotation type="truth">\sqrt</annotation>
+<traceView traceDataRef="4"/>
+<annotationXML href="\sqrt_000010000"/>
+</traceGroup>
+<traceGroup xml:id="seg000001000">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="5"/>
+<annotationXML href="2_000001000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000100">
+<annotation type="truth">-</annotation>
+<traceView traceDataRef="6"/>
+<annotationXML href="-_000000100"/>
+</traceGroup>
+<traceGroup xml:id="seg000000010">
+<annotation type="truth">\sqrt</annotation>
+<traceView traceDataRef="7"/>
+<annotationXML href="\sqrt_000000010"/>
+</traceGroup>
+<traceGroup xml:id="seg000000001">
+<annotation type="truth">3</annotation>
+<traceView traceDataRef="8"/>
+<annotationXML href="3_000000001"/>
+</traceGroup>
+</traceGroup>
+</ink>

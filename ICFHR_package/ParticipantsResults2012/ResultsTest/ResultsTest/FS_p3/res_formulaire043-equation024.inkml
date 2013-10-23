@@ -1,0 +1,164 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_IVC_depart_F043_E024</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
+<msub>
+
+<mi xml:id="\alpha_1">\alpha</mi>
+
+<mi xml:id="n_1">n</mi>
+
+</msub>
+<mrow>
+<mo xml:id="=_1">=</mo>
+<mrow>
+<munderover>
+
+<mo xml:id="\sum_1">\sum</mo>
+
+
+
+<mo xml:id="-_2">-</mo>
+
+
+
+
+<mrow>
+</munderover>
+<mrow>
+<mi xml:id="n_2">n</mi>
+<mrow>
+<mo xml:id="=_2">=</mo>
+
+<msup>
+
+<mi xml:id="c_2">c</mi>
+
+<mo xml:id="-_3">-</mo>
+<mrow>
+</msup>
+
+<msup>
+
+<mi xml:id="c_2">c</mi>
+
+<mn xml:id="1_1">1</mn>
+<mrow>
+</msup>
+
+<msup>
+
+<mi xml:id="c_2">c</mi>
+
+<msqrt xml:id="\sqrt_1">\sqrt</msqrt>
+</mrow><mrow>
+<msqrt xml:id="\sqrt_1">\sqrt</msqrt>
+</mrow>
+</msup></mrow></mrow></mrow></mrow></mrow></mrow></math>
+  </annotationXML>
+  <traceGroup xml:id="1">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="2">
+      <annotation type="truth">\alpha</annotation>
+      <annotationXML href="\alpha_1">
+      </annotationXML>
+      <traceView traceDataRef="0">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="3">
+      <annotation type="truth">n</annotation>
+      <annotationXML href="n_1">
+      </annotationXML>
+      <traceView traceDataRef="1">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="4">
+      <annotation type="truth">=</annotation>
+      <annotationXML href="=_1">
+      </annotationXML>
+      <traceView traceDataRef="2">
+      </traceView>
+      <traceView traceDataRef="3">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="5">
+      <annotation type="truth">\sum</annotation>
+      <annotationXML href="\sum_1">
+      </annotationXML>
+      <traceView traceDataRef="4">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="6">
+      <annotation type="truth">2</annotation>
+      <annotationXML href="2_1">
+      </annotationXML>
+      <traceView traceDataRef="5">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="7">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="-_1">
+      </annotationXML>
+      <traceView traceDataRef="6">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="8">
+      <annotation type="truth">c</annotation>
+      <annotationXML href="c_1">
+      </annotationXML>
+      <traceView traceDataRef="7">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="9">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="-_2">
+      </annotationXML>
+      <traceView traceDataRef="8">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="10">
+      <annotation type="truth">n</annotation>
+      <annotationXML href="n_2">
+      </annotationXML>
+      <traceView traceDataRef="9">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="11">
+      <annotation type="truth">=</annotation>
+      <annotationXML href="=_2">
+      </annotationXML>
+      <traceView traceDataRef="10">
+      </traceView>
+      <traceView traceDataRef="13">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="12">
+      <annotation type="truth">c</annotation>
+      <annotationXML href="c_2">
+      </annotationXML>
+      <traceView traceDataRef="11">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="13">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="-_3">
+      </annotationXML>
+      <traceView traceDataRef="12">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="14">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="1_1">
+      </annotationXML>
+      <traceView traceDataRef="14">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="15">
+      <annotation type="truth">\sqrt</annotation>
+      <annotationXML href="\sqrt_1">
+      </annotationXML>
+      <traceView traceDataRef="15">
+      </traceView>
+    </traceGroup>
+  </traceGroup>
+

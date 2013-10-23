@@ -1,0 +1,50 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_IVC_depart_F043_E051</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mn xml:id="0">1</mn>
+        <mrow>
+          <mo xml:id="33">\leq</mo>
+          <mrow>
+            <mi xml:id="5">b</mi>
+            <mrow>
+              <mo xml:id="31">\leq</mo>
+              <mi xml:id="10">\beta</mi>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="8">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="9">
+      <annotation type="truth">\leq</annotation>
+      <annotationXML href="31" />
+      <traceView traceDataRef="6" />
+      <traceView traceDataRef="5" />
+    </traceGroup>
+    <traceGroup xml:id="10">
+      <annotation type="truth">\leq</annotation>
+      <annotationXML href="33" />
+      <traceView traceDataRef="2" />
+      <traceView traceDataRef="1" />
+    </traceGroup>
+    <traceGroup xml:id="11">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="0" />
+      <traceView traceDataRef="0" />
+    </traceGroup>
+    <traceGroup xml:id="12">
+      <annotation type="truth">b</annotation>
+      <annotationXML href="5" />
+      <traceView traceDataRef="3" />
+    </traceGroup>
+    <traceGroup xml:id="13">
+      <annotation type="truth">\beta</annotation>
+      <annotationXML href="10" />
+      <traceView traceDataRef="7" />
+    </traceGroup>
+  </traceGroup>
+</ink>

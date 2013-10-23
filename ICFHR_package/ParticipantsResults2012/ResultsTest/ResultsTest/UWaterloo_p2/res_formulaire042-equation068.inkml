@@ -1,0 +1,57 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F042_E068</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mfrac><mn xml:id="1_1000000000">1</mn><msqrt><mi xml:id="x_0001000000">x</mi></msqrt></mfrac><mrow><mo xml:id="=_0000110000">=</mo><msqrt><mfrac><mn xml:id="1_0000000010">1</mn><mi xml:id="x_0000000100">x</mi></mfrac></msqrt></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg1000000000">
+<annotation type="truth">1</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="1_1000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0100000000">
+<annotation type="truth">-</annotation>
+<traceView traceDataRef="1"/>
+<annotationXML href="-_0100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0010000000">
+<annotation type="truth">\sqrt</annotation>
+<traceView traceDataRef="2"/>
+<annotationXML href="\sqrt_0010000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0001000000">
+<annotation type="truth">x</annotation>
+<traceView traceDataRef="3"/>
+<annotationXML href="x_0001000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000110000">
+<annotation type="truth">=</annotation>
+<traceView traceDataRef="4"/>
+<traceView traceDataRef="5"/>
+<annotationXML href="=_0000110000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000001000">
+<annotation type="truth">\sqrt</annotation>
+<traceView traceDataRef="6"/>
+<annotationXML href="\sqrt_0000001000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000010">
+<annotation type="truth">1</annotation>
+<traceView traceDataRef="8"/>
+<annotationXML href="1_0000000010"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000001">
+<annotation type="truth">-</annotation>
+<traceView traceDataRef="9"/>
+<annotationXML href="-_0000000001"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000100">
+<annotation type="truth">x</annotation>
+<traceView traceDataRef="7"/>
+<annotationXML href="x_0000000100"/>
+</traceGroup>
+</traceGroup>
+</ink>

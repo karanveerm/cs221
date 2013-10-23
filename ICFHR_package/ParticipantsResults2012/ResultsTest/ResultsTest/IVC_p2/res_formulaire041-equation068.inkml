@@ -1,0 +1,72 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F041_E068</annotation>
+<annotation type="truth">e_1=0_b</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msub>
+				<mi xml:id="e_1">e</mi>
+				<mn xml:id="1_1">1</mn>
+			</msub>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<msub>
+					<mn xml:id="0_1">0</mn>
+					<mi xml:id="b_1">b</mi>
+				</msub>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2062.61 5164.2, 2065.81 5172.16, 2075.36 5175.36, 2090.51 5175.36, 2105.64 5170.57, 2116.79 5160.23, 2120.79 5151.45, 2118.38 5145.87, 2113.6 5144.29, 2104.84 5145.87, 2089.71 5155.44, 2077.76 5164.99, 2066.6 5181.73, 2065.81 5197.66, 2068.19 5209.61, 2074.56 5219.18, 2080.94 5224.76, 2088.1 5228.73, 2093.68 5227.94, 2104.05 5223.96
+</trace>
+<trace id="1">
+2165.4 5193.68, 2165.4 5194.48, 2165.4 5200.06, 2163.79 5208.02, 2162.2 5221.56, 2161.41 5235.9, 2162.2 5242.27, 2162.2 5246.26, 2162.2 5245.47, 2163 5243.88, 2163.79 5241.48, 2167.78 5235.1
+</trace>
+<trace id="2">
+2314.37 5179.35, 2316.76 5178.54, 2323.92 5180.14, 2336.67 5185.72, 2346.24 5186.52, 2355.79 5185.72, 2358.99 5186.52
+</trace>
+<trace id="3">
+2304.01 5209.61, 2306.41 5211.22, 2313.58 5213.6, 2329.5 5215.19, 2346.24 5214.39, 2363.77 5209.61
+</trace>
+<trace id="4">
+2562.94 5147.48, 2555.77 5153.86, 2552.58 5165.79, 2555.77 5177.74, 2563.73 5182.53, 2574.1 5186.52, 2590.02 5182.53, 2605.17 5168.98, 2612.34 5157.83, 2611.54 5149.86, 2605.97 5138.71, 2590.02 5132.33, 2574.1 5132.33, 2561.35 5134.73, 2558.15 5138.71
+</trace>
+<trace id="5">
+2616.31 5146.67, 2613.13 5149.86, 2611.54 5157.03, 2610.73 5166.6, 2612.34 5177.74, 2613.93 5188.9, 2616.31 5199.26, 2617.1 5205.64, 2614.72 5212.01, 2611.54 5216.78, 2605.97 5218.38, 2597.98 5217.59, 2589.23 5212.81, 2585.24 5206.43
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

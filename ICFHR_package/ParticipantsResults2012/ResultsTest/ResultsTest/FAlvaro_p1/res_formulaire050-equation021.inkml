@@ -1,0 +1,47 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F050_E021</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<mrow>
+<mi xml:id="n_10">n</mi>
+<mrow>
+<mi xml:id="=_11">=</mi>
+<mrow>
+<mi xml:id="\sin_12">\sin</mi>
+<mrow>
+<mi xml:id="y_13">y</mi>
+<mi xml:id="1_14">1</mi>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="9">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="10">
+  <annotation type="truth">n</annotation>
+  <traceView traceDataRef="0"/>
+  <annotationXML href="n_10"/></traceGroup>
+<traceGroup xml:id="11">
+  <annotation type="truth">=</annotation>
+  <traceView traceDataRef="1"/>
+  <traceView traceDataRef="2"/>
+  <annotationXML href="=_11"/></traceGroup>
+<traceGroup xml:id="12">
+  <annotation type="truth">\sin</annotation>
+  <traceView traceDataRef="3"/>
+  <traceView traceDataRef="4"/>
+  <traceView traceDataRef="5"/>
+  <traceView traceDataRef="6"/>
+  <annotationXML href="\sin_12"/></traceGroup>
+<traceGroup xml:id="13">
+  <annotation type="truth">y</annotation>
+  <traceView traceDataRef="7"/>
+  <annotationXML href="y_13"/></traceGroup>
+<traceGroup xml:id="14">
+  <annotation type="truth">1</annotation>
+  <traceView traceDataRef="8"/>
+  <annotationXML href="1_14"/></traceGroup>
+</traceGroup>
+</ink>

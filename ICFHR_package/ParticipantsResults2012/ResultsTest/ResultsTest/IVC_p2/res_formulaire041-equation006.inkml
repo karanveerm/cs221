@@ -1,0 +1,47 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F041_E006</annotation>
+<annotation type="truth">\frac{9}{4}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mn xml:id="9_1">9</mn>
+			<mn xml:id="4_1">4</mn>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+1543.18 2063.28, 1542.65 2065.92, 1543.72 2069.62, 1545.83 2073.33, 1550.06 2075.98, 1557.47 2076.51, 1565.41 2072.27, 1570.69 2069.62, 1573.87 2065.92, 1574.93 2061.69, 1573.34 2058.51, 1570.17 2052.7, 1564.88 2052.7, 1558 2052.17, 1551.64 2054.28, 1547.95 2057.98, 1547.41 2060.63
+</trace>
+<trace id="1">
+1571.75 2062.21, 1571.22 2063.81, 1571.22 2066.97, 1571.75 2070.68, 1572.28 2076.51, 1573.87 2084.44, 1575.98 2091.31, 1577.58 2098.2, 1578.1 2100.83, 1577.58 2102.96, 1576.51 2104.01, 1573.87 2103.48, 1568.04 2106.66, 1560.65 2106.13, 1554.29 2104.54, 1549.53 2104.54
+</trace>
+<trace id="2">
+1511.44 2138.4, 1511.44 2139.99, 1512.5 2140.52, 1514.62 2141.05, 1519.38 2142.63, 1529.95 2143.7, 1543.72 2143.15, 1556.41 2140.52, 1570.17 2142.63, 1585.5 2139.46, 1599.26 2139.99, 1611.96 2139.46, 1619.9 2139.46, 1623.59 2139.46, 1624.13 2139.99, 1623.59 2139.46, 1623.06 2138.92, 1622.01 2138.4, 1619.36 2136.81
+</trace>
+<trace id="3">
+1575.98 2150.56, 1576.51 2150.04, 1575.98 2150.04, 1575.45 2152.16, 1572.8 2155.32, 1568.04 2161.15, 1562.76 2167.49, 1557.47 2173.32, 1551.11 2180.72, 1550.06 2183.9, 1550.06 2185.48, 1550.59 2186.02, 1552.71 2185.48, 1556.94 2185.48, 1564.88 2183.9, 1572.8 2184.42, 1581.27 2184.95, 1584.44 2188.13, 1584.97 2190.78, 1583.92 2194.48, 1581.81 2200.3, 1581.27 2205.06, 1580.21 2209.29, 1579.69 2211.94, 1579.16 2214.05, 1579.16 2215.1, 1579.69 2214.05, 1581.27 2210.87
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">9</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="9_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">4</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="4_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

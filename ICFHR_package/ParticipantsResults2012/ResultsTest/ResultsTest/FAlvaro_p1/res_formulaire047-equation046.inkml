@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F047_E046</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<mrow>
+<msqrt xml:id="sqrt_10">
+<mi xml:id="1_11">1</mi>
+</msqrt>
+<mrow>
+<msub>
+<mi xml:id="x_12">x</mi>
+<mi xml:id="c_13">c</mi>
+</msub>
+<mrow>
+<mi xml:id="b_14">b</mi>
+<mi xml:id="3_15">3</mi>
+</mrow>
+</mrow>
+</mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="9">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="10">
+  <annotation type="truth">\sqrt</annotation>
+  <traceView traceDataRef="1"/>
+  <traceView traceDataRef="2"/>
+  <traceView traceDataRef="3"/>
+  <annotationXML href="\sqrt_10"/></traceGroup>
+<traceGroup xml:id="11">
+  <annotation type="truth">1</annotation>
+  <traceView traceDataRef="0"/>
+  <annotationXML href="1_11"/></traceGroup>
+<traceGroup xml:id="12">
+  <annotation type="truth">x</annotation>
+  <traceView traceDataRef="4"/>
+  <traceView traceDataRef="5"/>
+  <annotationXML href="x_12"/></traceGroup>
+<traceGroup xml:id="13">
+  <annotation type="truth">c</annotation>
+  <traceView traceDataRef="8"/>
+  <annotationXML href="c_13"/></traceGroup>
+<traceGroup xml:id="14">
+  <annotation type="truth">b</annotation>
+  <traceView traceDataRef="6"/>
+  <annotationXML href="b_14"/></traceGroup>
+<traceGroup xml:id="15">
+  <annotation type="truth">3</annotation>
+  <traceView traceDataRef="7"/>
+  <annotationXML href="3_15"/></traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_IVC_depart_F044_E017</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <msup>
+          <mi xml:id="4">j</mi>
+          <mo xml:id="5">.</mo>
+        </msup>
+        <mrow>
+          <mo xml:id="20">\leq</mo>
+          <mi xml:id="9">a</mi>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="8">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="9">
+      <annotation type="truth">\\leq</annotation>
+      <annotationXML href="20" />
+      <traceView traceDataRef="6" />
+      <traceView traceDataRef="5" />
+    </traceGroup>
+    <traceGroup xml:id="10">
+      <annotation type="truth">j</annotation>
+      <annotationXML href="4" />
+      <traceView traceDataRef="3" />
+    </traceGroup>
+    <traceGroup xml:id="11">
+      <annotation type="truth">.</annotation>
+      <annotationXML href="5" />
+      <traceView traceDataRef="4" />
+    </traceGroup>
+    <traceGroup xml:id="12">
+      <annotation type="truth">a</annotation>
+      <annotationXML href="9" />
+      <traceView traceDataRef="7" />
+    </traceGroup>
+  </traceGroup>
+</ink>

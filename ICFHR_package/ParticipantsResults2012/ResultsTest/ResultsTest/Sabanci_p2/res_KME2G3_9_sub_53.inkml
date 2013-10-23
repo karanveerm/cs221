@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_KME2_w9_e53</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mfrac xml:id="2776">
+          <msub>
+            <mrow>
+              <mrow>
+                <mrow>
+                  <mn xml:id="0">1</mn>
+                  <mi xml:id="101">i</mi>
+                </mrow>
+                <mi xml:id="5">n</mi>
+              </mrow>
+              <mo xml:id="10">)</mo>
+            </mrow>
+            <mn xml:id="11">0</mn>
+          </msub>
+          <mi xml:id="108">x</mi>
+        </mfrac>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="42">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="43">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="9" />
+      <traceView traceDataRef="6" />
+    </traceGroup>
+    <traceGroup xml:id="44">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="0" />
+      <traceView traceDataRef="0" />
+    </traceGroup>
+    <traceGroup xml:id="45">
+      <annotation type="truth">i</annotation>
+      <annotationXML href="101" />
+      <traceView traceDataRef="1" />
+      <traceView traceDataRef="2" />
+    </traceGroup>
+    <traceGroup xml:id="46">
+      <annotation type="truth">n</annotation>
+      <annotationXML href="5" />
+      <traceView traceDataRef="3" />
+    </traceGroup>
+    <traceGroup xml:id="47">
+      <annotation type="truth">)</annotation>
+      <annotationXML href="10" />
+      <traceView traceDataRef="7" />
+    </traceGroup>
+    <traceGroup xml:id="48">
+      <annotation type="truth">0</annotation>
+      <annotationXML href="11" />
+      <traceView traceDataRef="8" />
+    </traceGroup>
+    <traceGroup xml:id="49">
+      <annotation type="truth">x</annotation>
+      <annotationXML href="108" />
+      <traceView traceDataRef="4" />
+      <traceView traceDataRef="5" />
+    </traceGroup>
+  </traceGroup>
+</ink>

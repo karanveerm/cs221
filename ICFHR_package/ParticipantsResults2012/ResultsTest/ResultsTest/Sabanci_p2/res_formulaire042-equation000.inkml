@@ -1,0 +1,207 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_IVC_depart_F042_E000</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mi xml:id="99">x</mi>
+        <mrow>
+          <mn xml:id="4">6</mn>
+          <mrow>
+            <mn xml:id="7">2</mn>
+            <mrow>
+              <mo xml:id="8">(</mo>
+              <mrow>
+                <mo xml:id="9">(</mo>
+                <mrow>
+                  <mn xml:id="12">7</mn>
+                  <mrow>
+                    <mn xml:id="14">5</mn>
+                    <mrow>
+                      <mo xml:id="19">+</mo>
+                      <mrow>
+                        <mn xml:id="20">8</mn>
+                        <mrow>
+                          <mo xml:id="21">)</mo>
+                          <mrow>
+                            <mo xml:id="24">\times</mo>
+                            <mrow>
+                              <mn xml:id="26">1</mn>
+                              <mrow>
+                                <mn xml:id="28">2</mn>
+                                <mrow>
+                                  <mn xml:id="29">5</mn>
+                                  <mrow>
+                                    <mo xml:id="30">)</mo>
+                                    <mrow>
+                                      <mo xml:id="31">-</mo>
+                                      <mrow>
+                                        <mo xml:id="32">(</mo>
+                                        <mrow>
+                                          <mn xml:id="33">8</mn>
+                                          <mrow>
+                                            <mn xml:id="34">0</mn>
+                                            <mrow>
+                                              <mo xml:id="35">\div</mo>
+                                              <mrow>
+                                                <mo xml:id="37">(</mo>
+                                                <mrow>
+                                                  <mn xml:id="38">8</mn>
+                                                  <mrow>
+                                                    <mn xml:id="40">4</mn>
+                                                    <mo xml:id="41">)</mo>
+                                                  </mrow>
+                                                </mrow>
+                                              </mrow>
+                                            </mrow>
+                                          </mrow>
+                                        </mrow>
+                                      </mrow>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                              </mrow>
+                            </mrow>
+                          </mrow>
+                        </mrow>
+                      </mrow>
+                    </mrow>
+                  </mrow>
+                </mrow>
+              </mrow>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="33">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="34">
+      <annotation type="truth">\times</annotation>
+      <annotationXML href="24" />
+      <traceView traceDataRef="17" />
+      <traceView traceDataRef="18" />
+    </traceGroup>
+    <traceGroup xml:id="35">
+      <annotation type="truth">x</annotation>
+      <annotationXML href="99" />
+      <traceView traceDataRef="0" />
+      <traceView traceDataRef="1" />
+    </traceGroup>
+    <traceGroup xml:id="36">
+      <annotation type="truth">6</annotation>
+      <annotationXML href="4" />
+      <traceView traceDataRef="2" />
+    </traceGroup>
+    <traceGroup xml:id="37">
+      <annotation type="truth">2</annotation>
+      <annotationXML href="7" />
+      <traceView traceDataRef="3" />
+      <traceView traceDataRef="5" />
+    </traceGroup>
+    <traceGroup xml:id="38">
+      <annotation type="truth">(</annotation>
+      <annotationXML href="8" />
+      <traceView traceDataRef="6" />
+    </traceGroup>
+    <traceGroup xml:id="39">
+      <annotation type="truth">+</annotation>
+      <annotationXML href="19" />
+      <traceView traceDataRef="13" />
+      <traceView traceDataRef="14" />
+      <traceView traceDataRef="12" />
+    </traceGroup>
+    <traceGroup xml:id="40">
+      <annotation type="truth">7</annotation>
+      <annotationXML href="12" />
+      <traceView traceDataRef="8" />
+      <traceView traceDataRef="9" />
+    </traceGroup>
+    <traceGroup xml:id="41">
+      <annotation type="truth">5</annotation>
+      <annotationXML href="14" />
+      <traceView traceDataRef="10" />
+    </traceGroup>
+    <traceGroup xml:id="42">
+      <annotation type="truth">8</annotation>
+      <annotationXML href="20" />
+      <traceView traceDataRef="15" />
+    </traceGroup>
+    <traceGroup xml:id="43">
+      <annotation type="truth">(</annotation>
+      <annotationXML href="9" />
+      <traceView traceDataRef="7" />
+    </traceGroup>
+    <traceGroup xml:id="44">
+      <annotation type="truth">)</annotation>
+      <annotationXML href="21" />
+      <traceView traceDataRef="16" />
+    </traceGroup>
+    <traceGroup xml:id="45">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="31" />
+      <traceView traceDataRef="23" />
+    </traceGroup>
+    <traceGroup xml:id="46">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="26" />
+      <traceView traceDataRef="19" />
+    </traceGroup>
+    <traceGroup xml:id="47">
+      <annotation type="truth">2</annotation>
+      <annotationXML href="28" />
+      <traceView traceDataRef="20" />
+    </traceGroup>
+    <traceGroup xml:id="48">
+      <annotation type="truth">5</annotation>
+      <annotationXML href="29" />
+      <traceView traceDataRef="21" />
+    </traceGroup>
+    <traceGroup xml:id="49">
+      <annotation type="truth">)</annotation>
+      <annotationXML href="30" />
+      <traceView traceDataRef="22" />
+    </traceGroup>
+    <traceGroup xml:id="50">
+      <annotation type="truth">\div</annotation>
+      <annotationXML href="35" />
+      <traceView traceDataRef="27" />
+    </traceGroup>
+    <traceGroup xml:id="51">
+      <annotation type="truth">(</annotation>
+      <annotationXML href="32" />
+      <traceView traceDataRef="24" />
+    </traceGroup>
+    <traceGroup xml:id="52">
+      <annotation type="truth">8</annotation>
+      <annotationXML href="33" />
+      <traceView traceDataRef="25" />
+    </traceGroup>
+    <traceGroup xml:id="53">
+      <annotation type="truth">0</annotation>
+      <annotationXML href="34" />
+      <traceView traceDataRef="26" />
+    </traceGroup>
+    <traceGroup xml:id="54">
+      <annotation type="truth">8</annotation>
+      <annotationXML href="38" />
+      <traceView traceDataRef="29" />
+    </traceGroup>
+    <traceGroup xml:id="55">
+      <annotation type="truth">4</annotation>
+      <annotationXML href="40" />
+      <traceView traceDataRef="30" />
+      <traceView traceDataRef="31" />
+    </traceGroup>
+    <traceGroup xml:id="56">
+      <annotation type="truth">(</annotation>
+      <annotationXML href="37" />
+      <traceView traceDataRef="28" />
+    </traceGroup>
+    <traceGroup xml:id="57">
+      <annotation type="truth">)</annotation>
+      <annotationXML href="41" />
+      <traceView traceDataRef="32" />
+    </traceGroup>
+  </traceGroup>
+</ink>

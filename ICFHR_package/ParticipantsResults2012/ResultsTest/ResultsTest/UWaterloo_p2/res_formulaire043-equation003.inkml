@@ -1,0 +1,58 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F043_E003</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mi xml:id="\cos_111000000000000">\cos</mi><mrow><mi xml:id="x_000110000000000">x</mi><mrow><mo xml:id="-_000001000000000">-</mo><mrow><msqrt><mo xml:id="-_000000010000000">-</mo><mn xml:id="1_000000001000000">1</mn></msqrt><mrow><mi xml:id="\sin_000000000111100">\sin</mi><mi xml:id="x_000000000000011">x</mi></mrow></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg111000000000000">
+<annotation type="truth">\cos</annotation>
+<traceView traceDataRef="0"/>
+<traceView traceDataRef="1"/>
+<traceView traceDataRef="2"/>
+<annotationXML href="\cos_111000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000110000000000">
+<annotation type="truth">x</annotation>
+<traceView traceDataRef="3"/>
+<traceView traceDataRef="4"/>
+<annotationXML href="x_000110000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000001000000000">
+<annotation type="truth">-</annotation>
+<traceView traceDataRef="5"/>
+<annotationXML href="-_000001000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000100000000">
+<annotation type="truth">\sqrt</annotation>
+<traceView traceDataRef="6"/>
+<annotationXML href="\sqrt_000000100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000010000000">
+<annotation type="truth">-</annotation>
+<traceView traceDataRef="7"/>
+<annotationXML href="-_000000010000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000001000000">
+<annotation type="truth">1</annotation>
+<traceView traceDataRef="8"/>
+<annotationXML href="1_000000001000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000111100">
+<annotation type="truth">\sin</annotation>
+<traceView traceDataRef="9"/>
+<traceView traceDataRef="10"/>
+<traceView traceDataRef="11"/>
+<traceView traceDataRef="12"/>
+<annotationXML href="\sin_000000000111100"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000000011">
+<annotation type="truth">x</annotation>
+<traceView traceDataRef="13"/>
+<traceView traceDataRef="14"/>
+<annotationXML href="x_000000000000011"/>
+</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,34 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2012_IVC_CROHME_F01_E007</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mi xml:id="\forall_1100000">\forall</mi><mrow><mi xml:id="y_0010000">y</mi><mrow><mi xml:id="\in_0001100">\in</mi><mi xml:id="A_0000011">A</mi></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg1100000">
+<annotation type="truth">\forall</annotation>
+<traceView traceDataRef="0"/>
+<traceView traceDataRef="1"/>
+<annotationXML href="\forall_1100000"/>
+</traceGroup>
+<traceGroup xml:id="seg0010000">
+<annotation type="truth">y</annotation>
+<traceView traceDataRef="2"/>
+<annotationXML href="y_0010000"/>
+</traceGroup>
+<traceGroup xml:id="seg0001100">
+<annotation type="truth">\in</annotation>
+<traceView traceDataRef="3"/>
+<traceView traceDataRef="4"/>
+<annotationXML href="\in_0001100"/>
+</traceGroup>
+<traceGroup xml:id="seg0000011">
+<annotation type="truth">A</annotation>
+<traceView traceDataRef="5"/>
+<traceView traceDataRef="6"/>
+<annotationXML href="A_0000011"/>
+</traceGroup>
+</traceGroup>
+</ink>

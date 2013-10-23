@@ -1,0 +1,50 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F043_E023</annotation>
+<annotation type="truth">d{x}{z}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="d_1">d</mi>
+			<mrow>
+				<mi xml:id="x_1">x</mi>
+				<mi xml:id="z_1">z</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1838.85 4093.37, 1838.21 4092.73, 1837.57 4092.73, 1835.02 4091.46, 1831.82 4089.53, 1827.34 4088.25, 1820.32 4086.98, 1812.64 4090.18, 1803.68 4092.09, 1797.93 4101.05, 1796.02 4110.64, 1796.65 4120.87, 1800.49 4129.81, 1806.25 4134.93, 1812.64 4134.93, 1820.32 4126.62, 1830.55 4115.76, 1838.85 4102.96, 1842.69 4090.82, 1844.6 4076.11, 1845.89 4061.4, 1845.89 4047.33, 1845.25 4037.74, 1843.96 4030.71, 1843.33 4028.15, 1843.33 4027.51, 1843.96 4028.8, 1845.25 4033.26, 1845.89 4039.03, 1846.53 4047.97, 1846.53 4057.56, 1847.17 4070.36, 1845.25 4079.3, 1843.33 4092.73, 1841.41 4103.6, 1841.41 4109.99, 1842.05 4112.55, 1842.05 4114.47, 1842.05 4116.39, 1841.41 4117.67
+</trace>
+<trace id="1">
+1877.22 4115.76, 1879.77 4117.03, 1883.61 4122.78, 1886.81 4132.38, 1886.17 4140.04, 1881.7 4145.79, 1878.49 4152.2, 1875.29 4154.75, 1874.02 4154.75, 1872.74 4150.91, 1874.65 4141.33
+</trace>
+<trace id="2">
+1895.75 4113.19, 1888.09 4125.99, 1886.17 4136.22, 1887.45 4143.24, 1890 4149, 1895.11 4152.84, 1900.87 4152.2, 1907.91 4150.27
+</trace>
+<trace id="3">
+1920.69 4122.15, 1930.92 4116.39, 1935.4 4117.67, 1937.96 4122.15, 1937.96 4129.17, 1935.4 4134.93, 1932.85 4140.04, 1930.28 4142.61, 1928.37 4142.61, 1927.73 4141.97, 1929.01 4142.61, 1930.92 4143.24, 1934.12 4145.16, 1937.96 4149, 1941.79 4154.11, 1944.35 4159.86, 1944.35 4166.91, 1941.79 4172.02, 1939.24 4176.48, 1933.48 4180.96, 1929.64 4182.89, 1927.09 4183.53, 1926.44 4181.6, 1928.37 4175.85, 1934.12 4167.54, 1943.08 4161.79, 1952.67 4155.39
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">d</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="d_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="z_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

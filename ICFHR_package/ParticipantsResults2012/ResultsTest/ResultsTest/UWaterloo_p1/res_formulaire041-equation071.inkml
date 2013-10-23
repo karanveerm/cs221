@@ -1,0 +1,39 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F041_E071</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mi xml:id="\theta_10000000">\theta</mi><mrow><mo xml:id="=_01100000">=</mo><mfrac><mi xml:id="\pi_00011100">\pi</mi><mn xml:id="2_00000001">2</mn></mfrac></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg10000000">
+<annotation type="truth">\theta</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="\theta_10000000"/>
+</traceGroup>
+<traceGroup xml:id="seg01100000">
+<annotation type="truth">=</annotation>
+<traceView traceDataRef="1"/>
+<traceView traceDataRef="2"/>
+<annotationXML href="=_01100000"/>
+</traceGroup>
+<traceGroup xml:id="seg00011100">
+<annotation type="truth">\pi</annotation>
+<traceView traceDataRef="3"/>
+<traceView traceDataRef="4"/>
+<traceView traceDataRef="5"/>
+<annotationXML href="\pi_00011100"/>
+</traceGroup>
+<traceGroup xml:id="seg00000010">
+<annotation type="truth">-</annotation>
+<traceView traceDataRef="6"/>
+<annotationXML href="-_00000010"/>
+</traceGroup>
+<traceGroup xml:id="seg00000001">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="7"/>
+<annotationXML href="2_00000001"/>
+</traceGroup>
+</traceGroup>
+</ink>

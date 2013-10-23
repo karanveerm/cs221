@@ -1,0 +1,66 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_KME1_w1_e18</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mo xml:id="10">(</mo>
+        <mrow>
+          <mn xml:id="11">1</mn>
+          <mrow>
+            <mo xml:id="14">+</mo>
+            <mrow>
+              <mn xml:id="19">1</mn>
+              <mrow>
+                <mo xml:id="21">)</mo>
+                <mrow>
+                  <mo xml:id="71">=</mo>
+                  <mi xml:id="28">e</mi>
+                </mrow>
+              </mrow>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="23">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="24">
+      <annotation type="truth">=</annotation>
+      <annotationXML href="71" />
+      <traceView traceDataRef="21" />
+      <traceView traceDataRef="20" />
+    </traceGroup>
+    <traceGroup xml:id="25">
+      <annotation type="truth">+</annotation>
+      <annotationXML href="14" />
+      <traceView traceDataRef="11" />
+      <traceView traceDataRef="12" />
+    </traceGroup>
+    <traceGroup xml:id="26">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="11" />
+      <traceView traceDataRef="10" />
+    </traceGroup>
+    <traceGroup xml:id="27">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="19" />
+      <traceView traceDataRef="16" />
+    </traceGroup>
+    <traceGroup xml:id="28">
+      <annotation type="truth">(</annotation>
+      <annotationXML href="10" />
+      <traceView traceDataRef="9" />
+    </traceGroup>
+    <traceGroup xml:id="29">
+      <annotation type="truth">)</annotation>
+      <annotationXML href="21" />
+      <traceView traceDataRef="17" />
+    </traceGroup>
+    <traceGroup xml:id="30">
+      <annotation type="truth">e</annotation>
+      <annotationXML href="28" />
+      <traceView traceDataRef="22" />
+    </traceGroup>
+  </traceGroup>
+</ink>

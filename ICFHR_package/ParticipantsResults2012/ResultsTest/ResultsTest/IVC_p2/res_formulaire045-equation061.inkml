@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F045_E061</annotation>
+<annotation type="truth">\int{1}\leq0</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="\int_1">\int</mo>
+			<mrow>
+				<mn xml:id="1_1">1</mn>
+				<mrow>
+					<mo xml:id="\leq_1">\leq</mo>
+					<mn xml:id="0_1">0</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1281.08 2150.42, 1281.08 2150.95, 1280.01 2153.61, 1275.23 2160.51, 1268.86 2171.67, 1259.82 2183.9, 1254.51 2192.4, 1251.32 2197.71, 1248.13 2199.3, 1245.48 2198.24, 1241.23 2192.93
+</trace>
+<trace id="1">
+1242.29 2152.54, 1244.95 2153.08, 1248.66 2154.14, 1256.1 2161.04, 1263.01 2169.54, 1269.39 2176.98, 1275.76 2184.42, 1284.27 2190.79, 1291.17 2192.4
+</trace>
+<trace id="2">
+1408.07 2129.16, 1411.79 2129.16, 1410.73 2130.22, 1405.95 2132.89, 1396.37 2141.92, 1383.09 2150.95, 1373 2158.92, 1366.62 2163.7, 1362.9 2169.01, 1361.84 2171.67, 1363.44 2174.33, 1368.22 2179.64, 1375.12 2187.09, 1384.7 2194.52, 1391.59 2200.9, 1398.51 2204.62, 1400.63 2205.68, 1401.16 2205.68, 1401.16 2205.15, 1400.63 2204.62, 1399.04 2203.55
+</trace>
+<trace id="3">
+1350.69 2197.18, 1350.15 2198.24, 1351.22 2198.24, 1354.94 2203.02, 1361.31 2206.74, 1367.69 2212.05, 1374.06 2218.96, 1379.9 2223.21, 1387.87 2227.99, 1397.45 2229.05
+</trace>
+<trace id="4">
+1524.43 2164.23, 1527.62 2161.58, 1528.68 2159.98, 1529.22 2158.92, 1527.09 2158.39, 1523.9 2158.39, 1518.59 2158.39, 1509.56 2163.17, 1502.11 2169.54, 1497.33 2178.04, 1497.33 2186.01, 1502.11 2195.04, 1515.4 2203.55, 1534 2205.68, 1547.28 2200.37, 1554.18 2193.46, 1555.26 2183.9, 1551.54 2171.67, 1544.62 2160.51, 1532.93 2157.33, 1518.06 2157.86, 1509.03 2165.29
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\int</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="\int_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\leq</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\leq_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

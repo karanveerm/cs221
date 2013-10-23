@@ -1,0 +1,60 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F053_E013</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><msup><mi xml:id="y_1000000000000">y</mi><mn xml:id="2_0100000000000">2</mn></msup><mrow><mo xml:id="+_0011000000000">+</mo><mrow><mi xml:id="y_0000100000000">y</mi><mrow><mo xml:id="=_0000011000000">=</mo><mrow><msup><mi xml:id="x_0000000110000">x</mi><mn xml:id="3_0000000001000">3</mn></msup><mrow><mo xml:id="-_0000000000100">-</mo><mi xml:id="x_0000000000011">x</mi></mrow></mrow></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg1000000000000">
+<annotation type="truth">y</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="y_1000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0100000000000">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="1"/>
+<annotationXML href="2_0100000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0011000000000">
+<annotation type="truth">+</annotation>
+<traceView traceDataRef="2"/>
+<traceView traceDataRef="3"/>
+<annotationXML href="+_0011000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000100000000">
+<annotation type="truth">y</annotation>
+<traceView traceDataRef="4"/>
+<annotationXML href="y_0000100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000011000000">
+<annotation type="truth">=</annotation>
+<traceView traceDataRef="5"/>
+<traceView traceDataRef="6"/>
+<annotationXML href="=_0000011000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000110000">
+<annotation type="truth">x</annotation>
+<traceView traceDataRef="7"/>
+<traceView traceDataRef="8"/>
+<annotationXML href="x_0000000110000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000001000">
+<annotation type="truth">3</annotation>
+<traceView traceDataRef="9"/>
+<annotationXML href="3_0000000001000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000000100">
+<annotation type="truth">-</annotation>
+<traceView traceDataRef="10"/>
+<annotationXML href="-_0000000000100"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000000011">
+<annotation type="truth">x</annotation>
+<traceView traceDataRef="11"/>
+<traceView traceDataRef="12"/>
+<annotationXML href="x_0000000000011"/>
+</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,39 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2012_IVC_CROHME_F01_E004</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mn xml:id="7_11000000">7</mn><mrow><mo xml:id="\geq_00110000">\geq</mo><mrow><mi xml:id="y_00001000">y</mi><mrow><mo xml:id="\gt_00000100">\gt</mo><mi xml:id="j_00000011">j</mi></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg11000000">
+<annotation type="truth">7</annotation>
+<traceView traceDataRef="0"/>
+<traceView traceDataRef="1"/>
+<annotationXML href="7_11000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00110000">
+<annotation type="truth">\geq</annotation>
+<traceView traceDataRef="2"/>
+<traceView traceDataRef="3"/>
+<annotationXML href="\geq_00110000"/>
+</traceGroup>
+<traceGroup xml:id="seg00001000">
+<annotation type="truth">y</annotation>
+<traceView traceDataRef="4"/>
+<annotationXML href="y_00001000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000100">
+<annotation type="truth">\gt</annotation>
+<traceView traceDataRef="5"/>
+<annotationXML href="\gt_00000100"/>
+</traceGroup>
+<traceGroup xml:id="seg00000011">
+<annotation type="truth">j</annotation>
+<traceView traceDataRef="6"/>
+<traceView traceDataRef="7"/>
+<annotationXML href="j_00000011"/>
+</traceGroup>
+</traceGroup>
+</ink>

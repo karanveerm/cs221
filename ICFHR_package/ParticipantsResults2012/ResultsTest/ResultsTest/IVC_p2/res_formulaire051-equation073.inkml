@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F051_E073</annotation>
+<annotation type="truth">e^{0}=1</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="e_1">e</mi>
+				<mn xml:id="0_1">0</mn>
+			</msup>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mn xml:id="1_1">1</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1998.72 5145.78, 1999.51 5144.99, 2001.11 5145.78, 2003.49 5144.99, 2009.88 5143.4, 2017.09 5139.4, 2024.27 5133.82, 2031.45 5129.03, 2037.84 5122.64, 2038.64 5116.25, 2040.23 5109.86, 2040.23 5106.66, 2040.23 5107.45, 2040.23 5108.27, 2040.23 5109.07, 2040.23 5110.66, 2038.64 5115.45, 2036.25 5125.82, 2034.64 5133.01, 2033.84 5141.01, 2037.05 5148.19, 2039.44 5151.38, 2044.23 5156.17, 2053.01 5156.97, 2064.99 5156.17, 2076.17 5147.4, 2084.15 5137.8
+</trace>
+<trace id="1">
+2044.23 5066.74, 2043.44 5065.94, 2042.64 5068.33, 2044.23 5070.74, 2047.42 5073.92, 2050.62 5073.92, 2056.21 5073.92, 2060.99 5071.53, 2064.19 5066.74, 2064.19 5062.74, 2062.6 5059.55, 2059.4 5057.16, 2054.6 5060.35, 2049.03 5062.74, 2045.82 5066.74, 2044.23 5071.53, 2046.62 5074.72
+</trace>
+<trace id="2">
+2176.79 5119.43, 2177.59 5120.23, 2178.38 5120.23, 2179.18 5118.64, 2182.36 5117.84, 2186.36 5119.43, 2195.14 5119.43, 2201.53 5121.05, 2211.12 5121.84, 2217.51 5121.84, 2222.31 5121.05
+</trace>
+<trace id="3">
+2183.98 5141.8, 2185.57 5143.4, 2187.16 5144.99, 2191.96 5145.78, 2199.14 5146.6, 2207.12 5147.4, 2215.12 5148.19, 2222.31 5147.4, 2231.88 5146.6
+</trace>
+<trace id="4">
+2294.96 5110.66, 2297.35 5110.66, 2299.76 5110.66, 2302.15 5109.07, 2307.74 5108.27, 2318.13 5103.47, 2329.29 5097.88, 2338.89 5092.29, 2348.46 5081.9, 2354.85 5068.33, 2359.64 5062.74, 2362.85 5051.57, 2362.05 5042.78, 2360.44 5041.18, 2360.44 5040.39, 2360.44 5041.18, 2359.64 5041.98, 2359.64 5043.57, 2361.23 5051.57, 2361.23 5065.14, 2359.64 5079.51, 2359.64 5093.88, 2361.23 5109.07, 2363.64 5121.84, 2366.03 5130.62, 2368.44 5137.01, 2371.62 5141.8, 2370.83 5144.19
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

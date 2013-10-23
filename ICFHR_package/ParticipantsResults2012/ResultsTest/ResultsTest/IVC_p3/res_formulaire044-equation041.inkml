@@ -1,0 +1,135 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F044_E041</annotation>
+<annotation type="truth">f^{(-{c})}=\frac{1}{b-a}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="f_1">f</mi>
+				<mrow>
+					<mo xml:id="(_1">(</mo>
+					<mrow>
+						<mo xml:id="-_1">-</mo>
+						<mrow>
+							<mi xml:id="c_1">c</mi>
+							<mo xml:id=")_1">)</mo>
+						</mrow>
+					</mrow>
+				</mrow>
+			</msup>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mfrac xml:id="_1">
+					<mn xml:id="1_1">1</mn>
+					<mrow>
+						<mi xml:id="b_1">b</mi>
+						<mrow>
+							<mo xml:id="-_2">-</mo>
+							<mi xml:id="a_1">a</mi>
+						</mrow>
+					</mrow>
+				</mfrac>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+985.176 1894.05, 984.711 1892.65, 986.107 1894.52, 988.901 1894.52, 996.35 1895.91, 1007.52 1894.98, 1016.37 1891.25, 1024.29 1883.81, 1029.41 1874.95, 1030.34 1866.57, 1026.15 1856.8, 1017.3 1844.69, 1006.59 1838.18, 999.61 1838.65, 996.816 1845.15, 998.213 1860.05, 1004.73 1881.94, 1010.78 1908.95, 1013.11 1936.42, 1011.71 1959.69, 1009.39 1972.27, 1008.45 1977.85, 1008.45 1978.78, 1007.52 1975.05
+</trace>
+<trace id="1">
+1065.72 1871.23, 1064.33 1864.72, 1062.46 1860.53, 1059.2 1857.73, 1055.48 1857.73, 1050.36 1864.72, 1043.84 1875.89, 1040.11 1892.18, 1038.25 1908.95, 1039.65 1923.37, 1044.3 1934.55, 1048.5 1939.68, 1055.95 1942
+</trace>
+<trace id="2">
+1070.84 1901.02, 1069.45 1895.91, 1070.38 1893.58, 1072.71 1890.79, 1076.43 1889.85, 1081.09 1890.33, 1086.21 1894.05, 1088.07 1900.1, 1086.67 1907.08, 1082.48 1912.2, 1078.29 1915, 1076.43 1915.92
+</trace>
+<trace id="3">
+1102.5 1897.78, 1104.37 1895.44, 1103.9 1893.11, 1102.97 1892.65, 1099.71 1892.65, 1093.66 1894.52, 1088.54 1899.17, 1086.21 1905.23, 1087.14 1912.67, 1091.79 1917.79, 1098.78 1917.79, 1109.02 1915.92, 1118.8 1912.2, 1124.39 1907.08
+</trace>
+<trace id="4">
+1122.52 1853.08, 1125.32 1856.8, 1132.3 1870.3, 1136.96 1883.34, 1138.82 1895.44, 1140.22 1912.2, 1137.89 1924.78, 1131.83 1935.49, 1124.39 1944.79, 1118.8 1950.85
+</trace>
+<trace id="5">
+1181.19 1894.98, 1181.65 1893.58, 1183.52 1893.58, 1187.24 1893.58, 1193.29 1893.58, 1199.81 1894.98, 1205.87 1894.05
+</trace>
+<trace id="6">
+1184.91 1911.73, 1186.77 1911.73, 1190.49 1912.2, 1196.09 1910.34, 1203.54 1909.41, 1211.45 1909.41
+</trace>
+<trace id="7">
+1345.07 1838.65, 1346 1839.57, 1346 1842.83, 1348.8 1853.54, 1351.13 1863.31, 1353.45 1871.23, 1355.78 1878.68, 1357.64 1883.81, 1359.04 1889.39
+</trace>
+<trace id="8">
+1294.32 1918.72, 1295.26 1918.72, 1299.45 1920.12, 1308.29 1918.72, 1323.19 1916.4, 1342.74 1914.07, 1368.35 1915.92, 1393.49 1914.07, 1418.64 1914.53, 1440.52 1915.92, 1457.74 1915.92, 1467.99 1918.72, 1470.32 1920.59
+</trace>
+<trace id="9">
+1318.07 1937.34, 1317.13 1938.75, 1317.61 1942, 1319.46 1949.45, 1321.33 1958.3, 1321.33 1965.28, 1322.26 1970.4, 1323.19 1973.66, 1324.12 1973.2, 1326.91 1971.33, 1332.03 1968.07, 1339.02 1966.68, 1343.2 1969.01, 1345.07 1972.73, 1345.07 1977.85, 1342.74 1982.04, 1339.48 1986.69, 1333.9 1990.42, 1327.38 1992.75, 1321.33 1992.29, 1316.67 1989.02, 1315.74 1985.76
+</trace>
+<trace id="10">
+1366.49 1970.87, 1366.49 1970.4, 1367.42 1970.87, 1369.75 1970.87, 1374.87 1970.4, 1381.86 1968.54, 1389.31 1965.75, 1396.75 1963.42
+</trace>
+<trace id="11">
+1430.74 1962.02, 1432.13 1956.9, 1434 1952.71, 1435.39 1949.45, 1434.93 1948.05, 1433.07 1947.13, 1429.81 1948.05, 1425.62 1952.71, 1421.9 1960.16, 1420.03 1967.14, 1420.96 1975.05, 1424.22 1979.72, 1428.41 1981.58, 1432.6 1980.65, 1437.73 1977.39, 1439.12 1971.79, 1438.19 1964.82, 1436.32 1960.62, 1434.93 1959.23, 1435.39 1961.56, 1436.8 1966.21, 1440.99 1975.05, 1445.18 1980.65, 1452.16 1987.63
+</trace>
+<traceGroup xml:id="12">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="13">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="f_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="20">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="21">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+	<traceGroup xml:id="22">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="10"/>
+		<annotationXML href="-_2"/>
+	</traceGroup>
+	<traceGroup xml:id="23">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="11"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

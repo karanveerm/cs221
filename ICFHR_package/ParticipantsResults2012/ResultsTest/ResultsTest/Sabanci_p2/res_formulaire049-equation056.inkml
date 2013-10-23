@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_IVC_depart_F049_E056</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mi xml:id="0">e</mi>
+        <mrow>
+          <mo xml:id="18">=</mo>
+          <mrow>
+            <mfrac xml:id="19">
+              <mi xml:id="3">c</mi>
+              <mi xml:id="6">a</mi>
+            </mfrac>
+          </mrow>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="6">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="7">
+      <annotation type="truth">=</annotation>
+      <annotationXML href="18" />
+      <traceView traceDataRef="2" />
+      <traceView traceDataRef="1" />
+    </traceGroup>
+    <traceGroup xml:id="8">
+      <annotation type="truth">e</annotation>
+      <annotationXML href="0" />
+      <traceView traceDataRef="0" />
+    </traceGroup>
+    <traceGroup xml:id="9">
+      <annotation type="truth">-</annotation>
+      <annotationXML href="5" />
+      <traceView traceDataRef="4" />
+    </traceGroup>
+    <traceGroup xml:id="10">
+      <annotation type="truth">c</annotation>
+      <annotationXML href="3" />
+      <traceView traceDataRef="3" />
+    </traceGroup>
+    <traceGroup xml:id="11">
+      <annotation type="truth">a</annotation>
+      <annotationXML href="6" />
+      <traceView traceDataRef="5" />
+    </traceGroup>
+  </traceGroup>
+</ink>

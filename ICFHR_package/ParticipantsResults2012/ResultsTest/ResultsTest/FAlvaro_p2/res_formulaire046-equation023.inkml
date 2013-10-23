@@ -1,0 +1,36 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F046_E023</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<mfrac xml:id="-_8">
+<mrow>
+<mi xml:id="3_9">3</mi>
+<mi xml:id="n_10">n</mi>
+</mrow>
+<mi xml:id="7_12">7</mi>
+</mfrac>
+</math>
+</annotationXML>
+<traceGroup xml:id="7">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="8">
+  <annotation type="truth">3</annotation>
+  <traceView traceDataRef="0"/>
+  <annotationXML href="3_8"/></traceGroup>
+<traceGroup xml:id="9">
+  <annotation type="truth">n</annotation>
+  <traceView traceDataRef="1"/>
+  <traceView traceDataRef="2"/>
+  <traceView traceDataRef="3"/>
+  <annotationXML href="n_9"/></traceGroup>
+<traceGroup xml:id="10">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="4"/>
+  <annotationXML href="-_10"/></traceGroup>
+<traceGroup xml:id="11">
+  <annotation type="truth">7</annotation>
+  <traceView traceDataRef="5"/>
+  <traceView traceDataRef="6"/>
+  <annotationXML href="7_11"/></traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,49 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F056_E006</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mn xml:id="8_1000000000">8</mn><mrow><mo xml:id="(_0100000000">(</mo><mrow><mi xml:id="x_0011000000">x</mi><mrow><mo xml:id=")_0000100000">)</mo><mrow><mo xml:id="=_0000011000">=</mo><msup><mi xml:id="x_0000000110">x</mi><mi xml:id="n_0000000001">n</mi></msup></mrow></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg1000000000">
+<annotation type="truth">8</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="8_1000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0100000000">
+<annotation type="truth">(</annotation>
+<traceView traceDataRef="1"/>
+<annotationXML href="(_0100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0011000000">
+<annotation type="truth">x</annotation>
+<traceView traceDataRef="2"/>
+<traceView traceDataRef="3"/>
+<annotationXML href="x_0011000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000100000">
+<annotation type="truth">)</annotation>
+<traceView traceDataRef="4"/>
+<annotationXML href=")_0000100000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000011000">
+<annotation type="truth">=</annotation>
+<traceView traceDataRef="5"/>
+<traceView traceDataRef="6"/>
+<annotationXML href="=_0000011000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000110">
+<annotation type="truth">x</annotation>
+<traceView traceDataRef="7"/>
+<traceView traceDataRef="8"/>
+<annotationXML href="x_0000000110"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000001">
+<annotation type="truth">n</annotation>
+<traceView traceDataRef="9"/>
+<annotationXML href="n_0000000001"/>
+</traceGroup>
+</traceGroup>
+</ink>

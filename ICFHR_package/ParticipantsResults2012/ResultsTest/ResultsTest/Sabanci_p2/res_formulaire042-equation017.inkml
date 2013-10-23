@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_IVC_depart_F042_E017</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <munderover>
+          <mo xml:id="0">\sum</mo>
+          <mo xml:id="32">=</mo>
+          <mi xml:id="9">\infty</mi>
+        </munderover>
+        <msub>
+          <mi xml:id="13">x</mi>
+          <mn xml:id="14">2</mn>
+        </msub>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="13">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="14">
+      <annotation type="truth">\sum</annotation>
+      <annotationXML href="0" />
+      <traceView traceDataRef="0" />
+    </traceGroup>
+    <traceGroup xml:id="15">
+      <annotation type="truth">x</annotation>
+      <annotationXML href="13" />
+      <traceView traceDataRef="8" />
+      <traceView traceDataRef="9" />
+    </traceGroup>
+    <traceGroup xml:id="16">
+      <annotation type="truth">2</annotation>
+      <annotationXML href="14" />
+      <traceView traceDataRef="10" />
+    </traceGroup>
+    <traceGroup xml:id="17">
+      <annotation type="truth">\infty</annotation>
+      <annotationXML href="9" />
+      <traceView traceDataRef="7" />
+    </traceGroup>
+    <traceGroup xml:id="18">
+      <annotation type="truth">=</annotation>
+      <annotationXML href="32" />
+      <traceView traceDataRef="4" />
+      <traceView traceDataRef="5" />
+    </traceGroup>
+  </traceGroup>
+</ink>

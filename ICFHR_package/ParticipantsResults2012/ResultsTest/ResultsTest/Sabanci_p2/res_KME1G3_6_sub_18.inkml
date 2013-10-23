@@ -1,0 +1,109 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_KME1_w6_e18</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <msup>
+          <mi xml:id="6">k</mi>
+          <mi xml:id="50">i</mi>
+        </msup>
+        <mrow>
+          <msub>
+            <mi xml:id="4">n</mi>
+            <mi xml:id="9">\infty</mi>
+          </msub>
+          <mrow>
+            <msup>
+              <mo xml:id="10">(</mo>
+              <mrow>
+                <mn xml:id="11">1</mn>
+                <mrow>
+                  <mo xml:id="14">+</mo>
+                  <mrow>
+                    <mn xml:id="19">1</mn>
+                    <mrow>
+                      <mo xml:id="21">)</mo>
+                      <mi xml:id="23">k</mi>
+                    </mrow>
+                  </mrow>
+                </mrow>
+              </mrow>
+            </msup>
+            <mrow>
+              <mo xml:id="56">=</mo>
+              <mi xml:id="27">e</mi>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="23">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="24">
+      <annotation type="truth">=</annotation>
+      <annotationXML href="56" />
+      <traceView traceDataRef="21" />
+      <traceView traceDataRef="20" />
+    </traceGroup>
+    <traceGroup xml:id="25">
+      <annotation type="truth">k</annotation>
+      <annotationXML href="6" />
+      <traceView traceDataRef="4" />
+      <traceView traceDataRef="5" />
+    </traceGroup>
+    <traceGroup xml:id="26">
+      <annotation type="truth">i</annotation>
+      <annotationXML href="50" />
+      <traceView traceDataRef="1" />
+      <traceView traceDataRef="2" />
+    </traceGroup>
+    <traceGroup xml:id="27">
+      <annotation type="truth">n</annotation>
+      <annotationXML href="4" />
+      <traceView traceDataRef="3" />
+    </traceGroup>
+    <traceGroup xml:id="28">
+      <annotation type="truth">\infty</annotation>
+      <annotationXML href="9" />
+      <traceView traceDataRef="8" />
+    </traceGroup>
+    <traceGroup xml:id="29">
+      <annotation type="truth">+</annotation>
+      <annotationXML href="14" />
+      <traceView traceDataRef="11" />
+      <traceView traceDataRef="12" />
+    </traceGroup>
+    <traceGroup xml:id="30">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="11" />
+      <traceView traceDataRef="10" />
+    </traceGroup>
+    <traceGroup xml:id="31">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="19" />
+      <traceView traceDataRef="16" />
+    </traceGroup>
+    <traceGroup xml:id="32">
+      <annotation type="truth">(</annotation>
+      <annotationXML href="10" />
+      <traceView traceDataRef="9" />
+    </traceGroup>
+    <traceGroup xml:id="33">
+      <annotation type="truth">)</annotation>
+      <annotationXML href="21" />
+      <traceView traceDataRef="17" />
+    </traceGroup>
+    <traceGroup xml:id="34">
+      <annotation type="truth">k</annotation>
+      <annotationXML href="23" />
+      <traceView traceDataRef="18" />
+      <traceView traceDataRef="19" />
+    </traceGroup>
+    <traceGroup xml:id="35">
+      <annotation type="truth">e</annotation>
+      <annotationXML href="27" />
+      <traceView traceDataRef="22" />
+    </traceGroup>
+  </traceGroup>
+</ink>

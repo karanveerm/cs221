@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F051_E068</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><msub><mi xml:id="k_100000000000">k</mi><mi xml:id="y_010000000000">y</mi></msub><mrow><mo xml:id="=_001100000000">=</mo><mrow><msubsup><mi xml:id="k_000010000000">k</mi><mn xml:id="2_000001000000">2</mn><mi xml:id="e_000000100000">e</mi></msubsup><mrow><munderover><mi xml:id="k_000010000000">k</mi><mn xml:id="2_000001000000">2</mn><mi xml:id="e_000000100000">e</mi></munderover><mrow><mi xml:id="\theta_000000010000">\theta</mi><mrow><mi xml:id="\sin_000000001100">\sin</mi><mi xml:id="d_000000000011">d</mi></mrow></mrow></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg100000000000">
+<annotation type="truth">k</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="k_100000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg010000000000">
+<annotation type="truth">y</annotation>
+<traceView traceDataRef="1"/>
+<annotationXML href="y_010000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg001100000000">
+<annotation type="truth">=</annotation>
+<traceView traceDataRef="2"/>
+<traceView traceDataRef="3"/>
+<annotationXML href="=_001100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000010000000">
+<annotation type="truth">k</annotation>
+<traceView traceDataRef="4"/>
+<annotationXML href="k_000010000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000001000000">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="5"/>
+<annotationXML href="2_000001000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000100000">
+<annotation type="truth">e</annotation>
+<traceView traceDataRef="6"/>
+<annotationXML href="e_000000100000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000010000">
+<annotation type="truth">\theta</annotation>
+<traceView traceDataRef="7"/>
+<annotationXML href="\theta_000000010000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000001100">
+<annotation type="truth">\sin</annotation>
+<traceView traceDataRef="8"/>
+<traceView traceDataRef="9"/>
+<annotationXML href="\sin_000000001100"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000011">
+<annotation type="truth">d</annotation>
+<traceView traceDataRef="10"/>
+<traceView traceDataRef="11"/>
+<annotationXML href="d_000000000011"/>
+</traceGroup>
+</traceGroup>
+</ink>

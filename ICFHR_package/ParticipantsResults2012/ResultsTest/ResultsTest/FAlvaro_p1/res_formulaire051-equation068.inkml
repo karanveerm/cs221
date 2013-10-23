@@ -1,0 +1,68 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F051_E068</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<mrow>
+<msub>
+<mi xml:id="b_13">b</mi>
+<mi xml:id="9_14">9</mi>
+</msub>
+<mrow>
+<mi xml:id="=_15">=</mi>
+<mrow>
+<mi xml:id="b_16">b</mi>
+<mrow>
+<mi xml:id="\sin_17">\sin</mi>
+<mrow>
+<mi xml:id="0_18">0</mi>
+<mrow>
+<mi xml:id="\sin_19">\sin</mi>
+<mi xml:id="\phi_20">\phi</mi>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="12">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="13">
+  <annotation type="truth">b</annotation>
+  <traceView traceDataRef="0"/>
+  <annotationXML href="b_13"/></traceGroup>
+<traceGroup xml:id="14">
+  <annotation type="truth">9</annotation>
+  <traceView traceDataRef="1"/>
+  <annotationXML href="9_14"/></traceGroup>
+<traceGroup xml:id="15">
+  <annotation type="truth">=</annotation>
+  <traceView traceDataRef="2"/>
+  <traceView traceDataRef="3"/>
+  <annotationXML href="=_15"/></traceGroup>
+<traceGroup xml:id="16">
+  <annotation type="truth">b</annotation>
+  <traceView traceDataRef="4"/>
+  <annotationXML href="b_16"/></traceGroup>
+<traceGroup xml:id="17">
+  <annotation type="truth">\sin</annotation>
+  <traceView traceDataRef="5"/>
+  <traceView traceDataRef="6"/>
+  <annotationXML href="\sin_17"/></traceGroup>
+<traceGroup xml:id="18">
+  <annotation type="truth">0</annotation>
+  <traceView traceDataRef="7"/>
+  <annotationXML href="0_18"/></traceGroup>
+<traceGroup xml:id="19">
+  <annotation type="truth">\sin</annotation>
+  <traceView traceDataRef="8"/>
+  <traceView traceDataRef="9"/>
+  <annotationXML href="\sin_19"/></traceGroup>
+<traceGroup xml:id="20">
+  <annotation type="truth">\phi</annotation>
+  <traceView traceDataRef="10"/>
+  <traceView traceDataRef="11"/>
+  <annotationXML href="\phi_20"/></traceGroup>
+</traceGroup>
+</ink>

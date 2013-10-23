@@ -1,0 +1,46 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI"></annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mi xml:id="\cos_11100000000">\cos</mi><mrow><mo xml:id="(_00010000000">(</mo><mrow><mi xml:id="A_00001100000">A</mi><mrow><mo xml:id="+_00000011000">+</mo><mrow><mi xml:id="B_00000000110">B</mi><mo xml:id=")_00000000001">)</mo></mrow></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg11100000000">
+<annotation type="truth">\cos</annotation>
+<traceView traceDataRef="0"/>
+<traceView traceDataRef="1"/>
+<traceView traceDataRef="2"/>
+<annotationXML href="\cos_11100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00010000000">
+<annotation type="truth">(</annotation>
+<traceView traceDataRef="3"/>
+<annotationXML href="(_00010000000"/>
+</traceGroup>
+<traceGroup xml:id="seg00001100000">
+<annotation type="truth">A</annotation>
+<traceView traceDataRef="4"/>
+<traceView traceDataRef="5"/>
+<annotationXML href="A_00001100000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000011000">
+<annotation type="truth">+</annotation>
+<traceView traceDataRef="6"/>
+<traceView traceDataRef="7"/>
+<annotationXML href="+_00000011000"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000110">
+<annotation type="truth">B</annotation>
+<traceView traceDataRef="8"/>
+<traceView traceDataRef="9"/>
+<annotationXML href="B_00000000110"/>
+</traceGroup>
+<traceGroup xml:id="seg00000000001">
+<annotation type="truth">)</annotation>
+<traceView traceDataRef="10"/>
+<annotationXML href=")_00000000001"/>
+</traceGroup>
+</traceGroup>
+</ink>

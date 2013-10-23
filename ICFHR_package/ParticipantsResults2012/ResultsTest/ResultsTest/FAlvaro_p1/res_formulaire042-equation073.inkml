@@ -1,0 +1,69 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F042_E073</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<mrow>
+<mi xml:id="e_13">e</mi>
+<mrow>
+<mi xml:id="=_14">=</mi>
+<mrow>
+<mi xml:id="-_15">-</mi>
+<mrow>
+<mi xml:id="1_16">1</mi>
+<mrow>
+<mi xml:id="x_17">x</mi>
+<mfrac xml:id="-_18">
+<mi xml:id="2_19">2</mi>
+<msqrt xml:id="sqrt_21">
+<mi xml:id="3_22">3</mi>
+</msqrt>
+</mfrac>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="12">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="13">
+  <annotation type="truth">e</annotation>
+  <traceView traceDataRef="0"/>
+  <annotationXML href="e_13"/></traceGroup>
+<traceGroup xml:id="14">
+  <annotation type="truth">=</annotation>
+  <traceView traceDataRef="1"/>
+  <traceView traceDataRef="2"/>
+  <annotationXML href="=_14"/></traceGroup>
+<traceGroup xml:id="15">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="3"/>
+  <annotationXML href="-_15"/></traceGroup>
+<traceGroup xml:id="16">
+  <annotation type="truth">1</annotation>
+  <traceView traceDataRef="5"/>
+  <annotationXML href="1_16"/></traceGroup>
+<traceGroup xml:id="17">
+  <annotation type="truth">x</annotation>
+  <traceView traceDataRef="6"/>
+  <traceView traceDataRef="7"/>
+  <annotationXML href="x_17"/></traceGroup>
+<traceGroup xml:id="18">
+  <annotation type="truth">2</annotation>
+  <traceView traceDataRef="8"/>
+  <annotationXML href="2_18"/></traceGroup>
+<traceGroup xml:id="19">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="9"/>
+  <annotationXML href="-_19"/></traceGroup>
+<traceGroup xml:id="20">
+  <annotation type="truth">\sqrt</annotation>
+  <traceView traceDataRef="10"/>
+  <annotationXML href="\sqrt_20"/></traceGroup>
+<traceGroup xml:id="21">
+  <annotation type="truth">3</annotation>
+  <traceView traceDataRef="11"/>
+  <annotationXML href="3_21"/></traceGroup>
+</traceGroup>
+</ink>

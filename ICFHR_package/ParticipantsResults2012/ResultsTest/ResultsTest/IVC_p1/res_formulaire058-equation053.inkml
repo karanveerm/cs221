@@ -1,0 +1,58 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F058_E053</annotation>
+<annotation type="truth">\pi_1{n}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msub>
+				<mo xml:id="\pi_1">\pi</mo>
+				<mn xml:id="1_1">1</mn>
+			</msub>
+			<mi xml:id="n_1">n</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1408.08 3322.43, 1408.08 3322.95, 1408.08 3326.07, 1406.52 3332.33, 1406 3344.84, 1405.48 3356.83, 1405.48 3365.17, 1406 3371.42, 1407.04 3373.51, 1407.56 3371.94, 1409.65 3366.21
+</trace>
+<trace id="1">
+1420.07 3323.47, 1421.12 3323.99, 1422.16 3326.6, 1424.24 3332.85, 1426.33 3342.75, 1427.89 3352.14, 1429.98 3361.52, 1430.5 3366.21, 1431.02 3369.34, 1429.98 3369.86, 1427.89 3368.82
+</trace>
+<trace id="2">
+1377.32 3349.01, 1374.19 3345.88, 1371.07 3342.23, 1370.54 3337.02, 1371.59 3331.29, 1374.19 3327.64, 1378.88 3325.55, 1386.7 3323.47, 1397.66 3322.95, 1412.25 3323.99, 1424.76 3323.99, 1435.19 3321.38, 1445.61 3317.73, 1450.83 3314.09, 1453.95 3312
+</trace>
+<trace id="3">
+1506.09 3307.31, 1506.61 3305.75, 1506.09 3305.21, 1505.05 3305.75, 1503.48 3307.82, 1499.83 3312, 1495.14 3322.95, 1492.54 3339.63, 1491.49 3355.26, 1493.58 3366.73, 1498.79 3375.07, 1507.13 3380.28
+</trace>
+<trace id="4">
+1539.98 3333.89, 1539.46 3332.33, 1538.94 3333.89, 1538.42 3336.5, 1538.42 3343.28, 1538.94 3352.14, 1539.46 3357.87, 1539.98 3361.52, 1539.98 3362.04, 1539.98 3361.52, 1539.98 3359.96, 1538.94 3354.22, 1539.46 3346.4, 1540.5 3339.63, 1542.07 3338.06, 1543.63 3339.63, 1547.28 3344.84, 1553.01 3352.14, 1561.87 3358.91, 1568.65 3361, 1573.86 3360.48, 1577.51 3357.35, 1580.12 3352.66, 1580.64 3346.4, 1578.03 3338.58, 1574.9 3333.89, 1571.26 3330.77
+</trace>
+<trace id="5">
+1593.15 3293.75, 1592.63 3290.62, 1593.15 3288.53, 1594.71 3289.06, 1599.92 3293.23, 1609.32 3304.17, 1620.26 3321.38, 1628.6 3339.11, 1630.17 3354.74, 1626 3368.82, 1614.53 3381.86
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="\pi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

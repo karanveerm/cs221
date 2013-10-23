@@ -1,0 +1,53 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F041_E026</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mo xml:id="-_1000000000">-</mo><mrow><mo xml:id="(_0000001000">(</mo><mrow><mn xml:id="2_0100000000">2</mn><mrow><mi xml:id="\alpha_0010000000">\alpha</mi><mrow><mo xml:id="+_0001100000">+</mo><mrow><mn xml:id="1_0000010000">1</mn><mrow><mo xml:id=")_0000000100">)</mo><mi xml:id="x_0000000011">x</mi></mrow></mrow></mrow></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg1000000000">
+<annotation type="truth">-</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="-_1000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000001000">
+<annotation type="truth">(</annotation>
+<traceView traceDataRef="6"/>
+<annotationXML href="(_0000001000"/>
+</traceGroup>
+<traceGroup xml:id="seg0100000000">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="1"/>
+<annotationXML href="2_0100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0010000000">
+<annotation type="truth">\alpha</annotation>
+<traceView traceDataRef="2"/>
+<annotationXML href="\alpha_0010000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0001100000">
+<annotation type="truth">+</annotation>
+<traceView traceDataRef="3"/>
+<traceView traceDataRef="4"/>
+<annotationXML href="+_0001100000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000010000">
+<annotation type="truth">1</annotation>
+<traceView traceDataRef="5"/>
+<annotationXML href="1_0000010000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000100">
+<annotation type="truth">)</annotation>
+<traceView traceDataRef="7"/>
+<annotationXML href=")_0000000100"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000011">
+<annotation type="truth">x</annotation>
+<traceView traceDataRef="8"/>
+<traceView traceDataRef="9"/>
+<annotationXML href="x_0000000011"/>
+</traceGroup>
+</traceGroup>
+</ink>

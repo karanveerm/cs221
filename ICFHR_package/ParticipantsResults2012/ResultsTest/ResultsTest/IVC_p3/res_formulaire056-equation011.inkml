@@ -1,0 +1,77 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F056_E011</annotation>
+<annotation type="truth">x\neq\pm{i}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="x_1">x</mi>
+			<mrow>
+				<mo xml:id="\neq_1">\neq</mo>
+				<mrow>
+					<mo xml:id="\pm_1">\pm</mo>
+					<mi xml:id="i_1">i</mi>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2073.82 3657.4, 2074.72 3657.4, 2074.72 3656.5, 2076.52 3653.81, 2079.22 3651.99, 2084.62 3651.1, 2093.62 3654.71, 2101.71 3665.49, 2105.31 3676.3, 2102.61 3688.9, 2099.01 3701.48, 2090.02 3710.49, 2081.02 3714.08, 2072.02 3708.68, 2067.52 3700.58, 2072.92 3692.49, 2086.42 3682.6, 2100.81 3671.79, 2109.81 3663.7, 2111.61 3658.3, 2111.61 3656.5, 2110.71 3657.4, 2106.21 3664.6, 2101.71 3677.2, 2101.71 3691.59, 2104.41 3706.89, 2111.61 3714.98, 2120.61 3717.69, 2132.3 3718.59, 2148.5 3714.08
+</trace>
+<trace id="1">
+2340.14 3678.99, 2339.24 3678.99, 2335.63 3679.89, 2325.74 3681.7, 2309.55 3685.29, 2288.86 3690.7, 2272.67 3694.28, 2263.65 3695.18
+</trace>
+<trace id="2">
+2338.34 3723.97, 2337.45 3728.48, 2332.04 3731.17, 2322.13 3730.27, 2307.74 3730.27, 2290.65 3729.37, 2278.05 3724.89
+</trace>
+<trace id="3">
+2330.25 3661.01, 2330.25 3667.31, 2327.53 3681.7, 2320.34 3700.58, 2314.93 3728.48, 2309.55 3750.07, 2305.05 3763.57, 2300.54 3767.16, 2296.95 3765.36
+</trace>
+<trace id="4">
+2586.65 3603.43, 2587.55 3607.01, 2588.44 3616.93, 2588.44 3630.4, 2587.55 3645.72, 2587.55 3655.6, 2587.55 3665.49, 2587.55 3667.31, 2588.44 3667.31, 2590.26 3664.6
+</trace>
+<trace id="5">
+2616.34 3645.72, 2612.75 3646.61, 2605.55 3645.72, 2596.56 3644.8, 2584.86 3648.41, 2576.76 3648.41, 2569.56 3651.1, 2565.06 3652.91, 2564.16 3652.91
+</trace>
+<trace id="6">
+2638.83 3703.3, 2632.55 3702.38, 2619.95 3703.3, 2601.94 3702.38, 2582.17 3705.09, 2565.95 3706.89, 2556.07 3705.09, 2551.56 3702.38, 2551.56 3701.48
+</trace>
+<trace id="7">
+2719.82 3702.38, 2721.61 3700.58, 2725.2 3699.69, 2729.71 3691.59, 2735.11 3682.6, 2738.7 3675.4, 2741.41 3670.9, 2742.31 3672.69, 2743.21 3675.4, 2745 3685.29, 2749.51 3696.1, 2754.91 3706.89, 2757.6 3710.49
+</trace>
+<trace id="8">
+2745 3631.32, 2747.71 3623.2, 2750.4 3618.72, 2753.99 3619.62
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\neq</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\neq_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">\pm</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="\pm_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="i_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

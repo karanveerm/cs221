@@ -1,0 +1,43 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F056_E071</annotation>
+<annotation type="truth">\frac{5}{6}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mn xml:id="5_1">5</mn>
+			<mn xml:id="6_1">6</mn>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+1587 2098.21, 1587.54 2096.03, 1588.08 2094.39, 1587.54 2092.21, 1586.45 2090.58, 1583.72 2089.47, 1576.62 2087.84, 1568.43 2090.02, 1560.78 2092.75, 1556.41 2097.67, 1556.41 2099.86, 1558.6 2103.12, 1561.33 2104.23, 1565.7 2106.95, 1570.06 2106.4, 1576.08 2108.59, 1581.54 2112.42, 1584.82 2118.97, 1584.82 2122.25, 1583.17 2124.42, 1576.08 2125.53, 1567.89 2124.42, 1560.78 2122.25, 1554.24 2120.6, 1552.04 2118.97
+</trace>
+<trace id="1">
+1609.38 2139.18, 1607.75 2139.18, 1604.47 2139.72, 1594.64 2139.72, 1578.8 2140.81, 1559.69 2140.27, 1540.57 2140.81, 1528.57 2138.63, 1523.65 2137.53, 1522.01 2136.44, 1523.65 2136.44
+</trace>
+<trace id="2">
+1565.7 2177.95, 1567.89 2175.76, 1568.98 2174.13, 1567.89 2170.3, 1565.15 2168.11, 1561.33 2166.48, 1553.68 2166.48, 1545.5 2169.76, 1536.76 2177.4, 1526.92 2188.32, 1525.29 2202.52, 1532.94 2213.45, 1544.94 2220.54, 1555.32 2221.64, 1561.33 2218.91, 1563.52 2213.99, 1561.33 2206.89, 1553.68 2199.8, 1542.76 2196.52, 1529.66 2192.69
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">5</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="5_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">6</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="6_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

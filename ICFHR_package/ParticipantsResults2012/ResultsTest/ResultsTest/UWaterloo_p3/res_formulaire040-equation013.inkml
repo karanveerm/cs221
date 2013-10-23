@@ -1,0 +1,60 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F040_E013</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mi xml:id="n_1000000000000">n</mi><mrow><mo xml:id="=_0110000000000">=</mo><mrow><munderover><mi xml:id="\sum_0001000000000">\sum</mi><mrow><mi xml:id="i_0000110000000">i</mi><mrow><mo xml:id="=_0000001100000">=</mo><mn xml:id="2_0000000010000">2</mn></mrow></mrow><mi xml:id="n_0000000000001">n</mi></munderover><mrow><mi xml:id="n_0000000001000">n</mi><mo xml:id="!_0000000000110">!</mo></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg1000000000000">
+<annotation type="truth">n</annotation>
+<traceView traceDataRef="0"/>
+<annotationXML href="n_1000000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0110000000000">
+<annotation type="truth">=</annotation>
+<traceView traceDataRef="1"/>
+<traceView traceDataRef="2"/>
+<annotationXML href="=_0110000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0001000000000">
+<annotation type="truth">\sum</annotation>
+<traceView traceDataRef="3"/>
+<annotationXML href="\sum_0001000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000110000000">
+<annotation type="truth">i</annotation>
+<traceView traceDataRef="4"/>
+<traceView traceDataRef="5"/>
+<annotationXML href="i_0000110000000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000001100000">
+<annotation type="truth">=</annotation>
+<traceView traceDataRef="6"/>
+<traceView traceDataRef="7"/>
+<annotationXML href="=_0000001100000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000010000">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="8"/>
+<annotationXML href="2_0000000010000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000000001">
+<annotation type="truth">n</annotation>
+<traceView traceDataRef="12"/>
+<annotationXML href="n_0000000000001"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000001000">
+<annotation type="truth">n</annotation>
+<traceView traceDataRef="9"/>
+<annotationXML href="n_0000000001000"/>
+</traceGroup>
+<traceGroup xml:id="seg0000000000110">
+<annotation type="truth">!</annotation>
+<traceView traceDataRef="10"/>
+<traceView traceDataRef="11"/>
+<annotationXML href="!_0000000000110"/>
+</traceGroup>
+</traceGroup>
+</ink>

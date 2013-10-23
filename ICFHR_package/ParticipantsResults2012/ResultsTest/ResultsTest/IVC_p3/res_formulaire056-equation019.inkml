@@ -1,0 +1,69 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F056_E019</annotation>
+<annotation type="truth">\frac{c}{p+a}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mi xml:id="c_1">c</mi>
+			<mrow>
+				<mi xml:id="p_1">p</mi>
+				<mrow>
+					<mo xml:id="+_1">+</mo>
+					<mi xml:id="a_1">a</mi>
+				</mrow>
+			</mrow>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+1161.39 3153.82, 1160.97 3151.74, 1159.73 3149.25, 1158.49 3148.42, 1156.41 3148.83, 1153.92 3150.08, 1151.43 3154.65, 1149.35 3160.46, 1149.77 3165.85, 1150.6 3167.51, 1153.09 3168.34, 1156.41 3167.51, 1159.73 3165.43, 1162.22 3163.78, 1164.29 3162.53, 1165.54 3162.11, 1167.61 3163.37, 1170.11 3164.19, 1173.43 3165.85, 1178.83 3166.26, 1185.05 3167.51
+</trace>
+<trace id="1">
+1270.14 3197.4, 1270.55 3195.73, 1270.98 3194.91, 1270.55 3195.32, 1270.14 3196.15, 1268.48 3196.99, 1265.16 3197.81, 1257.27 3198.23, 1241.5 3200.31, 1218.26 3201.55, 1187.54 3199.47, 1151.01 3199.05, 1110.33 3199.05, 1075.06 3202.79, 1048.07 3209.02, 1032.3 3209.02, 1026.08 3211.51, 1024.83 3211.1, 1025.24 3210.27, 1026.49 3208.19
+</trace>
+<trace id="2">
+1062.6 3228.11, 1064.26 3231.02, 1065.92 3236, 1066.34 3243.89, 1066.75 3254.68, 1067.17 3265.05, 1067.58 3272.52, 1066.34 3276.68, 1065.92 3277.51, 1065.51 3275.02, 1064.67 3268.79, 1064.26 3260.08, 1065.51 3251.36, 1067.99 3244.72, 1071.31 3239.32, 1075.47 3236, 1080.86 3236, 1085.43 3237.25, 1087.92 3240.98, 1088.34 3245.13, 1086.68 3250.53, 1082.53 3255.51, 1076.71 3258.41
+</trace>
+<trace id="3">
+1109.09 3230.19, 1110.33 3231.43, 1112.41 3233.51, 1112.83 3237.25, 1112.41 3242.22, 1111.16 3248.45, 1108.26 3253.85, 1106.19 3255.09
+</trace>
+<trace id="4">
+1114.07 3236.42, 1113.24 3236.42, 1112.41 3236.83, 1110.33 3237.66, 1106.6 3240.15, 1101.62 3240.98, 1097.88 3240.98
+</trace>
+<trace id="5">
+1149.35 3229.78, 1148.53 3229.35, 1147.27 3228.11, 1145.21 3226.03, 1143.13 3224.38, 1140.63 3223.55, 1138.98 3224.38, 1137.73 3226.87, 1135.66 3231.85, 1134.41 3237.66, 1133.99 3243.89, 1134.41 3247.62, 1135.66 3249.28, 1136.9 3249.28, 1138.15 3245.96, 1140.22 3242.64, 1142.3 3239.74, 1143.95 3238.07, 1145.62 3237.66, 1148.11 3237.25, 1151.43 3237.25, 1156.41 3235.58
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">p</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="p_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

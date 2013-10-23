@@ -1,0 +1,98 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_KME1_w1_e16</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<mrow>
+<mi xml:id="\cos_22">\cos</mi>
+<mrow>
+<mi xml:id="(_23">(</mi>
+<mrow>
+<mfrac xml:id="-_24">
+<mi xml:id="\pi_25">\pi</mi>
+<mi xml:id="2_27">2</mi>
+</mfrac>
+<mrow>
+<mi xml:id="+_28">+</mi>
+<mrow>
+<mi xml:id="\alpha_29">\alpha</mi>
+<mrow>
+<mi xml:id=")_30">)</mi>
+<mrow>
+<mi xml:id="=_31">=</mi>
+<mrow>
+<mi xml:id="-_32">-</mi>
+<mrow>
+<mi xml:id="\sin_33">\sin</mi>
+<mi xml:id="\alpha_34">\alpha</mi>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="21">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="22">
+  <annotation type="truth">\cos</annotation>
+  <traceView traceDataRef="0"/>
+  <traceView traceDataRef="1"/>
+  <traceView traceDataRef="2"/>
+  <annotationXML href="\cos_22"/></traceGroup>
+<traceGroup xml:id="23">
+  <annotation type="truth">(</annotation>
+  <traceView traceDataRef="3"/>
+  <annotationXML href="(_23"/></traceGroup>
+<traceGroup xml:id="24">
+  <annotation type="truth">\pi</annotation>
+  <traceView traceDataRef="6"/>
+  <traceView traceDataRef="7"/>
+  <traceView traceDataRef="8"/>
+  <annotationXML href="\pi_24"/></traceGroup>
+<traceGroup xml:id="25">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="4"/>
+  <annotationXML href="-_25"/></traceGroup>
+<traceGroup xml:id="26">
+  <annotation type="truth">2</annotation>
+  <traceView traceDataRef="5"/>
+  <annotationXML href="2_26"/></traceGroup>
+<traceGroup xml:id="27">
+  <annotation type="truth">+</annotation>
+  <traceView traceDataRef="9"/>
+  <traceView traceDataRef="10"/>
+  <annotationXML href="+_27"/></traceGroup>
+<traceGroup xml:id="28">
+  <annotation type="truth">\alpha</annotation>
+  <traceView traceDataRef="11"/>
+  <annotationXML href="\alpha_28"/></traceGroup>
+<traceGroup xml:id="29">
+  <annotation type="truth">)</annotation>
+  <traceView traceDataRef="12"/>
+  <annotationXML href=")_29"/></traceGroup>
+<traceGroup xml:id="30">
+  <annotation type="truth">=</annotation>
+  <traceView traceDataRef="13"/>
+  <traceView traceDataRef="14"/>
+  <annotationXML href="=_30"/></traceGroup>
+<traceGroup xml:id="31">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="15"/>
+  <annotationXML href="-_31"/></traceGroup>
+<traceGroup xml:id="32">
+  <annotation type="truth">\sin</annotation>
+  <traceView traceDataRef="16"/>
+  <traceView traceDataRef="17"/>
+  <traceView traceDataRef="18"/>
+  <traceView traceDataRef="19"/>
+  <annotationXML href="\sin_32"/></traceGroup>
+<traceGroup xml:id="33">
+  <annotation type="truth">\alpha</annotation>
+  <traceView traceDataRef="20"/>
+  <annotationXML href="\alpha_33"/></traceGroup>
+</traceGroup>
+</ink>

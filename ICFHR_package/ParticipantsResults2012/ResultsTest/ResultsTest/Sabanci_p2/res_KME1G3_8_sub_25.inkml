@@ -1,0 +1,68 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_KME1_w8_e25</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mrow>
+          <mi xml:id="17">e</mi>
+          <mi xml:id="70">x</mi>
+        </mrow>
+        <mrow>
+          <mo xml:id="21">+</mo>
+          <msub>
+            <mrow>
+              <mi xml:id="66">x</mi>
+              <msub>
+                <mn xml:id="26">1</mn>
+                <mn xml:id="29">2</mn>
+              </msub>
+            </mrow>
+            <mi xml:id="77">x</mi>
+          </msub>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="26">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="27">
+      <annotation type="truth">+</annotation>
+      <annotationXML href="21" />
+      <traceView traceDataRef="17" />
+      <traceView traceDataRef="18" />
+    </traceGroup>
+    <traceGroup xml:id="28">
+      <annotation type="truth">e</annotation>
+      <annotationXML href="17" />
+      <traceView traceDataRef="14" />
+    </traceGroup>
+    <traceGroup xml:id="29">
+      <annotation type="truth">x</annotation>
+      <annotationXML href="70" />
+      <traceView traceDataRef="15" />
+      <traceView traceDataRef="16" />
+    </traceGroup>
+    <traceGroup xml:id="30">
+      <annotation type="truth">x</annotation>
+      <annotationXML href="66" />
+      <traceView traceDataRef="19" />
+      <traceView traceDataRef="20" />
+    </traceGroup>
+    <traceGroup xml:id="31">
+      <annotation type="truth">1</annotation>
+      <annotationXML href="26" />
+      <traceView traceDataRef="22" />
+    </traceGroup>
+    <traceGroup xml:id="32">
+      <annotation type="truth">2</annotation>
+      <annotationXML href="29" />
+      <traceView traceDataRef="23" />
+    </traceGroup>
+    <traceGroup xml:id="33">
+      <annotation type="truth">x</annotation>
+      <annotationXML href="77" />
+      <traceView traceDataRef="24" />
+      <traceView traceDataRef="25" />
+    </traceGroup>
+  </traceGroup>
+</ink>

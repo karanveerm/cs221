@@ -1,0 +1,33 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_IVC_depart_F041_E001</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mn xml:id="1">2</mn>
+        <mrow>
+          <mo xml:id="11">=</mo>
+          <mn xml:id="4">4</mn>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="4">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="5">
+      <annotation type="truth">=</annotation>
+      <annotationXML href="11" />
+      <traceView traceDataRef="2" />
+      <traceView traceDataRef="1" />
+    </traceGroup>
+    <traceGroup xml:id="6">
+      <annotation type="truth">2</annotation>
+      <annotationXML href="1" />
+      <traceView traceDataRef="0" />
+    </traceGroup>
+    <traceGroup xml:id="7">
+      <annotation type="truth">4</annotation>
+      <annotationXML href="4" />
+      <traceView traceDataRef="3" />
+    </traceGroup>
+  </traceGroup>
+</ink>

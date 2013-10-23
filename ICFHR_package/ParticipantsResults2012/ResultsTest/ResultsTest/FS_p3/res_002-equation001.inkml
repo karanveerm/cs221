@@ -1,0 +1,66 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2012_IVC_CROHME_F02_E001</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
+<msub>
+
+<mi xml:id="\gamma_1">\gamma</mi>
+
+<mn xml:id="0_1">0</mn>
+
+</msub>
+<mrow>
+<mi xml:id="y_1">y</mi>
+<mrow>
+<mi xml:id="\gamma_2">\gamma</mi>
+<mrow>
+<mi xml:id="y_2">y</mi>
+
+<mn xml:id="0_2">0</mn></mrow></mrow></mrow></mrow></math>
+  </annotationXML>
+  <traceGroup xml:id="1">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="2">
+      <annotation type="truth">\gamma</annotation>
+      <annotationXML href="\gamma_1">
+      </annotationXML>
+      <traceView traceDataRef="0">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="3">
+      <annotation type="truth">y</annotation>
+      <annotationXML href="y_1">
+      </annotationXML>
+      <traceView traceDataRef="1">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="4">
+      <annotation type="truth">\gamma</annotation>
+      <annotationXML href="\gamma_2">
+      </annotationXML>
+      <traceView traceDataRef="2">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="5">
+      <annotation type="truth">0</annotation>
+      <annotationXML href="0_1">
+      </annotationXML>
+      <traceView traceDataRef="3">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="6">
+      <annotation type="truth">y</annotation>
+      <annotationXML href="y_2">
+      </annotationXML>
+      <traceView traceDataRef="4">
+      </traceView>
+    </traceGroup>
+    <traceGroup xml:id="7">
+      <annotation type="truth">0</annotation>
+      <annotationXML href="0_2">
+      </annotationXML>
+      <traceView traceDataRef="5">
+      </traceView>
+    </traceGroup>
+  </traceGroup>
+

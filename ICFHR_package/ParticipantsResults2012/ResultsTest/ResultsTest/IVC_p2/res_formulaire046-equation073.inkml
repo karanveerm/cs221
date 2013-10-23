@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F046_E073</annotation>
+<annotation type="truth">e^{i{\theta_2}}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msup>
+			<mi xml:id="e_1">e</mi>
+			<mrow>
+				<mi xml:id="i_1">i</mi>
+				<msub>
+					<mo xml:id="\theta_1">\theta</mo>
+					<mn xml:id="2_1">2</mn>
+				</msub>
+			</mrow>
+		</msup>
+	</math>
+</annotationXML>
+<trace id="0">
+953.333 3929.71, 948.536 3928.51, 944.339 3930.9, 943.739 3933.31, 944.938 3934.5, 950.333 3938.11, 959.927 3938.11, 972.519 3935.1, 980.912 3928.51, 984.511 3923.12, 985.11 3918.32, 982.112 3913.52, 973.718 3911.72, 962.926 3917.72, 949.734 3929.71, 937.743 3942.3, 934.745 3955.5, 934.146 3965.69, 938.342 3972.28, 949.734 3977.67, 965.923 3977.67, 982.112 3972.28, 995.902 3965.69, 1006.69 3959.68
+</trace>
+<trace id="1">
+998.901 3880.55, 999.5 3881.14, 1001.9 3880.55, 1008.49 3878.14, 1017.49 3872.75, 1027.08 3867.95, 1034.88 3861.96, 1040.27 3854.77, 1044.47 3846.37, 1045.07 3839.17, 1044.47 3840.98, 1043.27 3846.37, 1040.27 3855.97, 1037.27 3863.75, 1039.07 3867.95, 1043.27 3872.75, 1048.07 3874.55, 1055.86 3874.55, 1064.25 3872.15
+</trace>
+<trace id="2">
+1058.26 3818.79, 1054.66 3813.99, 1051.66 3810.39, 1051.06 3809.79, 1051.66 3810.99, 1050.46 3816.4
+</trace>
+<trace id="3">
+1100.83 3815.78, 1097.23 3816.4, 1091.24 3818.79, 1082.24 3825.99, 1073.85 3835.58, 1069.65 3845.77, 1070.25 3855.37, 1073.25 3862.55, 1076.85 3867.95, 1087.04 3871.55, 1099.63 3869.16, 1112.82 3864.36, 1123.01 3855.97, 1129.61 3845.77, 1132.01 3833.77, 1132.01 3821.19, 1127.21 3812.2, 1120.02 3806.8, 1111.62 3808.6, 1099.63 3811.6, 1090.04 3819.98, 1084.64 3824.78, 1083.44 3829.58, 1086.44 3835.58, 1089.44 3839.17, 1096.63 3843.97, 1106.22 3843.37, 1116.42 3840.38, 1130.21 3834.97, 1141 3830.79
+</trace>
+<trace id="4">
+1158.99 3852.36, 1155.39 3851.77, 1153.59 3851.17, 1152.39 3848.76, 1152.99 3845.77, 1156.59 3840.98, 1160.79 3838.57, 1165.58 3837.97, 1170.38 3840.38, 1172.78 3843.97, 1171.58 3846.97, 1169.78 3852.96, 1163.78 3858.95, 1154.79 3866.16, 1146.4 3873.96, 1142.8 3878.75, 1144 3885.34, 1149.99 3888.94, 1157.79 3888.94, 1167.98 3884.74, 1178.17 3882.34, 1184.77 3881.74
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="i_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

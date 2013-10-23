@@ -1,0 +1,67 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <annotation type="UI">2011_IVC_depart_F040_E048</annotation>
+  <annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mi xml:id="0">y</mi>
+        <mrow>
+          <mo xml:id="26">=</mo>
+          <mrow>
+            <mi xml:id="3">a</mi>
+            <mrow>
+              <msup>
+                <mi xml:id="20">x</mi>
+                <mn xml:id="6">2</mn>
+              </msup>
+              <mrow>
+                <mo xml:id="8">+</mo>
+                <mi xml:id="9">b</mi>
+              </mrow>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+    </math>
+  </annotationXML>
+  <traceGroup xml:id="10">
+    <annotation type="truth">Ground truth</annotation>
+    <traceGroup xml:id="11">
+      <annotation type="truth">=</annotation>
+      <annotationXML href="26" />
+      <traceView traceDataRef="2" />
+      <traceView traceDataRef="1" />
+    </traceGroup>
+    <traceGroup xml:id="12">
+      <annotation type="truth">y</annotation>
+      <annotationXML href="0" />
+      <traceView traceDataRef="0" />
+    </traceGroup>
+    <traceGroup xml:id="13">
+      <annotation type="truth">+</annotation>
+      <annotationXML href="8" />
+      <traceView traceDataRef="7" />
+      <traceView traceDataRef="8" />
+    </traceGroup>
+    <traceGroup xml:id="14">
+      <annotation type="truth">a</annotation>
+      <annotationXML href="3" />
+      <traceView traceDataRef="3" />
+    </traceGroup>
+    <traceGroup xml:id="15">
+      <annotation type="truth">x</annotation>
+      <annotationXML href="20" />
+      <traceView traceDataRef="4" />
+      <traceView traceDataRef="5" />
+    </traceGroup>
+    <traceGroup xml:id="16">
+      <annotation type="truth">2</annotation>
+      <annotationXML href="6" />
+      <traceView traceDataRef="6" />
+    </traceGroup>
+    <traceGroup xml:id="17">
+      <annotation type="truth">b</annotation>
+      <annotationXML href="9" />
+      <traceView traceDataRef="9" />
+    </traceGroup>
+  </traceGroup>
+</ink>

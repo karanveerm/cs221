@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2012_IVC_CROHME_F01_E0012</annotation>
+<annotation type="truth">A\times1{3}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="A_1">A</mi>
+			<mrow>
+				<mo xml:id="\times_1">\times</mo>
+				<mrow>
+					<mn xml:id="1_1">1</mn>
+					<mn xml:id="3_1">3</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1775.8 10523.1, 1775.8 10522.4, 1775.8 10521.7, 1776.48 10519.7, 1779.91 10516.3, 1782.64 10512.2, 1786.75 10508.1, 1793.6 10500.5, 1797.7 10493, 1805.91 10483.4, 1815.49 10472.5, 1823.04 10462.9, 1827.15 10452.6, 1827.82 10447.1, 1828.51 10443.7, 1828.51 10444.4, 1829.19 10450.5, 1831.24 10462.2, 1834.67 10479.3, 1837.4 10496.4, 1841.51 10512.2, 1844.93 10521.7, 1846.99 10525.9, 1847.68 10525.9, 1847.68 10524.5, 1846.31 10522.4
+</trace>
+<trace id="1">
+1790.17 10500.5, 1804.55 10490.9, 1820.29 10490.9, 1836.04 10493, 1850.42 10494.4
+</trace>
+<trace id="2">
+1912.02 10464.9, 1914.76 10468.3, 1919.56 10475.2, 1927.09 10484.8, 1935.31 10493, 1940.78 10499.8, 1945.57 10504.6, 1949.67 10506.7
+</trace>
+<trace id="3">
+1949.67 10473.1, 1945.57 10474.5, 1940.09 10477.9, 1934.62 10484.1, 1927.77 10493, 1922.98 10499.8, 1921.62 10505.3, 1922.29 10506.7
+</trace>
+<trace id="4">
+1992.13 10460.8, 1991.44 10460.8, 1990.07 10464.2, 1990.75 10473.1, 1992.8 10486.8, 1993.49 10501.9, 1993.49 10512.9, 1994.85 10519.7, 1995.55 10521.1, 1996.91 10519
+</trace>
+<trace id="5">
+1988.02 10464.2, 1991.44 10457.4, 1995.55 10453.3, 2003.07 10447.8, 2011.29 10443.7, 2018.82 10441.7, 2026.35 10441, 2029.09 10441.7, 2029.78 10445.1, 2027.73 10450.5, 2019.51 10456.7, 2009.93 10462.9, 2004.45 10466.3, 2003.07 10467.7, 2005.13 10468.3, 2010.6 10471.1, 2019.51 10475.9, 2028.4 10483.4, 2035.25 10489.6, 2037.98 10495.7, 2036.62 10500.5, 2031.83 10506, 2026.35 10508.7, 2015.4 10512.9, 2006.49 10513.5, 1998.29 10514.9, 1993.49 10514.2, 1993.49 10513.5, 1997.6 10510.8
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">A</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="A_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\times_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

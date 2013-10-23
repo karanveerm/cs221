@@ -1,0 +1,54 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI"></annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mi xml:id="\sum_111100000000000">\sum</mi><mrow><msub><mi xml:id="A_000011000000000">A</mi><mn xml:id="2_000000100000000">2</mn></msub><mrow><mo xml:id="\pm_000000011100000">\pm</mo><mrow><mi xml:id="i_000000000011000">i</mi><msub><mi xml:id="z_000000000000110">z</mi><mi xml:id="n_000000000000001">n</mi></msub></mrow></mrow></mrow></mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="segments">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="seg111100000000000">
+<annotation type="truth">\sum</annotation>
+<traceView traceDataRef="0"/>
+<traceView traceDataRef="1"/>
+<traceView traceDataRef="2"/>
+<traceView traceDataRef="3"/>
+<annotationXML href="\sum_111100000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000011000000000">
+<annotation type="truth">A</annotation>
+<traceView traceDataRef="4"/>
+<traceView traceDataRef="5"/>
+<annotationXML href="A_000011000000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000100000000">
+<annotation type="truth">2</annotation>
+<traceView traceDataRef="6"/>
+<annotationXML href="2_000000100000000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000011100000">
+<annotation type="truth">\pm</annotation>
+<traceView traceDataRef="7"/>
+<traceView traceDataRef="8"/>
+<traceView traceDataRef="9"/>
+<annotationXML href="\pm_000000011100000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000011000">
+<annotation type="truth">i</annotation>
+<traceView traceDataRef="10"/>
+<traceView traceDataRef="11"/>
+<annotationXML href="i_000000000011000"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000000110">
+<annotation type="truth">z</annotation>
+<traceView traceDataRef="12"/>
+<traceView traceDataRef="13"/>
+<annotationXML href="z_000000000000110"/>
+</traceGroup>
+<traceGroup xml:id="seg000000000000001">
+<annotation type="truth">n</annotation>
+<traceView traceDataRef="14"/>
+<annotationXML href="n_000000000000001"/>
+</traceGroup>
+</traceGroup>
+</ink>

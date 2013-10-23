@@ -1,0 +1,54 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F056_E043</annotation>
+<annotation type="truth">b\leqc</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="b_1">b</mi>
+			<mrow>
+				<mo xml:id="\leq_1">\leq</mo>
+				<mi xml:id="c_1">c</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1599.68 4101.41, 1599.03 4111.13, 1600.98 4127.35, 1602.93 4146.15, 1604.87 4166.25, 1606.82 4181.81, 1606.82 4189.6, 1606.82 4192.19, 1605.52 4189.6
+</trace>
+<trace id="1">
+1610.71 4160.41, 1611.36 4158.48, 1612.65 4153.93, 1614.6 4150.69, 1619.14 4148.1, 1626.26 4148.1, 1634.7 4153.29, 1642.47 4163.66, 1647.01 4172.73, 1647.66 4185.71, 1643.78 4193.48, 1636.64 4197.37, 1626.91 4197.37, 1616.53 4195.43, 1611.36 4188.94
+</trace>
+<trace id="2">
+1739.09 4126.04, 1740.39 4125.4, 1742.99 4126.69, 1742.99 4128, 1741.7 4130.58, 1739.09 4135.12, 1733.26 4139.02, 1726.13 4144.21, 1718.99 4148.1, 1714.45 4153.93, 1714.45 4159.12, 1718.34 4166.25, 1726.13 4172.73, 1733.91 4176.62, 1741.03 4181.16, 1743.64 4183.75, 1743.64 4185.06, 1742.34 4188.29
+</trace>
+<trace id="3">
+1857.11 4151.98, 1856.47 4148.1, 1855.82 4146.15, 1854.51 4145.5, 1851.93 4145.5, 1846.09 4148.75, 1839.6 4154.58, 1833.76 4165.6, 1831.82 4175.33, 1834.41 4183.75, 1840.91 4192.83, 1850.63 4196.73, 1861.66 4198.67, 1873.97 4196.08, 1882.4 4192.83, 1883.7 4192.19
+</trace>
+<trace id="4">
+1690.47 4187, 1698.24 4192.83, 1709.26 4198.67, 1720.28 4207.1, 1730.01 4214.23, 1733.26 4219.42
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\leq</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="\leq_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

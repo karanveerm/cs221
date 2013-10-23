@@ -1,0 +1,72 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">2011_IVC_depart_F048_E005</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+<mrow>
+<mi xml:id="1_11">1</mi>
+<mrow>
+<mi xml:id="3_12">3</mi>
+<mrow>
+<mi xml:id="1_13">1</mi>
+<mrow>
+<mi xml:id="-_14">-</mi>
+<mrow>
+<mi xml:id="1_15">1</mi>
+<mrow>
+<mi xml:id="2_16">2</mi>
+<mrow>
+<mi xml:id="1_17">1</mi>
+<mrow>
+<mi xml:id="x_18">x</mi>
+<mi xml:id="6_19">6</mi>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</mrow>
+</math>
+</annotationXML>
+<traceGroup xml:id="10">
+<annotation type="truth">Segmentation</annotation>
+<traceGroup xml:id="11">
+  <annotation type="truth">1</annotation>
+  <traceView traceDataRef="0"/>
+  <annotationXML href="1_11"/></traceGroup>
+<traceGroup xml:id="12">
+  <annotation type="truth">3</annotation>
+  <traceView traceDataRef="1"/>
+  <annotationXML href="3_12"/></traceGroup>
+<traceGroup xml:id="13">
+  <annotation type="truth">1</annotation>
+  <traceView traceDataRef="2"/>
+  <annotationXML href="1_13"/></traceGroup>
+<traceGroup xml:id="14">
+  <annotation type="truth">-</annotation>
+  <traceView traceDataRef="3"/>
+  <annotationXML href="-_14"/></traceGroup>
+<traceGroup xml:id="15">
+  <annotation type="truth">1</annotation>
+  <traceView traceDataRef="4"/>
+  <annotationXML href="1_15"/></traceGroup>
+<traceGroup xml:id="16">
+  <annotation type="truth">2</annotation>
+  <traceView traceDataRef="5"/>
+  <annotationXML href="2_16"/></traceGroup>
+<traceGroup xml:id="17">
+  <annotation type="truth">1</annotation>
+  <traceView traceDataRef="6"/>
+  <annotationXML href="1_17"/></traceGroup>
+<traceGroup xml:id="18">
+  <annotation type="truth">x</annotation>
+  <traceView traceDataRef="7"/>
+  <traceView traceDataRef="8"/>
+  <annotationXML href="x_18"/></traceGroup>
+<traceGroup xml:id="19">
+  <annotation type="truth">6</annotation>
+  <traceView traceDataRef="9"/>
+  <annotationXML href="6_19"/></traceGroup>
+</traceGroup>
+</ink>

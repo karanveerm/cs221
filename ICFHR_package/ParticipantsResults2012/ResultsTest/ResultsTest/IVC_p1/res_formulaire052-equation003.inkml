@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_depart_F052_E003</annotation>
+<annotation type="truth">\frac{1}{1-c}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mn xml:id="1_1">1</mn>
+			<mrow>
+				<mn xml:id="1_2">1</mn>
+				<mrow>
+					<mo xml:id="-_1">-</mo>
+					<mi xml:id="c_1">c</mi>
+				</mrow>
+			</mrow>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+645.111 1957.97, 645.421 1957.03, 645.421 1956.11, 645.421 1955.8, 645.73 1956.11, 646.04 1957.03, 646.349 1959.82, 647.278 1966.63, 647.897 1973.75, 648.517 1980.56, 649.445 1988.61, 650.374 1995.42, 651.612 2000.99, 652.541 2005.33, 653.159 2007.5, 653.159 2007.8, 653.159 2007.5, 652.85 2005.95
+</trace>
+<trace id="1">
+568.96 2022.66, 569.271 2022.04, 570.199 2022.35, 571.747 2021.73, 576.39 2022.04, 584.439 2022.66, 594.654 2022.97, 608.274 2023.59, 624.371 2023.9, 642.326 2022.66, 661.208 2022.97, 679.472 2022.04, 695.878 2021.42, 711.046 2021.11, 722.5 2020.19, 731.167 2020.5, 736.429 2019.56, 738.287 2019.25, 739.525 2019.25, 739.525 2018.94, 739.216 2018.64, 738.287 2017.09
+</trace>
+<trace id="2">
+600.845 2046.19, 601.154 2045.88, 601.464 2045.26, 601.464 2045.57, 601.774 2047.12, 602.392 2051.76, 602.083 2057.64, 601.464 2065.38, 601.464 2073.74, 601.464 2081.16, 601.154 2086.74, 600.845 2089.84, 600.845 2091.07, 600.535 2091.38, 600.845 2091.38, 600.845 2091.07
+</trace>
+<trace id="3">
+632.729 2070.02, 634.277 2070.33, 636.444 2070.33, 638.611 2070.33, 642.015 2070.33, 646.04 2069.41, 651.302 2069.09, 655.946 2068.78, 658.422 2068.78, 659.97 2069.41, 660.589 2069.41, 660.899 2069.72, 660.589 2069.72
+</trace>
+<trace id="4">
+701.45 2056.4, 701.45 2056.09, 700.212 2055.17, 698.355 2054.23, 696.188 2054.23, 693.402 2054.55, 690.615 2056.09, 686.591 2058.57, 683.805 2062.29, 681.02 2065.69, 679.472 2070.33, 680.091 2074.04, 681.638 2076.52, 684.115 2079, 687.829 2080.86, 693.092 2081.47, 698.664 2082.1, 704.236 2081.47, 710.117 2080.24, 714.761 2079, 718.785 2078.07, 721.261 2077.15, 722.809 2076.84, 723.428 2075.9, 723.738 2075.29, 723.428 2074.36, 722.809 2072.81
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth"></annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="1_2"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>
