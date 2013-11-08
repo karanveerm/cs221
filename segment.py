@@ -29,7 +29,7 @@ def segmentSymbols(traceList):
     if distinct:
       symbol_index += 1
       symbol_trace_map.append([i])
-  print symbol_trace_map
+  # print symbol_trace_map
   return symbol_trace_map
 
 def tracesIntersectProximity(t1, t2):
