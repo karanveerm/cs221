@@ -1,6 +1,6 @@
 import os
 import gettrace
-import character_recognition as cr
+import inkml_to_pixels as itp
 
 relative_path2011 = 'ICFHR_package/CROHME2011_data/CROHME_training/CROHME_training/'
 relative_path2012 = 'ICFHR_package/CROHME2012_data/trainData/trainData/'
@@ -18,9 +18,9 @@ def getTrainData(pathArray):
       # print file
       traceList, symbolsList = gettrace.parseINKMLFile(path + file)
       for label, indices in symbolsList:
-          pixels = cr.inkml_to_pixels([traceList[elem] for elem in indices])
+          pixels = itp.inkml_to_pixels([traceList[elem] for elem in indices])
           trainData.append((pixels, label))
-          # cr.display(pixels)
+          # itp.display(pixels)
   print time()-start
   print len(trainData)
   return trainData
