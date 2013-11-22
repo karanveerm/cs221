@@ -1,7 +1,7 @@
 import os
 import gettrace
 import itertools
-import inkml_to_pixels as itp
+import inkml_to_pixel as itp
 
 relative_path2011 = 'ICFHR_package/CROHME2011_data/CROHME_training/CROHME_training/'
 relative_path2012 = 'ICFHR_package/CROHME2012_data/trainData/trainData/'
