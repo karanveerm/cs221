@@ -9,10 +9,17 @@ import pickle
 # Create a classifier: a support vector classifier
 classifier = svm.SVC(gamma=0.001)
 
+# # This was originally used to pickle the SVM for HMMs:
+# classifier = svm.SVC(gamma=0.001, probability=True)
+
 f = open("characterdata", "r")
 trainDataX, trainDataY, testDataX, testDataY = pickle.load(f)
 
 classifier.fit(trainDataX, trainDataY)
+
+# # To pickle the SVM classifier
+# svm_f = open("svm", "w")
+# pickle.dump(classifier, svm_f)
 
 expected = testDataY
 predicted = classifier.predict(testDataX)
