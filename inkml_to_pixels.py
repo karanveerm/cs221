@@ -4,6 +4,7 @@
 import copy, math
 
 MNIST_LEN = 36
+DECREASING_PIXEL_VALUE = 0.2
 
 def string_to_tuples(str):
 	l = []
@@ -22,6 +23,24 @@ def display(pixels):
 			else:
 				row_str += ' '
 		print row_str
+
+def blur_pixels(pixels):
+	def set_blur(row, col, pixels_copy):
+		for i in xrange(-2, 3):
+			for j in xrange(-2, 3):
+				if i == 0 and j == 0: continue
+				if i + row < 0 or i + row >= MNIST_LEN: continue
+				if j + col < 0 or j + col >= MNIST_LEN: continue
+				dist = math.sqrt(i**2 + j**2)
+				val = 1.0 - (DECREASING_PIXEL_VALUE) * int(dist)
+				pixels_copy[row + i][col + j] += (val if val > 0 else 0)
+
+	pixels_copy = copy.deepcopy(pixels)
+	for row in xrange(MNIST_LEN):
+		for col in xrange(MNIST_LEN):
+			if pixels[row][col] == 1.0:
+				set_blur(row, col, pixels_copy)
+	return pixels_copy
 
 def inkml_to_pixels(inkml_character):
 	# Create a copy, and then within each stroke, sort by x and then y value
@@ -53,7 +72,7 @@ def inkml_to_pixels(inkml_character):
 	# print 'width', width, 'height', height, 'max_dimension', max_dimension
 	# print 'resize factor', resize_factor
 
-	# Now color the 28 x 28 pixels as 0 or 1
+	# Now color the MNIST_LEN x MNIST_LEN pixels as 0 or 1
 	pixels = []
 	for i in range(MNIST_LEN):
 		pixels.append([0] * MNIST_LEN)
@@ -119,6 +138,8 @@ def inkml_to_pixels(inkml_character):
 							pixels[y_index][x_index] = 1.0
 			previous_tuple = (pixel_x, pixel_y)
 	# display(pixels)
+	pixels = blur_pixels(pixels)
+	print pixels
 	return pixels
 
 l = string_to_tuples("10.2238 21.8766, 10.2198 21.8846, 10.1877 21.9046, 10.1396 21.9408, 10.0714 21.9729, 10.0072 21.9929, 9.955 22.0009, 9.93494 21.9929, 9.9229 21.9729, 9.92691 21.9367, 9.94296 21.8926, 9.97907 21.8525, 10.0192 21.8204, 10.0352 21.8204, 10.0553 21.8404, 10.0714 21.8846, 10.0794 21.9408, 10.0994 21.9969, 10.1075 22.0371, 10.1315 22.0732, 10.1516 22.0852, 10.1837 22.0812, 10.2078 22.0772, 10.2278 22.0571, 10.264 22.0371, 10.284 22.013, 10.3001 21.9809, 10.3121 21.9488, 10.3041 21.9207, 10.292 21.9046, 10.272 21.8926, 10.2559 21.8926, 10.2439 21.8966, 10.2319 21.9046")

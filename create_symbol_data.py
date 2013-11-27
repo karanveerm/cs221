@@ -19,8 +19,10 @@ def getData(pathArray):
       if file[-5:] != "inkml": continue
       traceList, symbolsList = gettrace.parseINKMLFile(path + file)
       for label, indices in symbolsList:
-          pixels = itp.inkml_to_pixels([traceList[elem] for elem in indices])
+          strokes = [traceList[elem] for elem in indices]
+          pixels = itp.inkml_to_pixels(strokes)
           chain = list(itertools.chain(*pixels))
+          chain.append(len(strokes))
           dataX.append(chain)
           dataY.append(label)
           # itp.display(pixels)

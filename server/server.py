@@ -2,10 +2,8 @@ from flask import Flask
 from flask import url_for, redirect, request
 import json
 import inkml_to_pixel
-from sklearn import linear_model, metrics
 import pickle 
 import numpy as np
-from scipy import sparse
 
 app = Flask(__name__)
 
