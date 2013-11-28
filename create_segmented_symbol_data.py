@@ -12,13 +12,6 @@ relative_testpath2011 = 'ICFHR_package/CROHME2011_data/CROHME_testGT/CROHME_test
 relative_testpath2012 = 'ICFHR_package/CROHME2012_data/testDataGT/'
 
 def getSegmentationAccuracy(pathArray):
-  trainData = []
-  from time import time
-  completely_correct = 0
-  total_files = 0
-  correct = 0
-  total = 0
-  mistakes = {}
   dataX = []
   dataY = []
   j = 0
@@ -29,8 +22,6 @@ def getSegmentationAccuracy(pathArray):
       # print f
       traceList, symbolsList = gettrace.parseINKMLFile(path + f)
       segmentIndices = segment.segmentSymbols(traceList)
-      correct_file = 0
-      total_file = 0
       for label, elem in symbolsList:
         # if label in ['=', 'i', 'j','\\leq', '\\log', '\\sin', '\\cos', '\\lim', '\\geq', '\\righarrow', '\\div']: continue
         

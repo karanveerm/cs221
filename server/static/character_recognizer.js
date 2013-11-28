@@ -103,7 +103,7 @@ function submitForm() {
     url="/recognize",
     data={info:JSON.stringify(strokes)}, 
     success=function(data) {
-      alert(data);
+      $("#answer").html("<b>The answer is: </b><p>" + data);
     }
   );
 }

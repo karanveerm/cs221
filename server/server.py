@@ -1,24 +1,32 @@
 from flask import Flask
 from flask import url_for, redirect, request
 import json
-import inkml_to_pixel
+import inkml_to_pixels
 import pickle 
 import numpy as np
+import itertools
+import segment
 
 app = Flask(__name__)
 
+f = open("svm18px", "r")
+svm = pickle.load(f)
+
 @app.route('/recognize', methods=['GET', 'POST'])
 def recognize():
+  global svm
   strokes = json.loads(request.args.get('info'))
-  pixels = inkml_to_pixel.inkml_to_pixels(strokes)
-  pixels = sum(pixels, [])
-  pixels = np.array(pixels)
-  
-  print len(pixels)
-  f = open("logreg", "r")
-  lg = pickle.load(f)
-  prediction = lg.predict(pixels)
-  return prediction[0]
+  symbolsIndices = segment.segmentSymbols(strokes)
+  returnstr = ""
+  for elem in symbolsIndices:
+    s = [strokes[i] for i in elem]
+    pixels = inkml_to_pixels.inkml_to_pixels(s)
+    chain = list(itertools.chain(*pixels))
+    chain.append(len(s))
+
+    prediction = svm.predict(chain)[0]
+    returnstr += " " + prediction
+  return returnstr
     
 @app.route('/')
 def home():
