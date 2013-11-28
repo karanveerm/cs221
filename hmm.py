@@ -52,23 +52,24 @@ class HMM:
         else:
             return len(cdf) - 1
 
-    def choose_gibbs(self, labeling, equation, index):
+    def choose_gibbs(self, labeling, equation, index, memoized_probabilities):
         # print index, equation, len(equation)
         # print equation[index][0]
         # print self.svm.predict_proba(equation[index][0]).tolist()
-        probabilities = self.svm.predict_proba(equation[index][0]).tolist()[0]
+        if index not in memoized_probabilities:
+            memoized_probabilities[index] = self.svm.predict_proba(equation[index][0]).tolist()[0]
         p = list()
         for i, label in enumerate(self.labels):
             if index == 0:
-                p.append(self.conditional_probabilities[(self.BEGIN_TAG, label)] * probabilities[i])
+                p.append(self.conditional_probabilities[(self.BEGIN_TAG, label)] * memoized_probabilities[index][i])
             else:
-                p.append(self.conditional_probabilities[(labeling[index - 1], label)] * probabilities[i])
+                p.append(self.conditional_probabilities[(labeling[index - 1], label)] * memoized_probabilities[index][i])
         p = [x/sum(p) for x in p]
         new_label_index = self.multinomial(p)
         labeling[index] = self.labels[new_label_index]
 
     # Solve using Gibbs
-    def compute_best_sequence(self, equation, num_samples = 2000):
+    def compute_best_sequence(self, equation, num_samples = 500):
         num_symbols = len(equation)
 
         # Burn in is the number iterations to run from the initial labels chosen
@@ -77,43 +78,54 @@ class HMM:
         labeling = [random.choice(self.labels) for _ in xrange(len(equation))]
         for _ in xrange(BURN_IN):
             index = random.randint(0, num_symbols - 1)
-            self.choose_gibbs(labeling, equation, index)
+            self.choose_gibbs(labeling, equation, index, memoized_probabilities)
+
+        memoized_probabilities = dict()
 
         # Now, generate the samples
         samples = []
         for _ in xrange(num_samples):
             index = random.randint(0, num_symbols - 1)
-            self.choose_gibbs(labeling, equation, index)
+            self.choose_gibbs(labeling, equation, index, memoized_probabilities)
             samples.append(copy.deepcopy(labeling))
 
-        print samples
+        # print samples
 
         # Finally, calculate the most common occurrence in the samples
         result_counter = Counter()
         for sample in samples:
             result_counter[tuple(sample,)] += 1
 
-        print result_counter
+        # print result_counter
         return result_counter.most_common(1)[0]
 
-def num_differ(result, equation):
+def num_differ(result, equation, num_differ_counter, num_same_counter):
     if len(result) != len(equation):
         print 'NOT THE SAME LENGTH'
         return
     num_different = 0
     for i, label in enumerate(result):
         if label != equation[i][1]:
-            num_different += 1
-    return num_different
+            num_differ_counter[equation[i]] += 1
+        else:
+            num_same_counter[equation[i]] += 1
 
 hmm_instance = HMM()
 hmm_instance.train(cebd.getTrainData())
 test_data = ceud.getTestData()
+
 num_differ_counter = Counter()
+num_same_counter = Counter()
 for equation in test_data:
     result = hmm_instance.compute_best_sequence(equation)
-    num_differ_counter[num_differ(result[0][0], equation)] += 1
+    num_differ(result[0][0], equation, num_differ_counter, num_same_counter)
 
-print num_differ_counter
-print 'Overall accuracy:', num_differ_counter[0] / float(sum(num_differ_counter.values()))
+print 'num same counter', num_same_counter
+print 'num differ counter', num_differ_counter
 
+for symbol in num_same_counter:
+    print symbol, 'accuracy:', num_same_counter[symbol] / float(num_same_counter[symbol] + num_differ_counter[symbol])
+
+for symbol in num_differ_counter:
+    if symbol not in num_same_counter:
+        print symbol, 'accuracy: 0'
