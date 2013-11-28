@@ -86,18 +86,34 @@ class HMM:
             self.choose_gibbs(labeling, equation, index)
             samples.append(copy.deepcopy(labeling))
 
+        print samples
+
         # Finally, calculate the most common occurrence in the samples
         result_counter = Counter()
         for sample in samples:
-            result_counter[sample] += 1
+            result_counter[tuple(sample,)] += 1
 
-        return results_counter.most_common(1)
+        print result_counter
+        return result_counter.most_common(1)[0]
+
+def num_differ(result, equation):
+    if len(result) != len(equation):
+        print 'NOT THE SAME LENGTH'
+        return
+    num_different = 0
+    for i, label in enumerate(result):
+        if label != equation[i][1]:
+            num_different += 1
+    return num_different
 
 hmm_instance = HMM()
 hmm_instance.train(cebd.getTrainData())
 test_data = ceud.getTestData()
+num_differ_counter = Counter()
 for equation in test_data:
     result = hmm_instance.compute_best_sequence(equation)
-    print 'Got:', result
-    print 'Ground truth:', [truth[1] for truth in equation]
-    print ''
+    num_differ_counter[num_differ(result[0][0], equation)] += 1
+
+print num_differ_counter
+print 'Overall accuracy:', num_differ_counter[0] / float(sum(num_differ_counter.values()))
+
