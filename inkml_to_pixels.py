@@ -3,7 +3,7 @@
 
 import copy, math
 
-MNIST_LEN = 24
+MNIST_LEN = 18
 DECREASING_PIXEL_VALUE = 0.2
 
 def string_to_tuples(str):
