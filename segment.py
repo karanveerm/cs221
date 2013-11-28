@@ -36,7 +36,7 @@ def tracesIntersectProximity(t1, t2):
   def pointsProximity(p0, p1):
     p0_x, p0_y = p0
     p1_x, p1_y = p1
-    return abs(p1_x - p0_x)**2 + abs(p1_y - p0_y)**2
+    return ((p1_x - p0_x)**2 + (p1_y - p0_y)**2) / (p0_x**2 + p0_y**2)
 
   EPSILON = 10**-5
   min_dist = float('inf')

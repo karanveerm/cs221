@@ -17,6 +17,7 @@ def getSegmentationAccuracy(pathArray):
   correct = 0
   total = 0
   mistakes = {}
+  numX = 0
   for path in pathArray:
     for file in os.listdir(path):
       if file[-5:] != "inkml": continue
@@ -27,6 +28,7 @@ def getSegmentationAccuracy(pathArray):
       total_file = 0
       for label, elem in symbolsList:
         if label == "=" or label == 'i' or label =='j': continue
+        if label == 'x': numX +=1
         if elem in segmentIndices:
           correct_file = correct_file + 1
         else:
@@ -47,11 +49,16 @@ def getSegmentationAccuracy(pathArray):
   print float(correct)/total
   print float(completely_correct)/total_files
   print mistakes
+  s = 0
+  for elem in mistakes:
+    s += mistakes[elem]
+  print "sum is", s
   c = 0
   for elem in mistakes:
     c = c + mistakes[elem]
   print c
+  print numX
 if __name__ == "__main__":
   # getSegmentationAccuracy([relative_path2011, relative_path2012])
-  # getSegmentationAccuracy([relative_testpath2011, relative_testpath2012])
-  getSegmentationAccuracy([relative_testpath2011])
+  getSegmentationAccuracy([relative_testpath2011, relative_testpath2012])
+  # getSegmentationAccuracy([relative_testpath2012])
