@@ -111,20 +111,28 @@ def num_differ(result, equation, num_differ_counter, num_same_counter):
         else:
             num_same_counter[equation[i][1]] += 1
 
+# Training and testing the HMM
 hmm_instance = HMM()
 hmm_instance.train(cebd.getTrainData())
 test_data = ceud.getTestData()
 
+# Filling out the correct counter results
 num_differ_counter = Counter()
 num_same_counter = Counter()
+
 for equation in test_data:
     result = hmm_instance.compute_best_sequence(equation)
     print 'result is', result
     num_differ(result, equation, num_differ_counter, num_same_counter)
 
+# Printing out the statistics
+print num_differ_counter
+print num_same_counter
+
 for symbol in num_same_counter:
-    print symbol, 'accuracy:', num_same_counter[symbol] / float(num_same_counter[symbol] + num_differ_counter[symbol])
+    print (symbol, 'accuracy:', num_same_counter[symbol] / float(num_same_counter[symbol] + num_differ_counter[symbol]),
+        'raw score:', num_same_counter[symbol], '/', num_same_counter[symbol] + num_differ_counter[symbol])
 
 for symbol in num_differ_counter:
     if symbol not in num_same_counter:
-        print symbol, 'accuracy: 0'
+        print symbol, 'accuracy: 0 raw score: 0 / ', num_differ_counter[symbol]
