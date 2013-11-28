@@ -1,3 +1,7 @@
+import inkml_to_pixels as itp
+import pickle
+import itertools
+import numpy as np
 # 
 # Given a traceList (list of strokes where each stroke is a list of (x,y) 
 # tuples), it returns a list where each index corresponds to one or more strokes
@@ -10,6 +14,10 @@
 # * If stroke i and stroke i+1 are parts of different symbols, then 
 #   stroke i and stroke i+2 cannot be in the same symbol.
 #
+f = open('svm24px')
+svm = pickle.load(f)
+labels = svm.classes_
+
 def segmentSymbols(traceList):
   symbol_index = 0
   symbol_trace_map = []
@@ -21,30 +29,49 @@ def segmentSymbols(traceList):
     distinct = True
     for prev_trace_index in symbol_trace_map[-1]:
       prev_trace = traceList[prev_trace_index]
-      if tracesIntersect(prev_trace, trace) or tracesIntersectProximity(prev_trace, trace):
+      if tracesIntersect(prev_trace, trace):
+      # if tracesIntersect(prev_trace, trace) or tracesIntersectProximity(prev_trace, trace):
         symbol_trace_map[-1].append(i)
         distinct = False
         break
+    # If the symbols didn't intersect, previous symbol was only stroke, 
+    # we check to see if the current symbol and new one make a special symbol like x
+    if distinct and len(symbol_trace_map[-1]) == 1 and makeSpecialSymbol(traceList[symbol_trace_map[-1][-1]], trace):
+      symbol_trace_map[-1].append(i)
     # We have a new symbol
-    if distinct:
+    elif distinct:
       symbol_index += 1
       symbol_trace_map.append([i])
+
   # print symbol_trace_map
   return symbol_trace_map
 
-def tracesIntersectProximity(t1, t2):
-  def pointsProximity(p0, p1):
-    p0_x, p0_y = p0
-    p1_x, p1_y = p1
-    return ((p1_x - p0_x)**2 + (p1_y - p0_y)**2) / (p0_x**2 + p0_y**2)
+def makeSpecialSymbol(prev_trace, trace):
+  global svm
+  global labels
+  pixels = itp.inkml_to_pixels([prev_trace, trace])
+  chain = list(itertools.chain(*pixels))
+  chain.append(2)
+  probabilities = svm.predict_proba(chain)
+  probMax = np.amax(probabilities)
+  indexOfMax = np.argmax(probabilities)
+  if labels[indexOfMax] in ['x', 'k', '\\geq', 'i', 'j', '='] and probMax > 0.7: return True
 
-  EPSILON = 10**-5
-  min_dist = float('inf')
-  for p1 in t1:
-    for p2 in t2:
-      dist = pointsProximity(p1, p2)
-      min_dist = dist if dist < min_dist else min_dist
-  return True if min_dist < EPSILON else False
+  return False
+
+# def tracesIntersectProximity(t1, t2):
+#   def pointsProximity(p0, p1):
+#     p0_x, p0_y = p0
+#     p1_x, p1_y = p1
+#     return abs(p1_x - p0_x)**2 + abs(p1_y - p0_y)**2
+
+#   EPSILON = 10**-5
+#   min_dist = float('inf')
+#   for p1 in t1:
+#     for p2 in t2:
+#       dist = pointsProximity(p1, p2)
+#       min_dist = dist if dist < min_dist else min_dist
+#   return True if min_dist < EPSILON else False
 
 
 def tracesIntersect(t1, t2):
