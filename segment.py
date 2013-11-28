@@ -14,7 +14,7 @@ import numpy as np
 # * If stroke i and stroke i+1 are parts of different symbols, then 
 #   stroke i and stroke i+2 cannot be in the same symbol.
 #
-f = open('svm24px')
+f = open('svm18px')
 svm = pickle.load(f)
 labels = svm.classes_
 
