@@ -89,7 +89,7 @@ class HMM:
         # Finally, calculate the most common occurrence in the samples
         result_counter = Counter()
         for sample in samples:
-            result_counter[result] += 1
+            result_counter[sample] += 1
 
         return results_counter.most_common(1)
 
