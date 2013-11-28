@@ -9,7 +9,7 @@ class HMM:
         self.conditional_probabilities = Counter()
 
         # SVM
-        f = open('svm24px')
+        f = open('svm18px')
         self.svm = pickle.load(f)
 
         # Set of all the possible labelings
@@ -26,10 +26,10 @@ class HMM:
             for i in xrange(1, len(equation)):
                 counts[(equation[i-1], equation[i])] += 1
 
-        # # Laplace smoothing
-        # for prev_label in self.labels:
-        #     for next_label in self.labels:
-        #         counts[(prev_label, next_label)] += 1
+        # Laplace smoothing
+        for prev_label in self.labels:
+            for next_label in self.labels:
+                counts[(prev_label, next_label)] += 1
 
         # Get the total counts of each previous symbol
         totals = Counter()
@@ -38,6 +38,15 @@ class HMM:
 
         for key in counts:
             self.conditional_probabilities[key] = counts[key] / float(totals[key[0]])
+
+        # # To print out conditional probabilities
+        # values = []
+        # for key in self.conditional_probabilities:
+        #     if key[0] == '+':
+        #         values.append((key[1], self.conditional_probabilities[key]))
+        # values.sort(key=lambda x: x[1], reverse=True)
+        # for value in values:
+        #     print value[0], value[1]
 
     def multinomial(self, pdf):
         assert( abs( sum(pdf) - 1. ) < 1e-4 )
@@ -69,7 +78,7 @@ class HMM:
         labeling[index] = self.labels[new_label_index]
 
     # Solve using Gibbs
-    def compute_best_sequence(self, equation, num_samples = 500):
+    def compute_best_sequence(self, equation, num_samples = 2000):
         num_symbols = len(equation)
         memoized_probabilities = dict()
 
@@ -98,18 +107,14 @@ class HMM:
         # Returns the results as a tuple
         return result_counter.most_common(1)[0][0]
 
-def num_differ(result, equation, num_differ_counter, num_same_counter):
+def num_differ(result, equation, stats):
     if len(result) != len(equation):
         print len(result)
         print len(equation)
         print 'NOT THE SAME LENGTH'
         return
-    num_different = 0
     for i, label in enumerate(result):
-        if label != equation[i][1]:
-            num_differ_counter[equation[i][1]] += 1
-        else:
-            num_same_counter[equation[i][1]] += 1
+        stats[(label, equation[i][1])] += 1
 
 # Training and testing the HMM
 hmm_instance = HMM()
@@ -117,22 +122,57 @@ hmm_instance.train(cebd.getTrainData())
 test_data = ceud.getTestData()
 
 # Filling out the correct counter results
-num_differ_counter = Counter()
-num_same_counter = Counter()
+stats = Counter()
 
 for equation in test_data:
     result = hmm_instance.compute_best_sequence(equation)
     print 'result is', result
-    num_differ(result, equation, num_differ_counter, num_same_counter)
+    num_differ(result, equation, stats)
 
 # Printing out the statistics
-print num_differ_counter
-print num_same_counter
+for stat in sorted(stats.items()):
+    print stat[0][0], ',', stat[0][1], ',', stat[1]
 
-for symbol in num_same_counter:
-    print (symbol, 'accuracy:', num_same_counter[symbol] / float(num_same_counter[symbol] + num_differ_counter[symbol]),
-        'raw score:', num_same_counter[symbol], '/', num_same_counter[symbol] + num_differ_counter[symbol])
 
-for symbol in num_differ_counter:
-    if symbol not in num_same_counter:
-        print symbol, 'accuracy: 0 raw score: 0 / ', num_differ_counter[symbol]
+# The code below is used to get information about symbol-level accuracy.
+
+# def num_differ(result, equation, num_differ_counter, num_same_counter):
+#     if len(result) != len(equation):
+#         print len(result)
+#         print len(equation)
+#         print 'NOT THE SAME LENGTH'
+#         return
+#     num_different = 0
+#     for i, label in enumerate(result):
+#         if label != equation[i][1]:
+#             num_differ_counter[equation[i][1]] += 1
+#         else:
+#             num_same_counter[equation[i][1]] += 1
+
+# Training and testing the HMM
+# hmm_instance = HMM()
+# hmm_instance.train(cebd.getTrainData())
+# test_data = ceud.getTestData()
+
+# # Filling out the correct counter results
+# num_differ_counter = Counter()
+# num_same_counter = Counter()
+
+# for equation in test_data:
+#     result = hmm_instance.compute_best_sequence(equation)
+#     print 'result is', result
+#     num_differ(result, equation, num_differ_counter, num_same_counter)
+
+# # Printing out the statistics
+# print num_differ_counter
+# print num_same_counter
+
+# for symbol in num_same_counter:
+#     print (symbol, 'accuracy:', num_same_counter[symbol] / float(num_same_counter[symbol] + num_differ_counter[symbol]),
+#         'raw score:', num_same_counter[symbol], '/', num_same_counter[symbol] + num_differ_counter[symbol])
+
+# for symbol in num_differ_counter:
+#     if symbol not in num_same_counter:
+#         print symbol, 'accuracy: 0 raw score: 0 / ', num_differ_counter[symbol]
+
+# print 'Overall accuracy is', sum(num_same_counter.values()) / float(sum(num_same_counter.values()) + sum(num_differ_counter.values()))
