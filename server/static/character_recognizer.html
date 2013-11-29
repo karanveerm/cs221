@@ -8,7 +8,7 @@
       #imageView { border: 1px solid #000; }
     --></style>
   </head>
-  <body>
+  <body style="font-family:Helvetica">
     <div id="container">
       <canvas id="imageView" width="900" height="400">
         <p>Unfortunately, your browser is currently unsupported by our web 
@@ -21,9 +21,10 @@
           href="http://www.konqueror.org">Konqueror</a>.</p>
       </canvas>
     </div>
-    <a href="javascript: submitForm()">Recognize!</a>
-    <a href="/">Refresh</a>
-    <div id="answer"></div>
+    <a href="javascript: submitForm()" style="font-size: 20px">Recognize without HMM</a>
+    <a href="javascript: submitFormHMM()" style="font-size: 20px">Recognize with HMM</a>
+    <a href="/" style="font-size: 20px">Refresh Canvas</a>
+    <div id="answer" style="font-size: 20px"></div>
     <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="character_recognizer.js"></script>
     

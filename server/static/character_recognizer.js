@@ -103,7 +103,18 @@ function submitForm() {
     url="/recognize",
     data={info:JSON.stringify(strokes)}, 
     success=function(data) {
-      $("#answer").html("<b>The answer is: </b><p>" + data);
+      $("#answer").html("<b>I think you wrote: </b>" + data);
+    }
+  );
+}
+
+function submitFormHMM() {
+  console.log("HMM");
+  $.get(
+    url="/recognize-hmm",
+    data={info:JSON.stringify(strokes)}, 
+    success=function(data) {
+      $("#answer").html("<b>I think you wrote: </b>" + data);
     }
   );
 }
