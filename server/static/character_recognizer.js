@@ -103,7 +103,8 @@ function submitForm() {
     url="/recognize",
     data={info:JSON.stringify(strokes)}, 
     success=function(data) {
-      $("#answer").html("<b>I think you wrote: </b>" + data);
+      $("#answer").html("<b>I think you wrote: </b>$" + data + "$");
+      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
     }
   );
 }
@@ -114,7 +115,8 @@ function submitFormHMM() {
     url="/recognize-hmm",
     data={info:JSON.stringify(strokes)}, 
     success=function(data) {
-      $("#answer").html("<b>I think you wrote: </b>" + data);
+      $("#answer").html("<b>I think you wrote: </b>$" + data + "$");
+      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
     }
   );
 }

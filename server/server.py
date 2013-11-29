@@ -27,7 +27,7 @@ def recognize():
     chain.append(len(s))
 
     prediction = svm.predict(chain)[0]
-    returnstr += " " + prediction
+    returnstr += prediction
   return returnstr
 
 @app.route('/recognize-hmm', methods=['GET', 'POST'])
@@ -46,7 +46,7 @@ def recognize_hmm():
 
   prediction = hmm_instance.compute_best_sequence(equation)
   for symbol in prediction:
-    returnstr += " " + symbol
+    returnstr += symbol
   return returnstr
 
 @app.route('/')
