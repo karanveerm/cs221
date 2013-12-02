@@ -98,8 +98,7 @@ window.addEventListener('load', function () {
 }, false); }
 
 function submitForm() {
-  console.log("here");
-  $.get(
+  $.post(
     url="/recognize",
     data={info:JSON.stringify(strokes)}, 
     success=function(data) {
@@ -110,8 +109,7 @@ function submitForm() {
 }
 
 function submitFormHMM() {
-  console.log("HMM");
-  $.get(
+  $.post(
     url="/recognize-hmm",
     data={info:JSON.stringify(strokes)}, 
     success=function(data) {

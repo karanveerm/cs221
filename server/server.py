@@ -17,7 +17,8 @@ hmm_instance = pickle.load(hmm_f)
 @app.route('/recognize', methods=['GET', 'POST'])
 def recognize():
   global svm
-  strokes = json.loads(request.args.get('info'))
+  print request.form['info']
+  strokes = json.loads(request.form['info'])
   symbolsIndices = segment.segmentSymbols(strokes)
   returnstr = ""
   for elem in symbolsIndices:
@@ -33,7 +34,7 @@ def recognize():
 @app.route('/recognize-hmm', methods=['GET', 'POST'])
 def recognize_hmm():
   global hmm_instance
-  strokes = json.loads(request.args.get('info'))
+  strokes = json.loads(request.form['info'])
   symbolsIndices = segment.segmentSymbols(strokes)
   returnstr = ""
   equation = []
